@@ -18,3 +18,4 @@ Timeline
 -----
 
 - March 21st: project repo init.
+- March 21st: [project proposal](proposal.pdf) attached
