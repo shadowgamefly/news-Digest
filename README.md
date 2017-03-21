@@ -12,7 +12,7 @@ Collaborators
 Overview
 -----
 
-The proposal for the project can be found at [here](proposal.md).
+The proposal for the project can be found at [here](proposal.pdf).
 
 Timeline
 -----
