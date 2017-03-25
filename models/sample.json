@@ -1,0 +1,55 @@
+[
+    {
+        "model": "api.Article",
+        "pk": 1,
+        "fields": {
+            "title": "This is a sample",
+            "author": "Tong Qiu"
+        }
+    },
+    {
+        "model": "api.Sentence",
+        "fields": {
+            "content": "This is a title",
+            "position": 0,
+            "article": 1,
+            "style": "t"
+        }
+    },
+    {
+        "model": "api.Sentence",
+        "fields": {
+            "content": "This is a subtitle",
+            "position": 1,
+            "article": 1,
+            "style": "s"
+        }
+    },
+    {
+        "model": "api.Sentence",
+        "fields": {
+            "content": "This is the first paragraph of the article. It is relatively short.",
+            "position": 2,
+            "article": 1,
+            "style": "n"
+        }
+    },
+    {
+        "model": "api.Sentence",
+        "fields": {
+            "content": "This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. This is the second paragraph of the article. It is relatively long.",
+            "position": 3,
+            "article": 1,
+            "style": "n"
+        }
+    },
+    {
+        "model": "api.Sentence",
+        "fields": {
+            "content": "This is the last paragraph of the article.",
+            "position": 4,
+            "article": 1,
+            "style": "n"
+        }
+    }
+]
