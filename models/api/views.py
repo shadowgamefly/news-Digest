@@ -8,7 +8,7 @@ def index(request):
     return HttpResponse('success!\n')
 
 def _success(stat, data):
-    return JsonResponse({ 'stat': stat } + data)
+    return JsonResponse({ 'stat': stat, **data })
 
 def _fail(stat, error_msg):
     return JsonResponse({ 'stat': stat, 'error': error_msg })
@@ -22,10 +22,12 @@ def get_article_body(request):
     if len(match) > 1: return _fail(400, 'multiple articles found')
 
     obj = match[0]
-    body = [''] * len(obj.setence_set)
-    for sentence in obj.sentence_set:
-        body[sentence.position] = sentence.content
+    body = [''] * len(obj.sentence_set.all())
+    style = [''] * len(obj.sentence_set.all())
 
-    ret = { 'title': obj.title, 'author': obj.author }
-    ret['content'] = body
-    return _success(200, ret)
+    for sentence in obj.sentence_set.all():
+        body[sentence.position] = sentence.content
+        style[sentence.position] = sentence.style
+
+    return _success(200, { 'title': obj.title, \
+        'author': obj.author, 'content': body, 'style': style })

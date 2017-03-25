@@ -3,7 +3,7 @@ models:
     image: tp33/django
     volumes:
         - ./models:/app
-    command: bash -c "python /app/manage.py makemigrations api; python /app/manage.py migrate; mod_wsgi-express start-server --working-directory /app --reload-on-change models/wsgi.py"
+    command: bash -c "python /app/manage.py makemigrations api; python /app/manage.py migrate; python manage.py loaddata /app/sample.json; mod_wsgi-express start-server --working-directory /app --reload-on-change models/wsgi.py"
     ports:
         - "8000:8000"
 
