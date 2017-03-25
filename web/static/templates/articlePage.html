@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>{{ title }}</title>
+{% include 'Header.html' %}
+
+
+<body itemscope class=" postShowScreen is-noJs">
+   <div class="site-main" id="container">
+      <div class="butterBar butterBar--error"></div>
+      <div class="surface">
+         <div id="prerendered" class="screenContent">
+            <canvas class="canvas-renderer"></canvas>
+            <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div>
+            {% include 'TopBar.html' %}
+            {% include 'Main.html' %}
+            {% include 'BottomBar.html' %}
+
+            <h1>{{ title }}</h1>
+            <p>Author: {{ author }}</p>
+
+            {% for obj in body %}
+                {% if obj.style == "t" %}
+                    <h2>{{ obj.content }}</h2>
+                {% elif obj.style == "s" %}
+                    <h3>{{ obj.content }}</h3>
+                {% else %}
+                    <p>{{ obj.content }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
