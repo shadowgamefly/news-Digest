@@ -1,0 +1,63 @@
+{% block content %}
+
+<div class="metabar u-clearfix js-metabar">
+   <div class="metabar-inner u-marginAuto u-maxWidth1000 u-paddingLeft20 u-paddingRight20 js-metabarMiddle">
+      <div class="metabar-block metabar-block--left u-floatLeft u-height65 u-xs-height56">
+         <a href="../index.html" class="siteNav-logo" data-log-event="home">
+            <span class="svgIcon svgIcon--logoNew svgIcon--45px is-flushLeft">
+               <svg class="svgIcon-use" width="45" height="45"  viewBox="-17 18 45 45" data-multipart="true">
+                  <path d="M11.525 28.078c-.472-.225-.858.002-.858.506v20.044l8.616 4.113c.948.46 1.717.14 1.717-.7v-19.3a.22.22 0 0 0-.124-.19l-9.35-4.46v-.01z"/>
+                  <path d="M.333 43.696l9.83-15.247c.278-.43.89-.6 1.36-.38l9.364 4.47c.06.03.082.1.047.15L10.666 48.63.333 43.698v-.002z"/>
+                  <path d="M-8.57 28.35c-.786-.375-1.053-.096-.592.62L.333 43.696l10.333 4.932L.356 32.635a.156.156 0 0 0-.06-.054l-8.866-4.23z"/>
+                  <path d="M.333 52.033c0 .84-.643 1.22-1.43.844l-8.045-3.84c-.472-.224-.858-.82-.858-1.325V28.89c0-.672.515-.976 1.145-.675l9.133 4.36a.092.092 0 0 1 .055.084v19.37z"/>
+               </svg>
+            </span>
+            <span class="u-textScreenReader">Homepage</span>
+         </a>
+      </div>
+      <div class="metabar-block u-floatRight u-xs-absolute u-xs-textAlignRight u-xs-right0 u-xs-marginRight20 u-height65 u-xs-height56">
+        {% if  user.is_authenticated %}
+         <div class="buttonSet">
+           <a class="button button--primary button--chromeless u-accentColor--buttonNormal is-inSiteNavBar u-lineHeight30 u-height32"
+           href="https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2F%40andrewng%2Fopening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b%3Fsource%3Dtopic---8------4-----------"
+           data-action="sign-in-prompt" data-redirect="https://medium.com/@andrewng/opening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b?source=topic---8------4-----------"
+           data-action-source="nav_signup">Sign in / Sign up</a>
+         </div>
+        {% else %}
+        <div class="buttonSet">
+           <label class="button button--chromeless button--small button--circle button--withIcon button--withSvgIcon inputGroup u-sm-hide metabar-predictiveSearch u-widthAuto u-baseColor--placeholderNormal u-lineHeight30 u-height32 u-verticalAlignMiddle is-touched" title="Search Medium">
+              <span class="svgIcon svgIcon--search svgIcon--25px u-top0 u-baseColor--iconLight">
+                 <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
+                    <path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z">
+                    </path>
+                 </svg>
+              </span>
+              <input class="js-predictiveSearchInput textInput textInput--rounded textInput--darkText u-baseColor--textNormal textInput--transparent  u-lineHeight30 u-height32 u-verticalAlignMiddle" type="search" placeholder="Search Medium" required="true">
+           </label>
+           <a class="button button--small button--chromeless u-sm-show is-inSiteNavBar u-baseColor--buttonNormal button--withIcon button--withSvgIcon u-xs-top2" href="https://medium.com/search" title="Search" aria-label="Search">
+              <span class="button-defaultState">
+                 <span class="svgIcon svgIcon--search svgIcon--25px">
+                    <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
+                       <path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path>
+                    </svg>
+                 </span>
+              </span>
+           </a>
+           <button class="button button--small button--circle button--chromeless is-touchIconBlackPulse is-inSiteNavBar u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--activity js-notificationsButton u-marginRight10" title="Notifications" aria-label="Notifications" data-action="open-notifications">
+              <span class="svgIcon svgIcon--bell svgIcon--25px">
+                 <svg class="svgIcon-use" width="25" height="25" viewBox="-293 409 25 25">
+                    <path d="M-273.327 423.67l-1.673-1.52v-3.646a5.5 5.5 0 0 0-6.04-5.474c-2.86.273-4.96 2.838-4.96 5.71v3.41l-1.68 1.553c-.204.19-.32.456-.32.734V427a1 1 0 0 0 1 1h3.49a3.079 3.079 0 0 0 3.01 2.45 3.08 3.08 0 0 0 3.01-2.45h3.49a1 1 0 0 0 1-1v-2.59c0-.28-.12-.55-.327-.74zm-7.173 5.63c-.842 0-1.55-.546-1.812-1.3h3.624a1.92 1.92 0 0 1-1.812 1.3zm6.35-2.45h-12.7v-2.347l1.63-1.51c.236-.216.37-.522.37-.843v-3.41c0-2.35 1.72-4.356 3.92-4.565a4.353 4.353 0 0 1 4.78 4.33v3.645c0 .324.137.633.376.85l1.624 1.477v2.373z"></path>
+                 </svg>
+              </span>
+           </button>
+           <button class="button button--chromeless u-baseColor--buttonNormal is-inSiteNavBar js-userActions" aria-haspopup="true" data-action="open-userActions">
+              <div class="avatar"><img src="https://cdn-images-1.medium.com/fit/c/64/64/0*RcGfzHSQSzLwyWc6.jpg" class="avatar-image avatar-image--icon" alt="Charlie Wu"></div>
+           </button>
+        </div>
+        {% endif %}
+      </div>
+   </div>
+</div>
+<div class="metabar metabar--spacer js-metabarSpacer u-height65 u-xs-height56"></div>
+
+{% endblock %}

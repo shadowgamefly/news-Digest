@@ -7,3 +7,13 @@ models:
     ports:
         - "8000:8000"
 
+web:
+    container_name: web
+    image: tp33/django
+    volumes:
+        - ./web:/app
+    command: bash -c "mod_wsgi-express start-server --working-directory /app --reload-on-change web/wsgi.py"
+    ports:
+        - "80:8000"
+    links:
+        - models:models-api

@@ -1,0 +1,72 @@
+{% load cache %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'TopBar.html' %}
+
+{% cache 300 about %}
+<div style="background-color:#99a88f;" class="jumbotron">
+  <div class="container text-center">
+    <h1>CS 4501 SIS-Rebuild Project</h1>
+    <p>Charlie Wu, Tong Qiu, & Zakey Faieq</p>
+  </div>
+</div>
+
+<div class="section section-we-are-1" id="whoWeAre">
+    <div class="text-area">
+        <div class="container">
+            <div class="row">
+                <div class="title" id="animationTest">
+                    <h2>About SIS-Rebuild Project</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">∎</div>
+                    </div>
+                    <p class="large">
+                      This project attempts to integrate the current functionality of <a target="_blank" href="https://sisuva.admin.virginia.edu/psp/ihprd/EMPLOYEE/EMPL/h/?tab=PAPP_GUEST">UVa SIS</a>, <a target="_blank" href="http://rabi.phys.virginia.edu/mySIS/CS2/">Lou's list</a> and <a target="_blank" href="http://www.thecourseforum.com/browse">the Course Forum</a>, in order to provide students and faculties an efficient way to do academic planning.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-contact-3" id="contact">
+    <div class="contact-container">
+        <div class="address-container add-animation animation-1">
+            <div class="address">
+                <h4>University of Virginia</h4>
+                <p class="text-gray">
+                    Charlottesville, VA
+                </p>
+                <h4>Get in Touch?</h4>
+                <a target="_blank" href="https://github.com/Charleo85/SIS-Rebuild#contact-us"  class="btn btn-black btn-contact">
+                    CONTACT US <i class="fa fa-paper-plane"></i>
+                </a>
+                <h4>Thanks for Sharing ;)</h4>
+
+
+                <div class="col-md-6">
+                     <button id="facebook" class="btn btn-lg btn-contact btn-block">
+                         <i class="fa fa-facebook-square"></i> Facebook
+                     </button>
+                </div>
+                <div class="col-md-6">
+                    <button id="twitter" class="btn btn-lg btn-contact btn-block">
+                        <i class="fa fa-twitter"></i> Twitter
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--  script for google maps   -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAppz4IhbGCWMJNIqVcL6iibxhPoAzQvE"></script>
+
+        <div class="map">
+            <div id="contactUsMap" class="big-map"></div>
+        </div>
+    </div>
+</div>
+
+{% endcache %}
+
+
+{% include 'BottomBar.html' %}
+</html>
