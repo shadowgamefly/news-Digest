@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'Header.html' %}
+
+
+<body itemscope class=" postShowScreen is-noJs">
+   <div class="site-main" id="container">
+      <div class="butterBar butterBar--error"></div>
+      <div class="surface">
+         <div id="prerendered" class="screenContent">
+            <canvas class="canvas-renderer"></canvas>
+            <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div>
+            {% include 'TopBar.html' %}
+            {% include 'Main.html' %}
+            {% include 'ButtonBar.html' %}
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
