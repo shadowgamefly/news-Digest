@@ -47,7 +47,11 @@
                      {% endif %}
 
                      {% if obj.comments %}
-                        <blockquote id={{ obj.pos }} class="graf graf--pullquote graf-after--p">{{ obj.comments.content }}</blockquote>
+                        <blockquote id={{ obj.pos }} class="graf graf--pullquote graf-after--p">
+                          <span>{{ obj.comments.content }}</span>
+                          <span>{{ obj.comments_short.content }}</span>
+                        </blockquote>
+
                      {% endif %}
 
                      {% if obj.images %}

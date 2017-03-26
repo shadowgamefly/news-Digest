@@ -42,18 +42,22 @@ def docs(request, doc_id):
     link = "http://models-api:8000/api/article?id=" + str(doc_id)
     d = _get_request(link)
     ret = {'title': d['title'], 'author': d['author'], 'body': []}
-    
+
     for i in range(len(d['content'])):
-        if len(d['comments'][i]) > 140:
-            short_comment = d['comment'][i][:140] + '...'
+        if d['comments'][i]:
+            if len(d['comments'][i]['content']) > 140:
+                sc = {'content': d['comments'][i]['content'][:140] + '...'}
+            else:
+                sc = {'content': d['comments'][i]['content']}
         else:
-            short_comment = d['comment'][i]
+            sc = None
+
 
         ret['body'].append({
             'content': d['content'][i],
             'style': d['style'][i],
             'comments': d['comments'][i],
-            'comments_short': d['comments'][i][0:140] + '...',
+            'comments_short': sc,
             'images': d['images'][i],
             'pos': i+1,
         })
