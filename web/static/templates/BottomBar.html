@@ -65,12 +65,21 @@
                         <div class="readNextPromo u-height44 readNextPromo--chromeless">
                            <div class="buttonSet-separator buttonSet-separator--readNext u-floatLeft u-verticalAlignTop js-postActionRightSeparator"></div>
                            <div class="js-trackedPost " data-post-id="71ba0c73e34d" data-source="read_next_metabar----------43" data-tracking-context="placement" data-scroll="fixed">
-                              <a class="link link--noUnderline u-block u-baseColor--link" href="https://hackernoon.com/index-of-best-ai-machine-learning-resources-71ba0c73e34d?source=read_next_metabar----------43">
+                              {%if next_link %}
+                              <a class="link link--noUnderline u-block u-baseColor--link" href={{ next_link }}>
                                  <div class="readNextPromo-postInfo">
                                     <span class="readNextPromo-callToAction u-accentColor--textNormal u-uiTextBold">Next story</span>
-                                    <h4 class="readNextPromo-postTitle u-block u-noWrapWithEllipsis u-contentSansBold ">Index of Best AI/Machine Learning Resources</h4>
+                                    <h4 class="readNextPromo-postTitle u-block u-noWrapWithEllipsis u-contentSansBold ">{{ next_title}}</h4>
                                  </div>
+
+                              {% else %}
+                              <a class="link link--noUnderline u-block u-baseColor--link" href=#>
+                              <div class="readNextPromo-postInfo">
+                                 <span class="readNextPromo-callToAction u-accentColor--textNormal u-uiTextBold">END</span>
+                                 <h4 class="readNextPromo-postTitle u-block u-noWrapWithEllipsis u-contentSansBold ">No more stories</h4>
+                              </div>
                               </a>
+                              {% endif %}
                            </div>
                         </div>
                      </div>

@@ -40,20 +40,30 @@ def index(request):
 
 def docs(request, doc_id):
     link = "http://models-api:8000/api/article?id=" + str(doc_id)
+    next_id = int(doc_id) + 1
     d = _get_request(link)
-    ret = {'title': d['title'], 'author': d['author'], 'body': []}
-    
+    if next_id > 5:
+        next_link = None
+        next_title = None
+    else :
+        nextlink = "http://models-api:8000/api/article?id=" + str(next_id)
+        n = _get_request(nextlink)
+        next_title = n['title']
+        next_link = str(next_id)
+    ret = {'title': d['title'], 'author': d['author'], 'next_link': next_link,  'next_title': next_title,  'body': []}
+
+
     for i in range(len(d['content'])):
-        if len(d['comments'][i]) > 140:
-            short_comment = d['comment'][i][:140] + '...'
-        else:
-            short_comment = d['comment'][i]
+        # if len(d['comments'][i]) > 140:
+        #     short_comment = d['comments'][i][:140] + '...'
+        # else:
+        #     short_comment = d['comments'][i]
 
         ret['body'].append({
             'content': d['content'][i],
             'style': d['style'][i],
             'comments': d['comments'][i],
-            'comments_short': d['comments'][i][0:140] + '...',
+            # 'comments_short': d['comments'][i][0:140] + '...',
             'images': d['images'][i],
             'pos': i+1,
         })
