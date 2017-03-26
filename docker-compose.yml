@@ -1,6 +1,6 @@
 models:
     container_name: models
-    image: tp33/django
+    image: shadowgamefly/news-digest
     volumes:
         - ./models:/app
     command: bash -c "python /app/manage.py makemigrations api; python /app/manage.py migrate; python manage.py flush --no-input; python manage.py loaddata /app/*.json; mod_wsgi-express start-server --working-directory /app --reload-on-change models/wsgi.py"
@@ -9,7 +9,7 @@ models:
 
 web:
     container_name: web
-    image: tp33/django
+    image: shadowgamefly/news-digest
     volumes:
         - ./web:/app
     command: bash -c "mod_wsgi-express start-server --working-directory /app --reload-on-change web/wsgi.py"
