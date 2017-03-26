@@ -53,15 +53,12 @@ def docs(request, doc_id):
         next_link = str(next_id)
     ret = {'title': d['title'], 'author': d['author'], 'next_link': next_link,  'next_title': next_title,  'body': []}
 
-    j=0
-
     for i in range(len(d['content'])):
         if d['comments'][i]:
             short_str = d['comments'][i]['content']
             pos = short_str.find(' ', 140)
             if pos > 0: short_str = short_str[:pos] + ' ...[more]'
             short_dict = {'content': short_str}
-            j=i
         else:
             short_dict = None
 
