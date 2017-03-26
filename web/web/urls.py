@@ -24,5 +24,5 @@ s = static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns = s + [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index),
-    url(r'doc/(?P<doc_id>[0-9]+)', views.docs)
+    url(r'doc/(?P<doc_id>[0-9]+)', views.docs),
 ]

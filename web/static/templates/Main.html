@@ -37,7 +37,35 @@
             <div class="section-content">
                <div class="section-inner sectionLayout--insetColumn">
                  <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ title }}</strong></h1>
+                 <span class="markup--quote markup--p-quote is-other" name="anon_96b0bf2f2e38" data-creator-ids="anon">You must ensure that there is always some feedback for user actions, because it makes users feel in control.</span>
                  {% for obj in body %}
+
+                 {% if obj.images %}
+                    {% if obj.collide %}
+                    <figure d={{ obj.pos }} class="graf graf--figure graf--leading">
+                      <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
+                        <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                        <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="" data-action="zoom" data-action-value="" data-scroll="native">
+                          <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="40" height="26"></canvas>
+                          <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
+                        </div>
+                      </div>
+                      <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
+                    </figure>
+                     {% else %}
+                     <figure id={{ obj.pos }} class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
+                        <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
+                           <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                           <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id=""  data-action="zoom" data-action-value="" data-scroll="native">
+                              <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="60" height="50"></canvas>
+                              <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
+                           </div>
+                        </div>
+                        <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
+                     </figure>
+                     {% endif %}
+                 {% endif %}
+
                      {% if obj.style == "t" %}
                          <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ obj.content }}</strong></h1>
                      {% elif obj.style == "s" %}
@@ -56,31 +84,7 @@
 
                      {% endif %}
 
-                     {% if obj.images %}
-                        {% if obj.collide %}
-                        <figure d={{ obj.pos }} class="graf graf--figure graf--leading">
-                          <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
-                            <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
-                            <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="" data-action="zoom" data-action-value="" data-scroll="native">
-                              <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="40" height="26"></canvas>
-                              <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
-                            </div>
-                          </div>
-                          <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
-                        </figure>
-                         {% else %}
-                         <figure id={{ obj.pos }} class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
-                            <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
-                               <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
-                               <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id=""  data-action="zoom" data-action-value="" data-scroll="native">
-                                  <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="60" height="50"></canvas>
-                                  <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
-                               </div>
-                            </div>
-                            <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
-                         </figure>
-                         {% endif %}
-                     {% endif %}
+
 
                  {% endfor %}
 
@@ -137,7 +141,7 @@
                                  </span>
                               </span>
                            </button>
-                           <button class="button button--chromeless u-baseColor--buttonNormal"  data-action="show-recommends" data-action-value="c6a4d1595d7b">2.4K</button>
+                           <button class="button button--chromeless u-baseColor--buttonNormal"  data-action="show-recommends" data-action-value="c6a4d1595d7b">{{num_comment}}k</button>
                         </div>
                      </div>
                      <div class="buttonSet-inner">
@@ -148,7 +152,7 @@
                               </svg>
                            </span>
                         </button>
-                        <button class="button button--chromeless u-baseColor--buttonNormal"  data-action="scroll-to-responses">80</button>
+                        <button class="button button--chromeless u-baseColor--buttonNormal"  data-action="scroll-to-responses">{{ num_comment}}</button>
                      </div>
                   </div>
                   <div class="u-floatRight buttonSet buttonSet--narrow">
@@ -201,371 +205,8 @@
 
          <div class="streamItem streamItem--placementCardGrid js-streamItem">
                <div class="u-clearfix u-backgroundGrayLightest">
-                  <!-- <div class="row u-marginAuto u-maxWidth1000 u-paddingTop30 u-paddingBottom40">
-                     <div class="col u-padding8 u-xs-size12of12 u-size4of12">
-                        <div class="u-height280 u-sizeFullWidth u-backgroundWhite u-borderCardBorder u-boxShadow u-borderBox u-borderRadius4 js-trackedPost" data-post-id="107a1624d96b" data-source="placement_card_footer_grid---------0-40" data-tracking-context="placement" data-scroll="native">
-                           <a class="link link--noUnderline u-baseColor--link" href="https://backchannel.com/you-too-can-become-a-machine-learning-rock-star-no-phd-necessary-107a1624d96b?source=placement_card_footer_grid---------0-40" data-action-source="placement_card_footer_grid---------0-40">
-                              <div class="u-backgroundCover u-backgroundColorGrayLight u-height100 u-sizeFullWidth u-borderBottomLight u-borderRadiusTop4" style="background-image: url(&quot;https://cdn-images-1.medium.com/focal/800/240/50/61/1*CFAeP1I6qiU-ZMb-O4xyOA.gif&quot;); background-position: 50% 61% !important;"></div>
-                           </a>
-                           <div class="u-padding15 u-borderBox u-flexColumn u-height180">
-                              <a class="link link--noUnderline u-flex1 u-baseColor--link" href="https://backchannel.com/you-too-can-become-a-machine-learning-rock-star-no-phd-necessary-107a1624d96b?source=placement_card_footer_grid---------0-40" data-action-source="placement_card_footer_grid---------0-40">
-                                 <div class="postMetaInline u-marginBottom7">Related reads</div>
-                                 <div class="u-textColorDarkest u-contentSansBold u-fontSize24 u-maxHeight2LineHeightTighter u-lineClamp2 u-textOverflowEllipsis u-letterSpacingTight u-paddingBottom2">You Too Can Become a Machine Learning Rock Star! No PhD Necessary.</div>
-                              </a>
-                              <div class="u-paddingTop10 u-flex0 u-flexCenter">
-                                 <div class="u-flex1">
-                                    <div class="u-flexCenter">
-                                       <div class="postMetaInline-avatar u-flex0"><a class="link avatar u-baseColor--link" href="https://backchannel.com/@stevenlevy" data-action="show-user-card" data-action-value="2fff2fb3e70a" data-action-type="hover" data-user-id="2fff2fb3e70a" data-collection-slug="backchannel" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*kF9quiBAmUdJcOGV.jpg" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Steven Levy"></a></div>
-                                       <div class="postMetaInline-authorLockup u-flex1 u-noWrapWithEllipsis">
-                                          <a class="link link link--darken link--darker u-baseColor--link" href="https://backchannel.com/@stevenlevy?source=placement_card_footer_grid---------0-40" data-action="show-user-card" data-action-source="placement_card_footer_grid---------0-40" data-action-value="2fff2fb3e70a" data-action-type="hover" data-user-id="2fff2fb3e70a" data-collection-slug="backchannel" dir="auto">Steven Levy</a>
-                                          <div class="u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental"><span class="readingTime u-textColorNormal" title="11 min read"></span></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="u-flex0 u-flexCenter">
-                                    <div class="buttonSet">
-                                       <div class="js-actionRecommend" data-post-id="107a1624d96b" data-is-label-padded="true" data-source="placement_card_footer_grid---------0-40">
-                                          <button class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton" title="Recommend to share this article with your followers and let the author know you liked it" aria-label="Recommend to share this article with your followers and let the author know you liked it" data-action="upvote" data-action-value="107a1624d96b" data-action-source="placement_card_footer_grid---------0-40">
-                                             <span class="button-defaultState">
-                                                <span class="svgIcon svgIcon--heart svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                             <span class="button-activeState">
-                                                <span class="svgIcon svgIcon--heartFilled svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                          </button>
-                                          <button class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents u-marginLeft4" data-action="show-recommends" data-action-value="107a1624d96b">1.7K</button>
-                                       </div>
-                                    </div>
-                                    <div class="u-height20 u-borderRightLighter u-inlineBlock u-relative u-marginRight10 u-marginLeft12"></div>
-                                    <div class="buttonSet">
-                                       <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="add-to-bookmarks" data-action-value="107a1624d96b">
-                                          <span class="button-defaultState">
-                                             <span class="svgIcon svgIcon--bookmark svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                   <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                          <span class="button-activeState">
-                                             <span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="26" viewBox="0 0 25 26">
-                                                   <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                       </button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col u-padding8 u-xs-size12of12 u-size4of12">
-                        <div class="u-height280 u-sizeFullWidth u-backgroundWhite u-borderCardBorder u-boxShadow u-borderBox u-borderRadius4 js-trackedPost" data-post-id="23dae23287cc" data-source="placement_card_footer_grid---------1-40" data-tracking-context="placement" data-scroll="native">
-                           <a class="link link--noUnderline u-baseColor--link" href="https://medium.freecodecamp.com/recognizing-traffic-lights-with-deep-learning-23dae23287cc?source=placement_card_footer_grid---------1-40" data-action-source="placement_card_footer_grid---------1-40">
-                              <div class="u-backgroundCover u-backgroundColorGrayLight u-height100 u-sizeFullWidth u-borderBottomLight u-borderRadiusTop4" style="background-image: url(&quot;https://cdn-images-1.medium.com/fit/c/800/240/1*X7aV0pK2krETntjlmIxQhg.png&quot;); background-position: 50% 50% !important;"></div>
-                           </a>
-                           <div class="u-padding15 u-borderBox u-flexColumn u-height180">
-                              <a class="link link--noUnderline u-flex1 u-baseColor--link" href="https://medium.freecodecamp.com/recognizing-traffic-lights-with-deep-learning-23dae23287cc?source=placement_card_footer_grid---------1-40" data-action-source="placement_card_footer_grid---------1-40">
-                                 <div class="postMetaInline u-marginBottom7">Related reads</div>
-                                 <div class="u-textColorDarkest u-contentSansBold u-fontSize24 u-maxHeight2LineHeightTighter u-lineClamp2 u-textOverflowEllipsis u-letterSpacingTight u-paddingBottom2">Recognizing Traffic Lights With Deep Learning</div>
-                              </a>
-                              <div class="u-paddingTop10 u-flex0 u-flexCenter">
-                                 <div class="u-flex1">
-                                    <div class="u-flexCenter">
-                                       <div class="postMetaInline-avatar u-flex0"><a class="link avatar u-baseColor--link" href="https://medium.freecodecamp.com/@davidbrai" data-action="show-user-card" data-action-value="4121815072e6" data-action-type="hover" data-user-id="4121815072e6" data-collection-slug="free-code-camp" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/1*x5nSbLBQP9tI2kKyqnbvwA.jpeg" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of David Brailovsky"></a></div>
-                                       <div class="postMetaInline-authorLockup u-flex1 u-noWrapWithEllipsis">
-                                          <a class="link link link--darken link--darker u-baseColor--link" href="https://medium.freecodecamp.com/@davidbrai?source=placement_card_footer_grid---------1-40" data-action="show-user-card" data-action-source="placement_card_footer_grid---------1-40" data-action-value="4121815072e6" data-action-type="hover" data-user-id="4121815072e6" data-collection-slug="free-code-camp" dir="auto">David Brailovsky</a>
-                                          <div class="u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental"><span class="readingTime u-textColorNormal" title="11 min read"></span></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="u-flex0 u-flexCenter">
-                                    <div class="buttonSet">
-                                       <div class="js-actionRecommend" data-post-id="23dae23287cc" data-is-label-padded="true" data-source="placement_card_footer_grid---------1-40">
-                                          <button class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton" title="Recommend to share this article with your followers and let the author know you liked it" aria-label="Recommend to share this article with your followers and let the author know you liked it" data-action="upvote" data-action-value="23dae23287cc" data-action-source="placement_card_footer_grid---------1-40">
-                                             <span class="button-defaultState">
-                                                <span class="svgIcon svgIcon--heart svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                             <span class="button-activeState">
-                                                <span class="svgIcon svgIcon--heartFilled svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                          </button>
-                                          <button class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents u-marginLeft4" data-action="show-recommends" data-action-value="23dae23287cc">1.9K</button>
-                                       </div>
-                                    </div>
-                                    <div class="u-height20 u-borderRightLighter u-inlineBlock u-relative u-marginRight10 u-marginLeft12"></div>
-                                    <div class="buttonSet">
-                                       <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="add-to-bookmarks" data-action-value="23dae23287cc">
-                                          <span class="button-defaultState">
-                                             <span class="svgIcon svgIcon--bookmark svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                   <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                          <span class="button-activeState">
-                                             <span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="26" viewBox="0 0 25 26">
-                                                   <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                       </button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col u-padding8 u-xs-size12of12 u-size4of12">
-                        <div class="u-height280 u-sizeFullWidth u-backgroundWhite u-borderCardBorder u-boxShadow u-borderBox u-borderRadius4 js-trackedPost" data-post-id="8bdfb4b79037" data-source="placement_card_footer_grid---------2-40" data-tracking-context="placement" data-scroll="native">
-                           <a class="link link--noUnderline u-baseColor--link" href="https://hackernoon.com/learning-ai-if-you-suck-at-math-8bdfb4b79037?source=placement_card_footer_grid---------2-40" data-action-source="placement_card_footer_grid---------2-40">
-                              <div class="u-backgroundCover u-backgroundColorGrayLight u-height100 u-sizeFullWidth u-borderBottomLight u-borderRadiusTop4" style="background-image: url(&quot;https://cdn-images-1.medium.com/fit/c/800/240/1*GBvjI417x6XdhRV6S87Osg.jpeg&quot;); background-position: 50% 50% !important;"></div>
-                           </a>
-                           <div class="u-padding15 u-borderBox u-flexColumn u-height180">
-                              <a class="link link--noUnderline u-flex1 u-baseColor--link" href="https://hackernoon.com/learning-ai-if-you-suck-at-math-8bdfb4b79037?source=placement_card_footer_grid---------2-40" data-action-source="placement_card_footer_grid---------2-40">
-                                 <div class="postMetaInline u-marginBottom7">Related reads</div>
-                                 <div class="u-textColorDarkest u-contentSansBold u-fontSize24 u-maxHeight2LineHeightTighter u-lineClamp2 u-textOverflowEllipsis u-letterSpacingTight u-paddingBottom2">Learning AI if You Suck at Math</div>
-                              </a>
-                              <div class="u-paddingTop10 u-flex0 u-flexCenter">
-                                 <div class="u-flex1">
-                                    <div class="u-flexCenter">
-                                       <div class="postMetaInline-avatar u-flex0">
-                                          <a class="link avatar u-baseColor--link" href="https://hackernoon.com/@dan.jeffries" data-action="show-user-card" data-action-value="618a7c78c957" data-action-type="hover" data-user-id="618a7c78c957" data-collection-slug="hacker-daily" dir="auto">
-                                             <div class="u-relative">
-                                                <img src="https://cdn-images-1.medium.com/fit/c/72/72/1*JlSJzUqW22vi8oFHPgVWTg.jpeg" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Daniel Jeffries">
-                                                <div class="u-absolute u-tintSpectrum u-accentColor--iconNormal u-textColorGreenNormal svgIcon" style="width: calc(100% + 10px); height: calc(100% + 10px); top:-5px; left:-5px">
-                                                   <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M3.44615311,11.6601601 C6.57294867,5.47967718 12.9131553,1.5 19.9642857,1.5 C27.0154162,1.5 33.3556228,5.47967718 36.4824183,11.6601601 L37.3747245,11.2087295 C34.0793076,4.69494641 27.3961457,0.5 19.9642857,0.5 C12.5324257,0.5 5.84926381,4.69494641 2.55384689,11.2087295 L3.44615311,11.6601601 Z"></path>
-                                                      <path d="M36.4824183,28.2564276 C33.3556228,34.4369105 27.0154162,38.4165876 19.9642857,38.4165876 C12.9131553,38.4165876 6.57294867,34.4369105 3.44615311,28.2564276 L2.55384689,28.7078582 C5.84926381,35.2216412 12.5324257,39.4165876 19.9642857,39.4165876 C27.3961457,39.4165876 34.0793076,35.2216412 37.3747245,28.7078582 L36.4824183,28.2564276 Z"></path>
-                                                   </svg>
-                                                </div>
-                                             </div>
-                                          </a>
-                                       </div>
-                                       <div class="postMetaInline-authorLockup u-flex1 u-noWrapWithEllipsis">
-                                          <a class="link link link--darken link--darker u-baseColor--link" href="https://hackernoon.com/@dan.jeffries?source=placement_card_footer_grid---------2-40" data-action="show-user-card" data-action-source="placement_card_footer_grid---------2-40" data-action-value="618a7c78c957" data-action-type="hover" data-user-id="618a7c78c957" data-collection-slug="hacker-daily" dir="auto">Daniel Jeffries</a>
-                                          <div class="u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental"><span class="readingTime u-textColorNormal" title="10 min read"></span></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="u-flex0 u-flexCenter">
-                                    <div class="buttonSet">
-                                       <div class="js-actionRecommend" data-post-id="8bdfb4b79037" data-is-label-padded="true" data-source="placement_card_footer_grid---------2-40">
-                                          <button class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton" title="Recommend to share this article with your followers and let the author know you liked it" aria-label="Recommend to share this article with your followers and let the author know you liked it" data-action="upvote" data-action-value="8bdfb4b79037" data-action-source="placement_card_footer_grid---------2-40">
-                                             <span class="button-defaultState">
-                                                <span class="svgIcon svgIcon--heart svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                             <span class="button-activeState">
-                                                <span class="svgIcon svgIcon--heartFilled svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                          </button>
-                                          <button class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents u-marginLeft4" data-action="show-recommends" data-action-value="8bdfb4b79037">1.5K</button>
-                                       </div>
-                                    </div>
-                                    <div class="u-height20 u-borderRightLighter u-inlineBlock u-relative u-marginRight10 u-marginLeft12"></div>
-                                    <div class="buttonSet">
-                                       <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="add-to-bookmarks" data-action-value="8bdfb4b79037">
-                                          <span class="button-defaultState">
-                                             <span class="svgIcon svgIcon--bookmark svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                   <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                          <span class="button-activeState">
-                                             <span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px">
-                                                <svg class="svgIcon-use" width="25" height="26" viewBox="0 0 25 26">
-                                                   <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </span>
-                                       </button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div> -->
                </div>
-            </div>
-         </div>
-
-         <!-- <div class="u-padding0 u-clearfix u-backgroundGrayLightest u-print-hide supplementalPostContent js-responsesWrapper" data-action-scope="_actionscope_5">
-            <div class="container u-maxWidth740">
-               <div class="responsesStreamWrapper u-maxWidth640 js-responsesStreamWrapper">
-                  <div class="container u-maxWidth640 responsesStream-title u-paddingTop15">
-                     <div class="row">
-                        <header class="heading u-clearfix">
-                           <div class="u-clearfix">
-                              <div class="heading-content u-floatLeft"><span class="heading-title heading-title--semibold">Responses</span></div>
-                           </div>
-                        </header>
-                     </div>
-                  </div>
-                  <div class="container u-maxWidth640 u-marginBottom30 responsesStream-editor cardChromeless js-responsesStreamEditor">
-                     <div class="row">
-                        <div class="col u-size12of12">
-                           <div class="inlineNewPostControl js-inlineNewPostControl" data-action-scope="_actionscope_6">
-                              <div class="inlineEditor is-collapsed is-postEditMode js-inlineEditor" data-action="focus-editor">
-                                 <div class="u-paddingTop20 js-block js-inlineEditorContent">
-                                    <div class="inlineEditor-header">
-                                       <div class="inlineEditor-avatar u-paddingRight10">
-                                          <div class="avatar u-inline"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*RcGfzHSQSzLwyWc6.jpg" class="avatar-image u-size36x36 u-xs-size32x32" alt="Charlie Wu"></div>
-                                       </div>
-                                       <div class="inlineEditor-headerContent">
-                                          <div class="inlineEditor-placeholder js-inlineEditorPrompt">Write a response…</div>
-                                          <div class="inlineEditor-author u-accentColor--textNormal">Charlie Wu</div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="container u-maxWidth640 u-marginBottom30 u-borderTopLighter u-hide js-noOtherResponses">
-                     <div class="row">
-                        <div class="col u-size12of12">
-                           <div class="u-paddingTop20 u-paddingBottom25">
-                              <div class="u-inlineBlock u-verticalAlignTop u-paddingRight10">
-                                 <div class="avatar u-inline"><img src="https://cdn-images-1.medium.com/proxy/1*dmbNkD5D-u45r44go_cf0g.png" class="avatar-image u-size36x36 u-xs-size32x32" alt="Unknown user"></div>
-                              </div>
-                              <div class="u-inlineBlock">
-                                 <div class="u-lineHeight36 u-textColorNormal u-contentSerifRegular">No responses yet</div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="responsesStream js-responsesStream"></div>
-                  <div class="container u-maxWidth640 js-showOtherResponses u-hide">
-                     <div class="row"><button class="button button--primary button--withChrome u-accentColor--buttonNormal responsesStream-showOtherResponses cardChromeless u-sizeFullWidth is-touched" data-action="show-other-responses">Show all responses</button></div>
-                  </div>
-                  <div class="responsesStream js-responsesStreamOther">
-                     <div class="streamItem streamItem--postPreview js-streamItem" data-action-scope="_actionscope_8">
-                        <div class="streamItem-card streamItem-card--postPreview u-paddingRight20 u-paddingLeft20 u-borderRadius3 cardChromeless">
-                           <div class="streamItem-cardInner streamItem-cardInner--postPreview">
-                              <div class="postArticle postArticle--short js-postArticle js-trackedPost" data-post-id="5a1e9e38549d" data-source="responses---------0-----------" data-action-scope="_actionscope_9" data-scroll="native">
-                                 <div class="u-clearfix u-marginBottom10">
-                                    <div class="postMetaInline u-floatLeft">
-                                       <div class="u-flexCenter">
-                                          <div class="postMetaInline-avatar u-flex0"><a class="link avatar u-baseColor--link" href="https://medium.com/@lavigi" data-action="show-user-card" data-action-value="80d3f366910a" data-action-type="hover" data-user-id="80d3f366910a" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*TzEQrJqHVi8iXrS-.gif" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of lavigi"></a></div>
-                                          <div class="postMetaInline-authorLockup u-flex1 u-noWrapWithEllipsis">
-                                             <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link" href="https://medium.com/@lavigi?source=responses---------0-----------" data-action="show-user-card" data-action-source="responses---------0-----------" data-action-value="80d3f366910a" data-action-type="hover" data-user-id="80d3f366910a" dir="auto">lavigi</a>
-                                             <div class="u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental"><a class="link link--darken" href="https://medium.com/@lavigi/through-direct-leadership-at-baidu-google-standford-and-indirect-inspiration-coursera-and-your-5a1e9e38549d?source=responses---------0-----------" data-action="open-post" data-action-value="https://medium.com/@lavigi/through-direct-leadership-at-baidu-google-standford-and-indirect-inspiration-coursera-and-your-5a1e9e38549d?source=responses---------0-----------" data-action-source="preview-listing"><time datetime="2017-03-22T08:58:19.920Z">Mar 22</time></a><span class="middotDivider u-fontSize12"></span><span class="readingTime" title="1 min read"></span></div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="js-inlineExpandBody">
-                                    <a class="" href="https://medium.com/@lavigi/through-direct-leadership-at-baidu-google-standford-and-indirect-inspiration-coursera-and-your-5a1e9e38549d?source=responses---------0-----------" data-action="expand-inline">
-                                       <div class="postArticle-content js-postField">
-                                          <section class="section section--body section--first section--last">
-                                             <div class="section-divider">
-                                                <hr class="section-divider">
-                                             </div>
-                                             <div class="section-content">
-                                                <div class="section-inner sectionLayout--insetColumn">
-                                                   <p name="ce2b" id="ce2b" class="graf graf--p graf--leading graf--trailing">Through direct leadership at Baidu, Google &amp; Standford, and indirect inspiration (Coursera and your priceless ML MOOC), you’ve played a key role in the creation of a generation of computer scientists &amp; business leaders capable of taking AI to the next level.</p>
-                                                </div>
-                                             </div>
-                                          </section>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="postArticle-readMore"><button class="button button--smaller button--link u-baseColor--buttonNormal" data-action="expand-inline">Read more…</button></div>
-                                 <div class="u-clearfix u-paddingTop10">
-                                    <div class="buttonSet buttonSet--withLabels u-floatLeft">
-                                       <div class="buttonSet-inner">
-                                          <div class="js-actionRecommend" data-post-id="5a1e9e38549d" data-is-flush-left="true" data-source="listing">
-                                             <button class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton" title="Recommend to share this article with your followers and let the author know you liked it" aria-label="Recommend to share this article with your followers and let the author know you liked it" data-action="upvote" data-action-value="5a1e9e38549d" data-action-source="listing">
-                                                <span class="button-defaultState">
-                                                   <span class="svgIcon svgIcon--heart svgIcon--25px is-flushLeft">
-                                                      <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                         <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path>
-                                                      </svg>
-                                                   </span>
-                                                </span>
-                                                <span class="button-activeState">
-                                                   <span class="svgIcon svgIcon--heartFilled svgIcon--25px is-flushLeft">
-                                                      <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                         <path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12z" fill-rule="evenodd"></path>
-                                                      </svg>
-                                                   </span>
-                                                </span>
-                                             </button>
-                                             <button class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents" data-action="show-recommends" data-action-value="5a1e9e38549d">15</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="buttonSet u-floatRight">
-                                       <div class="buttonSet-inner">
-                                          <a class="button button--chromeless u-baseColor--buttonNormal" href="https://medium.com/@lavigi/through-direct-leadership-at-baidu-google-standford-and-indirect-inspiration-coursera-and-your-5a1e9e38549d?source=responses---------0-----------#--responses" data-action-source="responses---------0-----------">2 responses</a>
-                                          <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="add-to-bookmarks" data-action-value="5a1e9e38549d">
-                                             <span class="button-defaultState">
-                                                <span class="svgIcon svgIcon--bookmark svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25">
-                                                      <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                             <span class="button-activeState">
-                                                <span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px">
-                                                   <svg class="svgIcon-use" width="25" height="26" viewBox="0 0 25 26">
-                                                      <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd"></path>
-                                                   </svg>
-                                                </span>
-                                             </span>
-                                          </button>
-                                          <button class="button button--chromeless is-touchIconBlackPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon js-postActionsButton" data-action="post-actions" data-action-value="5a1e9e38549d">
-                                             <span class="svgIcon svgIcon--arrowDown svgIcon--19px is-flushRight">
-                                                <svg class="svgIcon-use" width="19" height="19" viewBox="0 0 19 19">
-                                                   <path d="M3.9 6.772l5.205 5.756.427.472.427-.472 5.155-5.698-.854-.772-4.728 5.254L4.753 6z" fill-rule="evenodd"></path>
-                                                </svg>
-                                             </span>
-                                          </button>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
-
-         <div class="supplementalPostContent js-readNext"></div>
-         <div class="supplementalPostContent js-heroPromo"></div>
+          </div>
       </footer>
    </article>
 </main>
