@@ -1,8 +1,0 @@
-[{
-  "model": "api.Article",
-  "fields": {
-    "author": "New York Times",
-    "title": "Trump Becomes Ensnared in Fiery G.O.P. Civil War"
-  },
-  "pk": 1
-}]

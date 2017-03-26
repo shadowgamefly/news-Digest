@@ -1,75 +1,71 @@
 from lxml import html
 from lxml import etree
-import requests
-import re
-import json
+import requests, re, json
 
 
-sentences = []
-articles = []
-pk=0
+def fuck_unicode(bad):
+    good = bad.replace(u'\u2014', '-').replace(u'\u2019', '\'')
+    good = good.replace(u'\u201c', '\"').replace(u'\u201d', '\"')
+    return good
+
+
+def write_json(filename, data):
+    output = open(filename, 'w', encoding='utf-8')
+    output.write(json.dumps(data))
+    output.close()
+
+
 def parse_article(href):
-    course_page = requests.get('https://www.nytimes.com/'+href)
-
-    tree = html.fromstring(course_page.content)
     global pk
-    pk+=1
-    art = {}
-    articleName = tree.xpath('//h1[@class="headline"]/text()')[0]
-    art["model"]="api.Article"
-    art["pk"]=pk
-    fields = {}
-    fields["title"]=articleName
-    fields["author"]="New York Times"
-    art["fields"]=fields
-    articles.append(art)
+    pk += 1
 
-    paragraphs = tree.xpath('//p[@class="story-body-text"]')
-    for para in paragraphs:
-        comment = {}
-        comment["model"] = "api.Sentence"
-        field["content"] = para.text
-        
-        comment["fields"] = field
+    course_page = requests.get('https://www.nytimes.com/' + href)
+    tree = html.fromstring(course_page.content.decode('utf-8'))
 
-        if (table.xpath('./td[@class="CourseNum"]') ):
-            info = table.xpath('./td[@class="CourseNum"]/span/text()')[0].split()
-            CourseMn = info[0]
-            CourseNum = info[1]
-            CourseName = table.xpath('./td[@class="CourseName"]/text()')[0]
-            # print(CourseNum)
-            # print(CourseName)
+    article_name = tree.xpath('//h1[@class="headline"]/text()')[0]
+    art = {'name': str(pk), 'parent': '', 'title': article_name, \
+        'sentences': [], 'content': '', 'child': ''}
 
-        # if (table.xpath('./td[@align="right"]')):
-        if (table.xpath('./td/strong')):
-            if (table.xpath('./td/strong')[0].text == "Lecture"):
-                tab = {}
-                tab["model"] = "api.Course"
-                fields = {}
-                fields["mnemonic"] = CourseMn
-                fields["number"] = CourseNum
-                fields["title"] = CourseName
-                fields["id"] = int(table.xpath('./td')[0].xpath('./a[last()]/text()')[0])
-                if (table.xpath('./td/a/strong')):
-                    fields["website"] = table.xpath('./td/a/@href')[0]
-                fields["section"] = table.xpath('./td')[1].text
-                fields["meet_time"] = table.xpath('./td')[6].text
-                fields["location"] = table.xpath('./td')[7].text
+    body = tree.xpath('//p[@class="story-body-text story-content"]')
+    for para in body:
+        sentence = fuck_unicode(para.text_content())
+        art['sentences'].append({'sentence': sentence})
+        art['content'] += sentence + ' '
 
-                instructor = parse_instructor(table.xpath('./td')[5].xpath('./strong/span')[0].text)
-                if (instructor != "Staff"):
-                    fields["instructor"] = instructor #escape the staff case
-                else:
-                    continue
-                tab["fields"] = fields
-                # print(tab)
-                tabs.append(tab)
+    resp = requests.get(
+        url="https://www.nytimes.com/svc/community/V3/requestHandler",
+        params={
+            "commentSequence": "0",
+            "sort": "newest",
+            "offset": "0",
+            "url": 'https://www.nytimes.com/' + href,
+            "cmd": "GetCommentsNYTPicks",
+            "method": "get",
+        },
+        headers={"Content-Type": "application/json; charset=utf-8"},
+    )
+    comm_data = json.loads(resp.content.decode('utf-8'))
+
+    count = 0
+    for comm in comm_data['results']['comments']:
+        count += 1
+        as_xml = '<p class="special">' + comm['commentBody'] + '</p>'
+        c_tree = html.fromstring(as_xml)
+        comm_obj = c_tree.xpath('//p[@class="special"]')[0]
+        comment = fuck_unicode(comm_obj.text_content())
+
+        comm_dict = {'content': comment, 'child': '', 'title': '', \
+            'name': str(pk) + '_' + str(count), 'parent': str(pk)}
+        write_json(comm_dict['name'] + '.json', comm_dict)
+
+    for i in range(1, count+1):
+        art['child'] += str(pk) + '_' + str(i)
+        if i != count: art['child'] += '\t'
+    
+    write_json(str(pk) + '.json', art)
 
 
-
-parse_article('2017/03/25/us/politics/trump-health-care-defeat-gop-civil-war.html')
-# save data into json
-output = open("nytimes.json", "w")
-article_data = json.dumps(articles)
-output.write(article_data)
-output.close()
+pk = 0
+parse_article(
+    '2017/03/25/us/politics/trump-health-care-defeat-gop-civil-war.html'
+)
