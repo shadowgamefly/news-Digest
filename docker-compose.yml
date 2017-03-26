@@ -17,3 +17,17 @@ web:
         - "80:8000"
     links:
         - models:models-api
+
+crawler:
+    container_name: crawler
+    image: shadowgamefly/news-digest
+    volumes:
+        - ./data:/app
+    command: bash -c "python /app/crawler.py"
+
+# batch:
+#     container_name: batch
+#     image: tp33/django
+#     volumes:
+#         - ./data:/app
+#     command: bash -c "python /app/batch_script.py"
