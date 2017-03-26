@@ -26,8 +26,8 @@ def get_article_body(request):
     style = [''] * len(obj.sentence_set.all())
 
     for sentence in obj.sentence_set.all():
-        body[sentence.position] = sentence.content
-        style[sentence.position] = sentence.style
+        body[sentence.position - 1] = sentence.content
+        style[sentence.position - 1] = sentence.style
 
     return _success(200, { 'title': obj.title, \
         'author': obj.author, 'content': body, 'style': style })

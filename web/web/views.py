@@ -14,6 +14,17 @@ def index(request):
 
     for i in range(len(d['content'])):
         ret['body'].append({'content': d['content'][i], \
-            'style': d['style'][i], 'pos': i+1}) 
+            'style': d['style'][i], 'pos': i+1})
+
+    return render(request, 'articlePage.html', ret)
+
+def docs(request, doc_id):
+    link = "http://models-api:8000/api/article?id=" + str(doc_id)
+    d = _get_request(link)
+    ret = {'title': d['title'], 'author': d['author'], 'body': []}
+
+    for i in range(len(d['content'])):
+        ret['body'].append({'content': d['content'][i], \
+            'style': d['style'][i], 'pos': i+1})
 
     return render(request, 'articlePage.html', ret)
