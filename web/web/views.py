@@ -41,8 +41,17 @@ def index(request):
 
 def docs(request, doc_id):
     link = "http://models-api:8000/api/article?id=" + str(doc_id)
+    next_id = int(doc_id) + 1
     d = _get_request(link)
-    ret = {'title': d['title'], 'author': d['author'], 'body': []}
+    if next_id > 5:
+        next_link = None
+        next_title = None
+    else :
+        nextlink = "http://models-api:8000/api/article?id=" + str(next_id)
+        n = _get_request(nextlink)
+        next_title = n['title']
+        next_link = str(next_id)
+    ret = {'title': d['title'], 'author': d['author'], 'next_link': next_link,  'next_title': next_title,  'body': []}
 
     j=0
 
@@ -63,6 +72,7 @@ def docs(request, doc_id):
                 or d['comments'][i] \
                 or (i+1 < len(d['content']) and d['comments'][i+1]) \
                 or (i+2 < len(d['content']) and d['comments'][i+2])
+
 
 
         ret['body'].append({
