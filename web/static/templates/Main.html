@@ -7,7 +7,8 @@
          <div class="postMetaHeader u-paddingBottom10 row">
             <div class="col u-size12of12 js-postMetaLockup">
                <div class="postMetaLockup postMetaLockup--authorWithBio u-flex js-postMetaLockup">
-                  <div class="u-flex0"><a class="link avatar u-baseColor--link"  href="https://medium.com/@andrewng?source=post_header_lockup" data-action="show-user-card" data-action-source="post_header_lockup" data-action-value="592ce2a67248" data-action-type="hover" data-user-id="592ce2a67248" dir="auto"><img  src="https://cdn-images-1.medium.com/fit/c/60/60/1*9xfnIxWCa313OO4OaT-v2w.png" class="avatar-image avatar-image--small" alt="Go to the profile of Andrew Ng"></a></div>
+                  <div class="u-flex0"><a class="link avatar u-baseColor--link"  href="https://medium.com/@andrewng?source=post_header_lockup" data-action="show-user-card" data-action-source="post_header_lockup" data-action-value="592ce2a67248" data-action-type="hover" data-user-id="592ce2a67248" dir="auto">
+                    <img  src="/static/img/nyt.png" class="avatar-image avatar-image--small" alt="Go to the profile"></a></div>
                   <div class="u-flex1 u-paddingLeft15 u-overflowHidden">
                      <a class="link link link--darken link--darker u-baseColor--link"  href="https://medium.com/@andrewng?source=post_header_lockup" data-action="show-user-card" data-action-source="post_header_lockup" data-action-value="592ce2a67248" data-action-type="hover" data-user-id="592ce2a67248" dir="auto">
                        {{ author }}</a>
@@ -22,7 +23,7 @@
                         </button>
                       </span>
                      <div class="postMetaInline u-noWrapWithEllipsis u-xs-normalWrap u-xs-lineClamp2">Author Profile</div>
-                     <div class="postMetaInline js-testPostMetaInlineSupplemental"><time datetime="2017-03-22T03:57:21.787Z">Mar 21</time><span class="middotDivider u-fontSize12"></span><span class="readingTime" title="4 min read"></span></div>
+                     <!-- <div class="postMetaInline js-testPostMetaInlineSupplemental"><time datetime="2017-03-22T03:57:21.787Z">Mar 21</time><span class="middotDivider u-fontSize12"></span><span class="readingTime" title="4 min read"></span></div> -->
                   </div>
                </div>
             </div>
@@ -35,20 +36,6 @@
             </div>
             <div class="section-content">
                <div class="section-inner sectionLayout--insetColumn">
-                 <img class="progressiveMedia-image js-progressiveMedia-image" data-src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg">
-
-                 <!-- <figure name="f7ea" id="f7ea" class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
-                    <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
-                       <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
-                       <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-width="2500" data-height="1667" data-action="zoom" data-action-value="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-scroll="native">
-                          <img src="https://cdn-images-1.medium.com/freeze/max/60/1*QeioU8WhNX_4D_aGCWGufw.jpeg?q=20" crossorigin="anonymous" class="progressiveMedia-thumbnail js-progressiveMedia-thumbnail">
-                          <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas>
-                          <img class="progressiveMedia-image js-progressiveMedia-image" data-src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg">
-                          <noscript class="js-progressiveMedia-inner">&lt;img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg"&gt;</noscript>
-                       </div>
-                    </div>
-                    <figcaption class="imageCaption">AI is the new electricity</figcaption>
-                 </figure> -->
                  {% for obj in body %}
                      {% if obj.style == "t" %}
                          <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ obj.content }}</strong></h2>
@@ -57,7 +44,17 @@
                      {% elif obj.style == "c" %}
                          <blockquote id={{ obj.pos }} class="graf graf--pullquote graf-after--p">{{ obj.content }}</blockquote>
                      {% elif obj.style == "i" %}
-
+                         <figure id={{ obj.pos }} class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
+                            <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
+                               <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                               <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-width="2500" data-height="1667" data-action="zoom" data-action-value="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-scroll="native">
+                                  <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas>
+                                  <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.ref }}>
+                                  <!-- <noscript class="js-progressiveMedia-inner">&lt;img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg"&gt;</noscript> -->
+                               </div>
+                            </div>
+                            <figcaption class="imageCaption">{{ obj.caption }}</figcaption>
+                         </figure>
                      {% else %}
                          <p id={{ obj.pos }}>{{ obj.content }}</p>
                          <!-- <p><span class="markup--quote markup--p-quote is-other" name="anon_b8ee8008df9d" data-creator-ids="anon">{{ obj.content }}</span></p> -->
@@ -163,12 +160,12 @@
                           <button class="button button--primary button--small u-noUserSelect button--withChrome u-accentColor--buttonNormal button--follow js-followButton"  data-action="sign-in-prompt" data-sign-in-action="toggle-subscribe-user" data-requires-token="true" data-redirect="https://medium.com/_/subscribe/user/592ce2a67248" data-action-source="footer_card_follow">
                        <span class="button-label  button-defaultState js-buttonLabel">Follow</span><span class="button-label button-activeState">Following</span></button></span></div>
                      <div class="u-tableCell ">
-                       <a class="link avatar u-baseColor--link"  href="https://medium.com/@andrewng?source=footer_card" title="Go to the profile of Andrew Ng" aria-label="Go to the profile of Andrew Ng" data-action-source="footer_card" data-user-id="592ce2a67248" dir="auto">
-                         <img  src="https://cdn-images-1.medium.com/fit/c/60/60/1*9xfnIxWCa313OO4OaT-v2w.png" class="avatar-image avatar-image--small" alt="Go to the profile of Andrew Ng">
+                       <a class="link avatar u-baseColor--link"  href="" title="Go to the profile" aria-label="Go to the profile" data-action-source="footer_card" data-user-id="592ce2a67248" dir="auto">
+                         <img  src="/static/img/nyt.png" class="avatar-image avatar-image--small" alt="Go to the profile">
                        </a>
                      </div>
                      <div class="u-tableCell u-verticalAlignMiddle u-breakWord u-paddingLeft15">
-                        <h3 class="u-fontSize18 u-lineHeightTighter u-marginBottom4"><a class="link link--primary u-accentColor--hoverTextNormal"  href="../@andrewng.html" property="cc:attributionName" title="Go to the profile of Andrew Ng" aria-label="Go to the profile of Andrew Ng" rel="author cc:attributionUrl" data-user-id="592ce2a67248" dir="auto">
+                        <h3 class="u-fontSize18 u-lineHeightTighter u-marginBottom4"><a class="link link--primary u-accentColor--hoverTextNormal"  href="../@andrewng.html" property="cc:attributionName" title="Go to the profile" aria-label="Go to the profile" rel="author cc:attributionUrl" data-user-id="592ce2a67248" dir="auto">
                           {{ author }}</a></h3>
                         <p class="u-fontSize14 u-lineHeightBaseSans u-textColorDark u-marginBottom4">
                           Author Profile</p>
