@@ -8,8 +8,10 @@ def _get_request(url):
     resp_json = urllib.request.urlopen(req).read().decode('utf-8')
     return json.loads(resp_json)
 
+
 def _success(stat, data):
     return JsonResponse({ 'stat': stat, **data })\
+
 
 def index(request):
     ret = {}
@@ -37,7 +39,6 @@ def index(request):
     return render(request, 'homePage.html', ret)
 
 
-
 def docs(request, doc_id):
     link = "http://models-api:8000/api/article?id=" + str(doc_id)
     next_id = int(doc_id) + 1
@@ -52,26 +53,22 @@ def docs(request, doc_id):
         next_link = str(next_id)
     ret = {'title': d['title'], 'author': d['author'], 'next_link': next_link,  'next_title': next_title,  'body': []}
 
-
     for i in range(len(d['content'])):
-        # if len(d['comments'][i]) > 140:
-        #     short_comment = d['comments'][i][:140] + '...'
-        # else:
-        #     short_comment = d['comments'][i]
-
+        if d['comments'][i]:
+            short_str = d['comments'][i]['content']
+            pos = short_str.find(' ', 140)
+            if pos > 0: short_str = short_str[:pos] + '...'
+            short_dict = {'content': short_str}
+        else:
+            short_dict = None
+            
         ret['body'].append({
             'content': d['content'][i],
             'style': d['style'][i],
             'comments': d['comments'][i],
-            # 'comments_short': d['comments'][i][0:140] + '...',
+            'comments_short': short_dict,
             'images': d['images'][i],
             'pos': i+1,
         })
 
     return render(request, 'articlePage.html', ret)
-
-    # for i in range(len(d['content'])):
-    #     ret['body'].append({'content': d['content'][i], \
-    #         'style': d['style'][i], 'pos': i+1})
-    #
-    # return render(request, 'articlePage.html', ret)
