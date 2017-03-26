@@ -17,14 +17,20 @@ def analyze(url):
 if __name__ == '__main__':
     q = queue.Queue()
     analyze('https://www.nytimes.com/')
-    pk = 0
+    pk = 1
+    link_set = set()
 
     os.system('mkdir /app/TestArticles/ /app/TestComments/')
     os.system('rm -f /app/TestArticles/*')
     os.system('rm -f /app/TestComments/*')
 
     while not q.empty():
-        time.sleep(30)
-        pk += 1
-        cmd_args = q.get() + ' ' + str(pk)
-        os.system('python /app/parse_data.py ' + cmd_args)
+        time.sleep(10)
+
+        link = q.get()
+        if link in link_set: continue
+        else link_set.add(link)
+
+        cargs = link + ' ' + str(pk)
+        r = os.system('python /app/parse_data.py ' + cargs)
+        if not r: pk += 1
