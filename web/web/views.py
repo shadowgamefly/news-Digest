@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import urllib.request, json
+from django.http import HttpResponse, JsonResponse
 
 
 def _get_request(url):
@@ -7,6 +8,8 @@ def _get_request(url):
     resp_json = urllib.request.urlopen(req).read().decode('utf-8')
     return json.loads(resp_json)
 
+def _success(stat, data):
+    return JsonResponse({ 'stat': stat, **data })
 
 def index(request):
     d = _get_request('http://models-api:8000/api/article?id=1')
@@ -22,6 +25,23 @@ def index(request):
         })
 
     return render(request, 'articlePage.html', ret)
+
+
+def index2(request):
+    articleList = []
+    for i in range(1, 6):
+        articleList.append(_get_request('http://models-api:8000/api/article?id='+str(i)))
+    ret = []
+
+    for article in articleList:
+        news = {}
+        news["title"] = article["title"]
+        news["author"] = article["author"]
+        intro = article["content"][0]
+        if len(intro) > 60 :
+            intro = intro[:60] + '...'
+        news["intro"] = intro
+        ret.append(news)
 
 
 def docs(request, doc_id):
