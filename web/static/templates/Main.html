@@ -59,6 +59,25 @@
                          <p id={{ obj.pos }}>{{ obj.content }}</p>
                          <!-- <p><span class="markup--quote markup--p-quote is-other" name="anon_b8ee8008df9d" data-creator-ids="anon">{{ obj.content }}</span></p> -->
                      {% endif %}
+
+                     {% if obj.comments %}
+                        <blockquote id={{ obj.pos }} class="graf graf--pullquote graf-after--p">{{ obj.comments.content }}</blockquote>
+                     {% endif %}
+
+                     {% if obj.images %}
+                         <figure id={{ obj.pos }} class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
+                            <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
+                               <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                               <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-width="2500" data-height="1667" data-action="zoom" data-action-value="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-scroll="native">
+                                  <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas>
+                                  <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
+                                  <!-- <noscript class="js-progressiveMedia-inner">&lt;img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg"&gt;</noscript> -->
+                               </div>
+                            </div>
+                            <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
+                         </figure>
+                     {% endif %}
+
                  {% endfor %}
 
                </div>

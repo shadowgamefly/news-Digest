@@ -19,5 +19,5 @@ from api import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'^article', views.get_article_body),
+    url(r'^article', views.get_article_everything),
 ]
