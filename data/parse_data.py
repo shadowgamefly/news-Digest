@@ -1,6 +1,6 @@
 from lxml import html
 from lxml import etree
-import requests, re, json, random
+import requests, re, json, random, sys
 
 
 def fuck_unicode(bad):
@@ -9,13 +9,13 @@ def fuck_unicode(bad):
     return good
 
 
-def write_json(filename, data):
+def write_json(filename, data, pk):
     output = open(filename, 'w', encoding='utf-8')
     output.write(json.dumps(data))
     output.close()
 
 
-def parse_comment(url):
+def parse_comment(url, pk):
     resp = requests.get(
         url="https://www.nytimes.com/svc/community/V3/requestHandler",
         params={
@@ -45,12 +45,13 @@ def parse_comment(url):
             'name': str(pk) + '_' + str(count),
             'parent': str(pk)
         }
-        write_json(comm_dict['name'] + '.json', comm_dict)
+        json_f = '/app/TestComments/' + comm_dict['name'] + '.json'
+        write_json(json_f, comm_dict, pk)
 
     return count
 
 
-def parse_article(url, count):
+def parse_article(url, count, pk):
     page = requests.get(url)
     tree = html.fromstring(page.content.decode('utf-8'))
 
@@ -74,11 +75,11 @@ def parse_article(url, count):
         art['child'] += str(pk) + '_' + str(i)
         if i != count: art['child'] += '\t'
 
-    write_json(str(pk) + '.json', art)
+    write_json('/app/TestArticles/' + str(pk) + '.json', art, pk)
     return len(art['sentences'])
 
 
-def parse_image(url, count):
+def parse_image(url, count, pk):
     page = requests.get(url)
     tree = html.fromstring(page.content.decode('utf-8'))
 
@@ -96,17 +97,14 @@ def parse_image(url, count):
         }
         imgs_json.append({'model': 'api.Image', 'fields': fields})
 
-    write_json('img_' + str(pk) + '.json', imgs_json)
+    write_json('/app/img_' + str(pk) + '.json', imgs_json, pk)
 
 
-def parse(href):
-    global pk
-    pk += 1
-    count = parse_comment('https://www.nytimes.com/' + href)
-    count = parse_article('https://www.nytimes.com/' + href, count)
-    parse_image('https://www.nytimes.com/' + href, count)
+def parse(href, pk):
+    count = parse_comment(href, pk)
+    count = parse_article(href, count, pk)
+    parse_image(href, count, pk)
 
 
 if __name__ == '__main__':
-    pk = 0
-    parse('2017/03/25/us/politics/trump-health-care-defeat-gop-civil-war.html')
+    if len(sys.argv) > 2: parse(sys.argv[1], int(sys.argv[2]))
