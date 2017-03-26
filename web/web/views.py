@@ -44,16 +44,29 @@ def docs(request, doc_id):
     d = _get_request(link)
     ret = {'title': d['title'], 'author': d['author'], 'body': []}
 
+    j=0
+
     for i in range(len(d['content'])):
         if d['comments'][i]:
             short_str = d['comments'][i]['content']
             pos = short_str.find(' ', 140)
-            if pos > 0: short_str = short_str[:pos] + '...'
+            if pos > 0: short_str = short_str[:pos] + ' ...[more]'
             short_dict = {'content': short_str}
+            j=i
         else:
             short_dict = None
 
+        collide = False
+        if d['images'][i]:
+            collide = (i >= 2 and d['comments'][i-2]) \
+                or (i >= 1 and d['comments'][i-1]) \
+                or d['comments'][i] \
+                or (i+1 < len(d['content']) and d['comments'][i+1]) \
+                or (i+2 < len(d['content']) and d['comments'][i+2])
+
+
         ret['body'].append({
+            'collide':collide,
             'content': d['content'][i],
             'style': d['style'][i],
             'comments': d['comments'][i],

@@ -46,6 +46,8 @@
                          <p id={{ obj.pos }} class="graf graf--p graf-after--p">{{ obj.content }}</p>
                      {% endif %}
 
+
+
                      {% if obj.comments %}
                         <blockquote id={{ obj.pos }} style="height:120px" class="graf graf--pullquote graf-after--p">
                           <span id="1" hidden>{{ obj.comments.content }}</span>
@@ -55,17 +57,29 @@
                      {% endif %}
 
                      {% if obj.images %}
+                        {% if obj.collide %}
+                        <figure d={{ obj.pos }} class="graf graf--figure graf--leading">
+                          <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 351px;">
+                            <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                            <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="" data-action="zoom" data-action-value="" data-scroll="native">
+                              <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="40" height="26"></canvas>
+                              <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
+                            </div>
+                          </div>
+                          <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
+                        </figure>
+                         {% else %}
                          <figure id={{ obj.pos }} class="graf graf--figure graf--layoutOutsetLeft graf-after--p" data-scroll="native">
                             <div class="aspectRatioPlaceholder is-locked" style="max-width: 525px; max-height: 350px;">
                                <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
-                               <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-width="2500" data-height="1667" data-action="zoom" data-action-value="1*QeioU8WhNX_4D_aGCWGufw.jpeg" data-scroll="native">
-                                  <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas>
+                               <div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id=""  data-action="zoom" data-action-value="" data-scroll="native">
+                                  <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="60" height="50"></canvas>
                                   <img class="progressiveMedia-image js-progressiveMedia-image" style="display: block" src={{ obj.images.src }}>
-                                  <!-- <noscript class="js-progressiveMedia-inner">&lt;img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1200/1*QeioU8WhNX_4D_aGCWGufw.jpeg"&gt;</noscript> -->
                                </div>
                             </div>
                             <figcaption class="imageCaption">{{ obj.images.caption }}</figcaption>
                          </figure>
+                         {% endif %}
                      {% endif %}
 
                  {% endfor %}
