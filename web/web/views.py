@@ -48,7 +48,7 @@ def docs(request, doc_id):
         if d['comments'][i]:
             short_str = d['comments'][i]['content']
             pos = short_str.find(' ', 140)
-            if pos > 0: short_str = short_str[:pos]
+            if pos > 0: short_str = short_str[:pos] + '...'
             short_dict = {'content': short_str}
         else:
             short_dict = None
