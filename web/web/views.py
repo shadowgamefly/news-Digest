@@ -14,6 +14,6 @@ def index(request):
 
     for i in range(len(d['content'])):
         ret['body'].append({'content': d['content'][i], \
-            'style': d['style'][i]})
-    
+            'style': d['style'][i], 'pos': i+1}) 
+
     return render(request, 'articlePage.html', ret)

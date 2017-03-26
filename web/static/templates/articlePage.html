@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>{{ title }}</title>
+<!-- <title>{{ title }}</title> -->
 {% include 'Header.html' %}
 
 
@@ -10,23 +10,21 @@
       <div class="surface">
          <div id="prerendered" class="screenContent">
             <canvas class="canvas-renderer"></canvas>
-            <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div>
+            <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer">
+              <div class="notesMarkers" data-action-scope="_actionscope_4">
+                <div class="paragraphControls js-paragraphControl js-paragraphControl-3628 u-noUserSelect is-visible" style="top: 1896px;">
+                  <span class="paragraphControls-itemText">
+                    <button class="button button--chromeless is-touched" data-action="select-anchor" data-action-value="3628">Top highlight</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div> -->
             {% include 'TopBar.html' %}
             {% include 'Main.html' %}
             {% include 'BottomBar.html' %}
 
-            <h1>{{ title }}</h1>
-            <p>Author: {{ author }}</p>
 
-            {% for obj in body %}
-                {% if obj.style == "t" %}
-                    <h2>{{ obj.content }}</h2>
-                {% elif obj.style == "s" %}
-                    <h3>{{ obj.content }}</h3>
-                {% else %}
-                    <p>{{ obj.content }}</p>
-                {% endif %}
-            {% endfor %}
         </div>
       </div>
     </div>
