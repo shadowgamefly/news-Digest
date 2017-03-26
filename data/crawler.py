@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     os.system('mkdir /app/TestArticles/ /app/TestComments/')
     os.system('rm -f /app/TestArticles/*')
-    os.system("rm -f /app/TestComments/*')
+    os.system('rm -f /app/TestComments/*')
 
     while not q.empty():
         time.sleep(30)
