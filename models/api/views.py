@@ -45,6 +45,7 @@ def get_article_everything(request):
     style = [''] * len(obj.sentence_set.all())
     comments = [None] * len(obj.sentence_set.all())
     images = [None] * len(obj.sentence_set.all())
+    num_sentences = len(obj.sentence_set.all())
 
     for sentence in obj.sentence_set.all():
         body[sentence.position - 1] = sentence.content
@@ -68,4 +69,4 @@ def get_article_everything(request):
 
     return _success(200, { 'title': obj.title, \
         'author': obj.author, 'content': body, 'style': style, \
-        'comments': comments, 'images': images })
+        'comments': comments, 'images': images, 'num_sentences':num_sentences })

@@ -30,6 +30,7 @@ def index(request):
         if len(intro) > 60 :
             intro = intro[:60] + '...'
         news["intro"] = intro
+        news["readingtime"] = article["num_sentences"]//6
         top.append(news)
 
     ret["news"] = top
