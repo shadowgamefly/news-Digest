@@ -42,7 +42,7 @@
                      {% elif obj.style == "s" %}
                          <h2 id={{ obj.pos }}>{{ obj.content }}</h3>
                      {% else %}
-                         <p id={{ obj.pos }}>{{ obj.content }}</p>
+                         <p id={{ obj.pos }} class="graf graf--p graf-after--p">{{ obj.content }}</p>
                      {% endif %}
 
                      {% if obj.comments %}
