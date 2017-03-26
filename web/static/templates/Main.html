@@ -36,11 +36,12 @@
             </div>
             <div class="section-content">
                <div class="section-inner sectionLayout--insetColumn">
+                 <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ title }}</strong></h1>
                  {% for obj in body %}
                      {% if obj.style == "t" %}
-                         <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ obj.content }}</strong></h2>
+                         <h1 id={{ obj.pos }}><strong class="markup--strong markup--h3-strong">{{ obj.content }}</strong></h1>
                      {% elif obj.style == "s" %}
-                         <h2 id={{ obj.pos }}>{{ obj.content }}</h3>
+                         <h2 id={{ obj.pos }}>{{ obj.content }}</h2>
                      {% else %}
                          <p id={{ obj.pos }} class="graf graf--p graf-after--p">{{ obj.content }}</p>
                      {% endif %}
