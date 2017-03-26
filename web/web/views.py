@@ -43,7 +43,7 @@ def docs(request, doc_id):
     link = "http://models-api:8000/api/article?id=" + str(doc_id)
     next_id = int(doc_id) + 1
     d = _get_request(link)
-    if next_id > 5:
+    if next_id > 97:
         next_link = None
         next_title = None
     else :
@@ -85,5 +85,5 @@ def docs(request, doc_id):
         })
 
     ret["num_comment"]=num_comments
-    
+
     return render(request, 'articlePage.html', ret)

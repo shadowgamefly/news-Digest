@@ -1,2 +1,778 @@
-
-[{"model": "api.Article", "pk": 1, "fields": {"title": "Trump Becomes Ensnared in Fiery G.O.P. Civil War", "author": "NY Times"}}, {"model": "api.Article", "pk": 2, "fields": {"title": "Trump Inherits a Secret Cyberwar Against North Korean Missiles", "author": "NY Times"}}, {"model": "api.Article", "pk": 3, "fields": {"title": "In Major Defeat for Trump, Push to Repeal Health Law Fails", "author": "NY Times"}}, {"model": "api.Article", "pk": 4, "fields": {"title": "Going Under the Knife, With Eyes and Ears Wide Open", "author": "NY Times"}}, {"model": "api.Article", "pk": 5, "fields": {"title": "Trump\u2019s Triumph of Incompetence", "author": "NY Times"}}]
+[
+  {
+    "model": "api.Article",
+    "pk": 1,
+    "fields": {
+      "title": "Trump Becomes Ensnared in Fiery G.O.P. Civil War",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 2,
+    "fields": {
+      "title": "Paul Ryan Emerges From Health Care Defeat Badly Damaged",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 3,
+    "fields": {
+      "title": "Jeanine Pirro Calls for Paul Ryan to Step Down After Health Bill Failure",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 4,
+    "fields": {
+      "title": "Trump’s Biggest Obstacle to Policy Goals? His Own Missteps",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 5,
+    "fields": {
+      "title": "Health Bill’s Failure Leaves Supporters in a Political Jam Back Home",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 6,
+    "fields": {
+      "title": "Carrie Lam Wins Vote to Become Hong Kong’s Next Leader",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 7,
+    "fields": {
+      "title": "Drone Strike Kills Planner of 2008 Islamabad Hotel Bombing, U.S. Says",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 8,
+    "fields": {
+      "title": "North Korea’s Rising Ambition Seen in Bid to Breach Global Banks",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 9,
+    "fields": {
+      "title": "Angela Merkel’s Fate May Be Reflected in Vote by Small German State",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 10,
+    "fields": {
+      "title": "Health Care, London, Mosul: Your Weekend Briefing",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 11,
+    "fields": {
+      "title": "Why Kids Shouldn’t Sit Still in Class",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 12,
+    "fields": {
+      "title": "Going Under the Knife, With Eyes and Ears Wide Open",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 13,
+    "fields": {
+      "title": "Watching My Surgeon Cut Into My Knee",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 14,
+    "fields": {
+      "title": "Nebraska May Stanch One Town’s Flow of Beer to Its Vulnerable Neighbors",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 15,
+    "fields": {
+      "title": "Who Killed the Iceman? Clues Emerge in a Very Cold Case",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 16,
+    "fields": {
+      "title": "Oregon Topples Kansas for First Final Four Appearance Since 1939",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 17,
+    "fields": {
+      "title": "Gonzaga Marches Into Its First Final Four by Routing Xavier",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 18,
+    "fields": {
+      "title": "After an Uncharacteristic Early Stumble, UConn Breezes to Win",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 19,
+    "fields": {
+      "title": "Florida State Women Rally to Eliminate Oregon State",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 20,
+    "fields": {
+      "title": "Adding Homeless Shelters Is a Political Risk, but de Blasio Sees No Alternative",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 21,
+    "fields": {
+      "title": "Shooting at Cincinnati Nightclub Kills 1, Injures 15",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 22,
+    "fields": {
+      "title": "Corruption Protests Sweep Russia; Opposition Leader Arrested",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 23,
+    "fields": {
+      "title": "China Bars Professor at Australian University From Leaving, Lawyer Says",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 24,
+    "fields": {
+      "title": "U.S. Immigration Judge Grants Asylum to Singapore Teenage Blogger",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 25,
+    "fields": {
+      "title": "Congolese Militia Beheads Dozens of Police Officers",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 26,
+    "fields": {
+      "title": "A Space Odyssey: Making Art Up There",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 27,
+    "fields": {
+      "title": "We Might Soon Resurrect Extinct Species. Is It Worth the Cost?",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 28,
+    "fields": {
+      "title": "Congress’s Duty in the War With ISIS",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 29,
+    "fields": {
+      "title": "Trump’s Trainwreck",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 30,
+    "fields": {
+      "title": "Break Up the Liberal City",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 31,
+    "fields": {
+      "title": "Donald, This I Will Tell You",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 32,
+    "fields": {
+      "title": "Trump’s Triumph of Incompetence",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 33,
+    "fields": {
+      "title": "What You Can Do About Climate Change",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 34,
+    "fields": {
+      "title": "Don’t Fight Their Lies With Lies of Your Own",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 35,
+    "fields": {
+      "title": "Big Ben Still Tolled",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 36,
+    "fields": {
+      "title": "Good, Bad and Mad: Andrew Rosenthal on the News",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 37,
+    "fields": {
+      "title": "A Movie Date With My Younger Self",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 38,
+    "fields": {
+      "title": "President James K. Polk’s Body May Be Moved. Again.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 39,
+    "fields": {
+      "title": "Angela Carter: From the Magic Toyshop to the Bloody Chamber",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 40,
+    "fields": {
+      "title": "What Would You Do With an Intruder at the Door?",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 41,
+    "fields": {
+      "title": "The Live-Action Birth of ‘Ghost in the Shell’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 42,
+    "fields": {
+      "title": "The Love Letters of Manly Men",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 43,
+    "fields": {
+      "title": "Stop Reading My Fiction as the Story of My Life",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 44,
+    "fields": {
+      "title": "A Former Prodigy Recaptures the Joy That Made Her a Star",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 45,
+    "fields": {
+      "title": "Don’t Discriminate Against Mutants Like Me",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 46,
+    "fields": {
+      "title": "Review: ‘A World of Emotions’ in Greek Art Unmasks the Stony Faces",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 47,
+    "fields": {
+      "title": "Want Change? Shareholders Have a Tool for That",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 48,
+    "fields": {
+      "title": "The New Currency Champ Lives South of the Border",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 49,
+    "fields": {
+      "title": "Justice Springs Eternal",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 50,
+    "fields": {
+      "title": "College Is the Goal. The Problem? Getting There.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 51,
+    "fields": {
+      "title": "Amazon’s Ambitions Unboxed: Stores for Furniture, Appliances and More",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 52,
+    "fields": {
+      "title": "Uber Suspends Tests of Self-Driving Vehicles After Arizona Crash",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 53,
+    "fields": {
+      "title": "John Mayer Knows He Messed Up. He Wants Another Chance.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 54,
+    "fields": {
+      "title": "In ‘The Play That Goes Wrong,’ It’s Murder, Strictly for Laughs",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 55,
+    "fields": {
+      "title": "Boris Epshteyn, Trump TV Surrogate, Is Leaving White House Job",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 56,
+    "fields": {
+      "title": "U.S.-Led Coalition Confirms Strikes Hit Mosul Site Where Civilians Died",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 57,
+    "fields": {
+      "title": "When David Met Brooke: The Ultimate New York Power Couple",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 58,
+    "fields": {
+      "title": "The Perverse Thrill of Chaotic Times",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 59,
+    "fields": {
+      "title": "Dax Shepard Is Not Afraid to Direct Naked",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 60,
+    "fields": {
+      "title": "Looking Back on the Crime Scene That Spanned the Entire City",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 61,
+    "fields": {
+      "title": "Unity, Instead of Fear, After Swastikas Are Carved Into a Church Door",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 62,
+    "fields": {
+      "title": "Shoes, Shirts, You Name It, College Basketball Players Get It. Free.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 63,
+    "fields": {
+      "title": "A Wheelchair on Broadway Isn’t Exploitation. It’s Progress.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 64,
+    "fields": {
+      "title": "Review: Emperor Jones, Fearsome and Fearful in a Roaring Revival",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 65,
+    "fields": {
+      "title": "Review: Return of the Little Copter That Wowed in ‘Miss Saigon’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 66,
+    "fields": {
+      "title": "Shaking Up the Dinosaur Family Tree",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 67,
+    "fields": {
+      "title": "Visualizing the Cosmic Streams That Spew Meteor Showers",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 68,
+    "fields": {
+      "title": "Waking From Hibernation, the Hard Work of Spring Begins",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 69,
+    "fields": {
+      "title": "Don Hunstein, Who Photographed Great Musicians, Dies at 88",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 70,
+    "fields": {
+      "title": "Bernie Wrightson, Artist and a Creator of Swamp Thing, Dies at 68",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 71,
+    "fields": {
+      "title": "William Keeler, Cardinal Who Championed Sexual Abuse Victims, Dies at 86",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 72,
+    "fields": {
+      "title": "Selena Gomez (and Others) on Adapting ‘Thirteen Reasons Why’ for Netflix",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 73,
+    "fields": {
+      "title": "Reza Aslan Thinks TV Can End Bigotry",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 74,
+    "fields": {
+      "title": "Pete Holmes Opens Old Wounds in HBO’s ‘Crashing’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 75,
+    "fields": {
+      "title": "With Age Comes a Mouthful of Trouble",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 76,
+    "fields": {
+      "title": "It’s Not Just Unfair: Inequality Is a Threat to Our Governance",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 77,
+    "fields": {
+      "title": "The Best of New Sci-Fi and Fantasy, From an Intergalactic Love Story to New York City Under Water",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 78,
+    "fields": {
+      "title": "Fran Lebowitz: By the Book",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 79,
+    "fields": {
+      "title": "Supreme Court Rejects Education Minimum Applied by Gorsuch",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 80,
+    "fields": {
+      "title": "Where Halls of Ivy Meet Silicon Dreams, a New City Rises",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 81,
+    "fields": {
+      "title": "This Meaty Fish Begs to Be Roasted",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 82,
+    "fields": {
+      "title": "Eggs for Dinner, and Make It Spicy",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 83,
+    "fields": {
+      "title": "12 Wine Grapes Worth Discovering",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 84,
+    "fields": {
+      "title": "Adulting, but With Your College Crowd",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 85,
+    "fields": {
+      "title": "Home Inspectors on Their Weirdest Discoveries",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 86,
+    "fields": {
+      "title": "Lena Hall’s 500-Square-Foot Apartment in Midtown",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 87,
+    "fields": {
+      "title": "No, Obamacare Isn’t in a ‘Death Spiral’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 88,
+    "fields": {
+      "title": "Trump’s Choice on Obamacare: Sabotage or Co-opt?",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 89,
+    "fields": {
+      "title": "Grading Obamacare: Successes, Failures and ‘Incompletes’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 90,
+    "fields": {
+      "title": "Self-Driving Cars Could Be Boon for Aged, After Initial Hurdles",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 91,
+    "fields": {
+      "title": "Video Review: Mini Countryman Takes On the Big Boys",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 92,
+    "fields": {
+      "title": "China’s Taxes on Imported Cars Feed Trade Tensions With U.S.",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 93,
+    "fields": {
+      "title": "A Secret Little Glass Home in the Heart of New York",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 94,
+    "fields": {
+      "title": "Manolo Blahnik’s Life in Shoes",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 95,
+    "fields": {
+      "title": "In Reporter’s Hometown, Students Look Toward ‘Somewhere They’re Welcomed’",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 96,
+    "fields": {
+      "title": "When a Headline Makes Headlines of Its Own",
+      "author": "NY Times"
+    }
+  },
+  {
+    "model": "api.Article",
+    "pk": 97,
+    "fields": {
+      "title": "Which Amenities Raise Rents Most?",
+      "author": "NY Times"
+    }
+  }
+]
