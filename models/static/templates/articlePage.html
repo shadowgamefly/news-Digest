@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <title>{{ title }}</title> -->
 {% include 'Header.html' %}
 
 
@@ -9,10 +10,21 @@
       <div class="surface">
          <div id="prerendered" class="screenContent">
             <canvas class="canvas-renderer"></canvas>
-            <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div>
+            <!-- <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer">
+              <div class="notesMarkers" data-action-scope="_actionscope_4">
+                <div class="paragraphControls js-paragraphControl js-paragraphControl-3628 u-noUserSelect is-visible" style="top: 100px;">
+                  <span class="paragraphControls-itemText">
+                    <button class="button button--chromeless is-touched" data-action="select-anchor" data-action-value="0">Top highlight</button>
+                  </span>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="container u-maxWidth740 u-xs-margin0 notesPositionContainer js-notesPositionContainer"></div> -->
             {% include 'TopBar.html' %}
             {% include 'Main.html' %}
-            {% include 'ButtonBar.html' %}
+            {% include 'BottomBar.html' %}
+
+
         </div>
       </div>
     </div>
