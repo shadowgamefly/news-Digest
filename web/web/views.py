@@ -16,7 +16,7 @@ def _success(stat, data):
 def index(request):
     ret = {}
     top = []
-    for i in range(1, 6):
+    for i in range(1, 18):
         article = _get_request('http://models-api:8000/api/article?id='+str(i))
         news = {}
         news["title"] = article["title"]
