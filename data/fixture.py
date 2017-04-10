@@ -103,7 +103,7 @@ for i in range(1, 98):
                 sentence['fields']['article'] = i
                 SentenceList.append(sentence)
     except FileNotFoundError:
-        continue 
+        continue
 
 with open('sentence.json', 'w') as outfile:
     json.dump(SentenceList, outfile)

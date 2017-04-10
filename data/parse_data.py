@@ -45,7 +45,7 @@ def parse_comment(url, pk):
             'name': str(pk) + '_' + str(count),
             'parent': str(pk)
         }
-        json_f = '/app/TestComments/' + comm_dict['name'] + '.json'
+        json_f = 'app/TestComments/' + comm_dict['name'] + '.json'
         write_json(json_f, comm_dict, pk)
 
     return count
@@ -75,7 +75,7 @@ def parse_article(url, count, pk):
         art['child'] += str(pk) + '_' + str(i)
         if i != count: art['child'] += '\t'
 
-    write_json('/app/TestArticles/' + str(pk) + '.json', art, pk)
+    write_json('app/TestArticles/' + str(pk) + '.json', art, pk)
     return len(art['sentences'])
 
 
@@ -97,7 +97,7 @@ def parse_image(url, count, pk):
         }
         imgs_json.append({'model': 'api.Image', 'fields': fields})
 
-    write_json('/app/img_' + str(pk) + '.json', imgs_json, pk)
+    write_json('app/img_' + str(pk) + '.json', imgs_json, pk)
 
 
 def parse(href, pk):

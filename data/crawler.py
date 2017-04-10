@@ -20,17 +20,17 @@ if __name__ == '__main__':
     pk = 1
     link_set = set()
 
-    os.system('mkdir /app/TestArticles/ /app/TestComments/')
-    os.system('rm -f /app/TestArticles/*')
-    os.system('rm -f /app/TestComments/*')
+    os.system('mkdir app/TestArticles/ app/TestComments/')
+    os.system('rm -f app/TestArticles/*')
+    os.system('rm -f app/TestComments/*')
 
     while not q.empty():
         time.sleep(10)
 
         link = q.get()
         if link in link_set: continue
-        else link_set.add(link)
+        else: link_set.add(link)
 
         cargs = link + ' ' + str(pk)
-        r = os.system('python /app/parse_data.py ' + cargs)
+        r = os.system('python parse_data.py ' + cargs)
         if not r: pk += 1
