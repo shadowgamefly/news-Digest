@@ -1,4 +1,4 @@
-import os, time, requests, queue, re
+import sys, os, time, requests, queue, re
 import pickle
 from lxml import html
 from parser import parse
@@ -15,8 +15,6 @@ def concat(href):
                     return href, href[m-j: m]
     return None, None
 
-
-
 def analyze(url):
     global q
     global s
@@ -29,21 +27,19 @@ def analyze(url):
     for href in all_links:
         if regex.search(href):
             link, uid = concat(href)
-            # print(link, uid)
             if not link or not uid: continue
             if uid in d: continue
             else:
                 d[uid] = link
                 q.put(uid)
-                # print("put")
         else:
             continue
 
 def loadvaribles():
     try:
-        f1 = open('queue.pckl', 'rb')
-        f2 = open('dict.pckl', 'rb')
-        f3 = open('pk.pckl', 'rb')
+        f1 = open('cache/variable/queue.pckl', 'rb')
+        f2 = open('cache/variable/dict.pckl', 'rb')
+        f3 = open('cache/variable/pk.pckl', 'rb')
     except FileNotFoundError:
         return None, None, None
     q = pickle.load(f1)
@@ -56,17 +52,21 @@ def loadvaribles():
 
 
 def savevariable(q, d, pk):
-    f = open('queue.pckl', 'wb')
+    f = open('cache/variable/queue.pckl', 'wb')
     pickle.dump(q, f)
     f.close()
-    f = open('dict.pckl', 'wb')
+    f = open('cache/variable/dict.pckl', 'wb')
     pickle.dump(d, f)
     f.close()
-    f = open('pk.pckl', 'wb')
+    f = open('cache/variable/pk.pckl', 'wb')
     pickle.dump(pk, f)
     f.close()
 
 if __name__ == '__main__':
+    logtime = str(time.time())
+    os.system('mkdir cache/logs/'+logtime+'/')
+    sys.stdout = open('cache/logs/'+logtime+'/std.log', 'w')
+    sys.stderr = open('cache/logs/'+logtime+'/error.log', 'w')
     l, d, pk = loadvaribles()
     q = queue.Queue()
     if not d:
@@ -79,17 +79,10 @@ if __name__ == '__main__':
 
     analyze('https://medium.com/topic/popular')
 
-    os.system('mkdir data/article/ data/comment/ cache/html cache/json')
-    os.system('rm -f data/article/*')
-    os.system('rm -f data/comment/*')
-    os.system('rm -f cache/html/*')
-    os.system('rm -f cache/json/*')
 
     while not q.empty():
         time.sleep(10)
         uid = q.get()
-        # print(uid)
-        # print(d[uid])
         parse(d[uid],pk,uid)
         pk += 1
         savevariable(list(q.queue), d, pk)
