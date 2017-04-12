@@ -1,0 +1,4446 @@
+{
+  "success": true,
+  "payload": {
+    "streamItems": [{
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "c80a1222129c"
+      },
+      "randomId": "f30c7ff23102",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "4d30191871ec"
+      },
+      "randomId": "e7989ab41690",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "e598dcfde04a"
+      },
+      "randomId": "87aebcf0526f",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "939e0f25cca6"
+      },
+      "randomId": "e4dbf29d61c6",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "9c36efa7188"
+      },
+      "randomId": "e3e92e43721c",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "552056812889"
+      },
+      "randomId": "e80bc9cea491",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "f6ac5c1e0fbb"
+      },
+      "randomId": "c2f27a31cfe6",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "63ccd65cbc99"
+      },
+      "randomId": "248808b7922e",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "6e48ee991623"
+      },
+      "randomId": "49ffc586db4e",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "821505b9f36c"
+      },
+      "randomId": "4780b0682fe1",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "24b331897210"
+      },
+      "randomId": "9dbdcd594b2b",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "f90c51cfe219"
+      },
+      "randomId": "ba851af967dc",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "3503b1f9c1de"
+      },
+      "randomId": "c67e3348b40",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "e61e5b2611ba"
+      },
+      "randomId": "1401283fdb9d",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677330,
+      "postPreview": {
+        "postId": "b997e7862dec"
+      },
+      "randomId": "d27bfd98dc30",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "541cb1622e56"
+      },
+      "randomId": "b39232071d53",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "338a0effa837"
+      },
+      "randomId": "cf7c07defe08",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "1453e9257fba"
+      },
+      "randomId": "1fd37a9d9009",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "bef3c2d3e635"
+      },
+      "randomId": "180a98d10162",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "f8918568a61f"
+      },
+      "randomId": "8ea4a73c4602",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "e8d2e9f4b94c"
+      },
+      "randomId": "4cd5a10c214a",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "9e659392c070"
+      },
+      "randomId": "5023afc954f6",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "ebe3b1d90671"
+      },
+      "randomId": "ebe4378b88bb",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "e55b455c10ab"
+      },
+      "randomId": "3b7eec22093",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }, {
+      "createdAt": 1491763677331,
+      "postPreview": {
+        "postId": "d41ae7fc39ca"
+      },
+      "randomId": "10759e21a8d1",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }],
+    "references": {
+      "User": {
+        "9d55db1a5b59": {
+          "userId": "9d55db1a5b59",
+          "name": "Grrrrrobert",
+          "username": "robbie.johnson",
+          "createdAt": 1469530309145,
+          "lastPostCreatedAt": 1491575909831,
+          "imageId": "1*rAU0k8ynnkz9NwDVT9cayw.jpeg",
+          "backgroundImageId": "",
+          "bio": "Take the One on the Left",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "791da8f6feaf": {
+          "userId": "791da8f6feaf",
+          "name": "Isaac Morehouse",
+          "username": "isaacmorehouse",
+          "createdAt": 1426773900547,
+          "lastPostCreatedAt": 1491237671542,
+          "imageId": "1*f2SU35pG44a-A-sc_S9QKA.jpeg",
+          "backgroundImageId": "1*588fN84LkoWvzv1YkbuHaA.jpeg",
+          "bio": "Founder & CEO of Praxis",
+          "twitterScreenName": "isaacmorehouse",
+          "facebookAccountId": "10155442309510201",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "c57e507ff27": {
+          "userId": "c57e507ff27",
+          "name": "Robert Talbert",
+          "username": "roberttalbert",
+          "createdAt": 1383271503820,
+          "lastPostCreatedAt": 1491565722292,
+          "imageId": "1*mCM1IIMHd0xoP700gk2-Yg.jpeg",
+          "backgroundImageId": "1*hqZNZWRybNzLJdQGUa045w.jpeg",
+          "bio": "Mathematician/educator/writer/speaker/dad/nerd. Author of Flipped Learning: A Guide for Higher Education Faculty. rtalbert.org (My views != my employers’)",
+          "twitterScreenName": "RobertTalbert",
+          "facebookAccountId": "697285383319",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "bf08d95b7110": {
+          "userId": "bf08d95b7110",
+          "name": "Daniel Laloggia",
+          "username": "HawkOrHandsaw",
+          "createdAt": 1471633173504,
+          "lastPostCreatedAt": 1491487306390,
+          "imageId": "0*o7K-zwOyXLi4BSR3.",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "hawkorhandsaw",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "d148f28bb958": {
+          "userId": "d148f28bb958",
+          "name": "jlove2bike",
+          "username": "jlove2bike",
+          "createdAt": 1462551146993,
+          "lastPostCreatedAt": 1491322803429,
+          "imageId": "1*-MEkH7Z8eEtofc3klS5ROg.jpeg",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "johncyclist22",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "17756313f41a": {
+          "userId": "17756313f41a",
+          "name": "Quincy Larson",
+          "username": "quincylarson",
+          "createdAt": 1404331548846,
+          "lastPostCreatedAt": 1491715793208,
+          "imageId": "1*CEi35YFI3DqbuAu0jAhFYA.jpeg",
+          "backgroundImageId": "",
+          "bio": "Teacher at https://FreeCodeCamp.com",
+          "twitterScreenName": "ossia",
+          "facebookAccountId": "10100956570023241",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "568f0e20f9af": {
+          "userId": "568f0e20f9af",
+          "name": "FF",
+          "username": "ffelix",
+          "createdAt": 1478397334316,
+          "lastPostCreatedAt": 1491677865846,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "8234aac92e5b": {
+          "userId": "8234aac92e5b",
+          "name": "Michael Sokolowski",
+          "username": "michaelsokolowski",
+          "createdAt": 1453858730506,
+          "lastPostCreatedAt": 1491742696798,
+          "imageId": "0*oZDoXVBPIvkNnUbp.jpg",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "10207818251681692",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "fcabbb2d3264": {
+          "userId": "fcabbb2d3264",
+          "name": "Nathan Eyre",
+          "username": "nathan_63326",
+          "createdAt": 1488227768857,
+          "lastPostCreatedAt": 1491679477305,
+          "imageId": "1*aNlvHbTDXNbqhUgNqRtxCg@2x.jpeg",
+          "backgroundImageId": "",
+          "bio": "American living in Russia. My writing wants to be appreciated by thoughtful, intelligent people.",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "eae3a7ea18b3": {
+          "userId": "eae3a7ea18b3",
+          "name": "Tracy Brisson",
+          "username": "tracybrisson",
+          "createdAt": 1382560353833,
+          "lastPostCreatedAt": 1491317961223,
+          "imageId": "0*ofmEPv676j4rcC5n.jpg",
+          "backgroundImageId": "",
+          "bio": "Owner & Wedding Officiant at @SavWeddings Founder: @oppsproject Author: Confessions of a Teacher Recruiter (@teacherrecruitr) Southern transplant and new mom.",
+          "twitterScreenName": "tracybrisson",
+          "facebookAccountId": "10153507312641503",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "85c875b58f09": {
+          "userId": "85c875b58f09",
+          "name": "Sayjel Patel",
+          "username": "sayjelpatel",
+          "createdAt": 1475813286918,
+          "lastPostCreatedAt": 1491463591892,
+          "imageId": "0*duay4hlWobTlKUtB.",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "10101766402403447",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "3869ed02c540": {
+          "userId": "3869ed02c540",
+          "name": "Chris Lee",
+          "username": "chris_k_lee",
+          "createdAt": 1455038640471,
+          "lastPostCreatedAt": 1491756195572,
+          "imageId": "1*SNvx2dFXRQi_IRp0MEKH6g.png",
+          "backgroundImageId": "",
+          "bio": "UX Designer, Product Manager, sings to Tony Bennett and likes his eggs sunny side up.",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "4307997f44aa": {
+          "userId": "4307997f44aa",
+          "name": "Patrick Clemins",
+          "username": "patrick.clemins",
+          "createdAt": 1471475350543,
+          "lastPostCreatedAt": 1491557092090,
+          "imageId": "0*GN47sN2w4ykuvNas.",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "d11803fd9841": {
+          "userId": "d11803fd9841",
+          "name": "corey",
+          "username": "drcoreyhahn",
+          "createdAt": 1472869083867,
+          "lastPostCreatedAt": 1491504861084,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "ec4d922cc5a0": {
+          "userId": "ec4d922cc5a0",
+          "name": "Dana Cruikshank",
+          "username": "danacruikshank",
+          "createdAt": 1456932811330,
+          "lastPostCreatedAt": 1491340025892,
+          "imageId": "0*CVM88bPKNeJ5CYvl.",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "10206833771576130",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "d210f3c5db04": {
+          "userId": "d210f3c5db04",
+          "name": "Steve Cousins",
+          "username": "Steveark",
+          "createdAt": 1450970044598,
+          "lastPostCreatedAt": 1491742525269,
+          "imageId": "",
+          "backgroundImageId": "",
+          "bio": "Former oil executive. Now government affairs consultant.",
+          "twitterScreenName": "",
+          "facebookAccountId": "1303386599689561",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "5153880ce2ee": {
+          "userId": "5153880ce2ee",
+          "name": "Benjamin P. Hardy",
+          "username": "benjaminhardy",
+          "createdAt": 1429381236911,
+          "lastPostCreatedAt": 1491678929427,
+          "imageId": "1*Nii6Op1jsOaE4mBfeQpSdw.jpeg",
+          "backgroundImageId": "1*o58yvZSmOdPngNP7SpNhCw.png",
+          "bio": "Husband & foster father of 3. Pursuing PhD in Organizational Psychology. Get my 2 free eBooks (on productivity & blogging strategy) @ https://benjaminhardy.com/",
+          "twitterScreenName": "BenjaminPHardy",
+          "facebookAccountId": "10152820568467895",
+          "allowNotes": 0,
+          "mediumMemberAt": 1490924285000,
+          "mediumMemberWaitlistedAt": 1490617761787,
+          "type": "User"
+        },
+        "1f2ae5082aa5": {
+          "userId": "1f2ae5082aa5",
+          "name": "Donna T. Deal",
+          "username": "noel711",
+          "createdAt": 1469905505325,
+          "lastPostCreatedAt": 1491566162053,
+          "imageId": "0*Sl7gYg7FEKiiPb6V.jpg",
+          "backgroundImageId": "",
+          "bio": "undercover mystic",
+          "twitterScreenName": "noel711",
+          "facebookAccountId": "949147581848224",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "a452d85d7281": {
+          "userId": "a452d85d7281",
+          "name": "Judy Yero",
+          "username": "judy.yero",
+          "createdAt": 1444480414552,
+          "lastPostCreatedAt": 1491750238303,
+          "imageId": "0*-xYrN9KbI2zYgQmP.jpg",
+          "backgroundImageId": "",
+          "bio": "educator, educational change agent, author of Teaching in Mind: How Teacher Thinking Shapes Education, and general troublemaker.",
+          "allowNotes": 1,
+          "mediumMemberAt": 1490381527000,
+          "mediumMemberWaitlistedAt": 1490277133936,
+          "type": "User"
+        },
+        "812af8d0b55b": {
+          "userId": "812af8d0b55b",
+          "name": "Sammy Kayes",
+          "username": "sammykayes",
+          "createdAt": 1480794429444,
+          "lastPostCreatedAt": 1491418698600,
+          "imageId": "1*wCui7ONjJglb7-3l1yVAnQ.png",
+          "backgroundImageId": "",
+          "bio": "I’m a teacher, musician, and activist-organizer in Chicago, writing for fundamental change (and other musings)",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "27c78fbc39c0": {
+          "userId": "27c78fbc39c0",
+          "name": "tracy LS",
+          "username": "darwin.friesman",
+          "createdAt": 1469362782344,
+          "lastPostCreatedAt": 1491570866382,
+          "imageId": "1*uBrFdLEeQMbuMbCRbY6GOQ.jpeg",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "209b14e49124": {
+          "userId": "209b14e49124",
+          "name": "William O. Pate II",
+          "username": "inadequatenet",
+          "createdAt": 1401750912821,
+          "lastPostCreatedAt": 1491750141612,
+          "imageId": "1*ljYQ2NMZaW3fVNHecKaINg.jpeg",
+          "backgroundImageId": "",
+          "bio": "Writer | Critic | Essayist | Public Policy | Marketing in San Antonio, Texas.",
+          "twitterScreenName": "",
+          "facebookAccountId": "883224709019",
+          "allowNotes": 1,
+          "mediumMemberAt": 1490859972000,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "bba39189d296": {
+          "userId": "bba39189d296",
+          "name": "marks",
+          "username": "onesquared",
+          "createdAt": 1438285343140,
+          "lastPostCreatedAt": 1491400656025,
+          "imageId": "1*wXlBiaHAyoqfBNLaIqcN5w.jpeg",
+          "backgroundImageId": "",
+          "bio": "Dr. Sarver is Co-founder of One Squared Education helping institutions, associations & corporations be more innovative by removing barriers of legacy systems",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "6257c823107a": {
+          "userId": "6257c823107a",
+          "name": "petacat",
+          "username": "petacat",
+          "createdAt": 1406751647049,
+          "lastPostCreatedAt": 1491276871657,
+          "imageId": "0*MeUkbWgeFJFyaT6g.png",
+          "backgroundImageId": "",
+          "bio": "I‘m interested in everything.",
+          "twitterScreenName": "thepetacat",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "30338d70cf6f": {
+          "userId": "30338d70cf6f",
+          "name": "Nat F Brown",
+          "username": "NatFBrown",
+          "createdAt": 1455568227378,
+          "lastPostCreatedAt": 1491709900547,
+          "imageId": "1*jSKLq73buWeP9cRlweu4vA.png",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "derepressed",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        },
+        "fff96e264674": {
+          "userId": "fff96e264674",
+          "name": "André Souza Lemos",
+          "username": "aslemos",
+          "createdAt": 1443639146831,
+          "lastPostCreatedAt": 1491577317212,
+          "imageId": "1*mSj3loKPS4vp5IYqymMqfA.jpeg",
+          "backgroundImageId": "1*QicX1FpElnmm5iL9YI1vxg.jpeg",
+          "bio": "Lógico.",
+          "twitterScreenName": "aslemos",
+          "facebookAccountId": "10205397751723029",
+          "allowNotes": 1,
+          "mediumMemberAt": 1490570059000,
+          "mediumMemberWaitlistedAt": 0,
+          "type": "User"
+        }
+      },
+      "MediaResource": {
+        "f7d51e735a8f930b834b37f4a2430da2": {
+          "mediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "mediaResourceType": "MediaResourceMediumPost",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "type": "MediaResource"
+        },
+        "473e34030f91784e27005c0b639a0b9d": {
+          "mediaResourceId": "473e34030f91784e27005c0b639a0b9d",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#56a7--highlight-4c8baa59521c",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "4c8baa59521c"
+          },
+          "type": "MediaResource"
+        },
+        "a787071613cfd3559129d5dfb47e1a95": {
+          "mediaResourceId": "a787071613cfd3559129d5dfb47e1a95",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#1015--highlight-f482c9bf414c",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "f482c9bf414c"
+          },
+          "type": "MediaResource"
+        },
+        "3f120e5514d095157d8da13c5d1fcb45": {
+          "mediaResourceId": "3f120e5514d095157d8da13c5d1fcb45",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#45bf--highlight-c9a2df9436ba",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "c9a2df9436ba"
+          },
+          "type": "MediaResource"
+        },
+        "0b0b920a2d3b01321b4aec823949f87e": {
+          "mediaResourceId": "0b0b920a2d3b01321b4aec823949f87e",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#56a7--highlight-4cdc345754de",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "4cdc345754de"
+          },
+          "type": "MediaResource"
+        },
+        "cb7fe243e9977bd87689e4d6fe4ee268": {
+          "mediaResourceId": "cb7fe243e9977bd87689e4d6fe4ee268",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#2fbd--highlight-fa8a4eba3829",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "fa8a4eba3829"
+          },
+          "type": "MediaResource"
+        },
+        "5680cf061b18abfa2c54578bf53c4338": {
+          "mediaResourceId": "5680cf061b18abfa2c54578bf53c4338",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#da6d--highlight-3de25fd340f7",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "3de25fd340f7"
+          },
+          "type": "MediaResource"
+        },
+        "b1b3d60331b1a5c4abc6fde7d068e566": {
+          "mediaResourceId": "b1b3d60331b1a5c4abc6fde7d068e566",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "href": "https://medium.com/the-mission/your-college-degree-is-worthless-504d6f9e394c#b08a--highlight-649a3fb92afa",
+          "domain": "medium.com",
+          "title": "Your College Degree is Worthless",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 1632,
+          "thumbnailHeight": 1224,
+          "display": 1,
+          "thumbnailImageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "504d6f9e394c"
+          },
+          "mediumQuote": {
+            "quoteId": "649a3fb92afa"
+          },
+          "type": "MediaResource"
+        }
+      },
+      "Collection": {
+        "b230ea2a6eb8": {
+          "id": "b230ea2a6eb8",
+          "name": "The Mission",
+          "slug": "the-mission",
+          "tags": [
+            "TECH",
+            "ENTREPRENEURSHIP",
+            "STARTUP",
+            "LIFE",
+            "LIFE LESSONS"
+          ],
+          "creatorId": "8804c3026cce",
+          "description": "Accelerated Learning, Tech, Antifragility, and Definite Optimism",
+          "shortDescription": "Accelerated Learning, Tech, Antifragility, and Definite…",
+          "image": {
+            "imageId": "1*lweRCs77VRPCrZvX8Sv-Jg.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 180,
+            "originalHeight": 180,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 266521,
+            "postCount": 2180,
+            "activeAt": 1491760862188
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": false,
+              "canPublishAll": false,
+              "canRepublish": false,
+              "canRemove": false,
+              "canManageAll": false,
+              "canSubmit": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewStats": false,
+              "canSendNewsletter": false,
+              "canViewLockedPosts": false,
+              "canViewCloaked": false,
+              "canEditOwnPosts": false,
+              "canBeAssignedAuthor": false
+            },
+            "isSubscribed": false,
+            "isNewsletterSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "logo": {
+            "imageId": "1*EwUITd_m5xd4mPXGs8ANdQ.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 1024,
+            "originalHeight": 212,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "twitterUsername": "TheMissionT",
+          "facebookPageName": "TheMissionInc",
+          "publicEmail": "Stephanie@TheMission.co",
+          "collectionMastheadId": "c8aef899c6d5",
+          "sections": [{
+            "type": 2,
+            "collectionHeaderMetadata": {
+              "backgroundImage": {},
+              "logoImage": {
+                "id": "1*yXjgGzgQdj_0wCMVrqFFuA@2x.png",
+                "originalWidth": 2048,
+                "originalHeight": 424,
+                "alt": "The Mission"
+              },
+              "alignment": 2,
+              "layout": 5
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 1,
+              "layout": 7,
+              "number": 7,
+              "postIds": []
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 2,
+              "layout": 4,
+              "number": 25,
+              "postIds": [],
+              "sectionHeader": "Trending"
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 2,
+              "layout": 4,
+              "number": 24,
+              "postIds": []
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 3,
+              "layout": 4,
+              "number": 8,
+              "postIds": [
+                "d6a8320bf712",
+                "9db8b5f86db6",
+                "f93d5a3b1309",
+                "abc5cb9129e3",
+                "f61e7578af7d",
+                "a2c3972806ac",
+                "84854eba5f13"
+              ]
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 1,
+              "layout": 4,
+              "number": 23,
+              "postIds": [],
+              "sectionHeader": "Latest"
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 1,
+              "layout": 4,
+              "number": 8,
+              "postIds": []
+            }
+          }],
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [{
+                "color": "#FF02B875",
+                "point": 0
+              }, {
+                "color": "#FF00AB6B",
+                "point": 0.1
+              }, {
+                "color": "#FF1C9963",
+                "point": 0.2
+              }, {
+                "color": "#FF092E20",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [{
+                "color": "#FFFFFFFF",
+                "point": 0
+              }, {
+                "color": "#FFE9FDF0",
+                "point": 0.1
+              }, {
+                "color": "#FFE2FAEE",
+                "point": 0.2
+              }, {
+                "color": "#FFADFFCF",
+                "point": 0.6
+              }, {
+                "color": "#FF7DFFB3",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            }
+          },
+          "navItems": [{
+            "type": 2,
+            "title": "Newsletter",
+            "postId": "43460e911b65",
+            "url": "https://medium.com/the-mission/a-healthier-you-get-more-energy-master-your-breathing-and-stave-off-dementia-43460e911b65",
+            "source": "postId"
+          }, {
+            "type": 1,
+            "title": "Life & Health",
+            "tagSlug": "life",
+            "url": "https://medium.com/the-mission/tagged/life",
+            "source": "tagSlug"
+          }, {
+            "type": 1,
+            "title": "Tech & Business",
+            "tagSlug": "tech",
+            "url": "https://medium.com/the-mission/tagged/tech",
+            "source": "tagSlug"
+          }, {
+            "type": 1,
+            "title": "Science & Makers",
+            "tagSlug": "science",
+            "url": "https://medium.com/the-mission/tagged/science",
+            "source": "tagSlug"
+          }, {
+            "type": 1,
+            "title": "Art & Design",
+            "tagSlug": "photography",
+            "url": "https://medium.com/the-mission/tagged/photography",
+            "source": "tagSlug"
+          }, {
+            "type": 3,
+            "title": "Advertise",
+            "url": "https://www.themission.co/"
+          }],
+          "colorBehavior": 1,
+          "instantArticlesState": 0,
+          "acceleratedMobilePagesState": 0,
+          "collectionFeatures": [
+            13
+          ],
+          "ampLogo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "header": {
+            "backgroundImage": {},
+            "logoImage": {
+              "id": "1*yXjgGzgQdj_0wCMVrqFFuA@2x.png",
+              "originalWidth": 2048,
+              "originalHeight": 424,
+              "alt": "The Mission"
+            },
+            "alignment": 2,
+            "layout": 5
+          },
+          "type": "Collection"
+        }
+      },
+      "Post": {
+        "504d6f9e394c": {
+          "id": "504d6f9e394c",
+          "versionId": "3370ed332081",
+          "creatorId": "791da8f6feaf",
+          "homeCollectionId": "b230ea2a6eb8",
+          "title": "Your College Degree is Worthless",
+          "detectedLanguage": "en",
+          "latestVersion": "3370ed332081",
+          "latestPublishedVersion": "3370ed332081",
+          "hasUnpublishedEdits": false,
+          "latestRev": 112,
+          "createdAt": 1491237671542,
+          "updatedAt": 1491256746003,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491256745514,
+          "latestPublishedAt": 1491256745514,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "This is not a judgement, it’s just a fact.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1632,
+              "originalHeight": 1224,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 1793,
+            "imageCount": 1,
+            "readingTime": 6.966037735849056,
+            "subtitle": "This is not a judgement, it’s just a fact.",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "recommends": 510,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "college",
+              "name": "College",
+              "postCount": 18925,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 138174,
+                "postCount": 18925,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "apprenticeship",
+              "name": "Apprenticeship",
+              "postCount": 287,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 13,
+                "postCount": 287,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "work",
+              "name": "Work",
+              "postCount": 13168,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 2180,
+                "postCount": 13168,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "jobs",
+              "name": "Jobs",
+              "postCount": 16175,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 146414,
+                "postCount": 16175,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 95,
+            "links": {
+              "entries": [{
+                "url": "https://www.youtube.com/watch?v=9qGBICsVeXQ",
+                "alts": [{
+                  "type": 2,
+                  "url": "vnd.youtube://www.youtube.com/watch?v=9qGBICsVeXQ&feature=applinks"
+                }, {
+                  "type": 3,
+                  "url": "vnd.youtube://www.youtube.com/watch?v=9qGBICsVeXQ&feature=applinks"
+                }]
+              }],
+              "version": "0.3",
+              "generatedAt": 1491256746804
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "your-college-degree-is-worthless",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "your-college-degree-is-worthless-504d6f9e394c",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "34c1",
+                "type": 4,
+                "text": "",
+                "markups": [],
+                "layout": 9,
+                "metadata": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              }, {
+                "name": "45bf",
+                "type": 3,
+                "text": "Your College Degree is Worthless",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "2db6",
+                "type": 13,
+                "text": "This is not a judgement, it’s just a fact.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "b230ea2a6eb8",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "c80a1222129c": {
+          "id": "c80a1222129c",
+          "versionId": "93bb7831d1c3",
+          "creatorId": "9d55db1a5b59",
+          "homeCollectionId": "",
+          "title": "When Reagan got shot, on the way into surgery, he joked with the Doctors that he hoped they were…",
+          "detectedLanguage": "en",
+          "latestVersion": "93bb7831d1c3",
+          "latestPublishedVersion": "93bb7831d1c3",
+          "hasUnpublishedEdits": false,
+          "latestRev": 178,
+          "createdAt": 1491288998974,
+          "updatedAt": 1491292009968,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491292009968,
+          "latestPublishedAt": 1491292009968,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "You can be your own credential? Engineers? Scientists? Doctors? Teachers? Obviously not. The list goes on.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 140,
+            "imageCount": 0,
+            "readingTime": 0.5283018867924528,
+            "subtitle": "You can be your own credential? Engineers? Scientists? Doctors? Teachers? Obviously not. The list goes on.",
+            "usersBySocialRecommends": [],
+            "recommends": 65,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491292010271
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "when-reagan-got-shot-on-the-way-into-surgery-he-joked-with-the-doctors-that-he-hoped-they-were",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "when-reagan-got-shot-on-the-way-into-surgery-he-joked-with-the-doctors-that-he-hoped-they-were-c80a1222129c",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "5e0b",
+                "type": 1,
+                "text": "When Reagan got shot, on the way into surgery, he joked with the Doctors that he hoped they were all Republicans. In your dystopian free market future, he would say ‘I hope you’re all Doctors.’",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "7a89",
+                "type": 1,
+                "text": "You can be your own credential? Engineers? Scientists? Doctors? Teachers? Obviously not. The list goes on.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "4d30191871ec": {
+          "id": "4d30191871ec",
+          "versionId": "a0bf6bf7273e",
+          "creatorId": "c57e507ff27",
+          "homeCollectionId": "",
+          "title": "I’m getting really sick of articles like these, where some guy with an alt-education product to…",
+          "detectedLanguage": "en",
+          "latestVersion": "a0bf6bf7273e",
+          "latestPublishedVersion": "a0bf6bf7273e",
+          "hasUnpublishedEdits": false,
+          "latestRev": 195,
+          "createdAt": 1491479053662,
+          "updatedAt": 1491480249941,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491480165479,
+          "latestPublishedAt": 1491480249941,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "There is no doubt that higher education has some serious issues, even existential crises to overcome if it is going to have a claim to…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 472,
+            "imageCount": 0,
+            "readingTime": 1.7811320754716982,
+            "subtitle": "There is no doubt that higher education has some serious issues, even existential crises to overcome if it is going to have a claim to…",
+            "usersBySocialRecommends": [],
+            "recommends": 38,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "higher-education",
+              "name": "Higher Education",
+              "postCount": 5376,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 786,
+                "postCount": 5376,
+                "coverImage": {
+                  "id": "1*pm-dUisyLTTNJ3ClCS3_cQ.jpeg",
+                  "originalWidth": 1383,
+                  "originalHeight": 1374
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "college",
+              "name": "College",
+              "postCount": 18925,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 138174,
+                "postCount": 18925,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "entrepreneurship",
+              "name": "Entrepreneurship",
+              "postCount": 120165,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 883132,
+                "postCount": 120165,
+                "coverImage": {
+                  "id": "1*tiyoLq9F0Yofv9gUOgwAFw.jpeg"
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491480250218
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "im-getting-really-sick-of-articles-like-these-where-some-guy-with-an-alt-education-product-to",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "im-getting-really-sick-of-articles-like-these-where-some-guy-with-an-alt-education-product-to-4d30191871ec",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "7bbf",
+                "type": 1,
+                "text": "I’m getting really sick of articles like these, where some guy with an alt-education product to sell comes on the internet to talk about how worthless a college degree, or college itself is, based on a conception of higher education that is conveniently unencumbered by facts.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "e598dcfde04a": {
+          "id": "e598dcfde04a",
+          "versionId": "ae2e94f047f6",
+          "creatorId": "bf08d95b7110",
+          "homeCollectionId": "",
+          "title": "Continuing the harmful opinion that the purpose of education is to make the most money.",
+          "detectedLanguage": "en",
+          "latestVersion": "ae2e94f047f6",
+          "latestPublishedVersion": "ae2e94f047f6",
+          "hasUnpublishedEdits": false,
+          "latestRev": 21,
+          "createdAt": 1491487306390,
+          "updatedAt": 1491487389748,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491487389748,
+          "latestPublishedAt": 1491487389748,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 63,
+            "imageCount": 0,
+            "readingTime": 0.23773584905660378,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 30,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491487390139
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "continuing-the-harmful-opinion-that-the-purpose-of-education-is-to-make-the-most-money",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "continuing-the-harmful-opinion-that-the-purpose-of-education-is-to-make-the-most-money-e598dcfde04a",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "9d8b",
+                "type": 1,
+                "text": "Continuing the harmful opinion that the purpose of education is to make the most money. One of the worst capitalist and market-based opinions in the world. If you go to college solely to get a job, you’re probably right. But I went to college to learn a lot of things that I would have never had the chance to learn without college.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "939e0f25cca6": {
+          "id": "939e0f25cca6",
+          "versionId": "b9e2d91d6a7a",
+          "creatorId": "d148f28bb958",
+          "homeCollectionId": "",
+          "title": "Read the last paragraph of this article first to view the axe that is being ground here.",
+          "detectedLanguage": "en",
+          "latestVersion": "b9e2d91d6a7a",
+          "latestPublishedVersion": "b9e2d91d6a7a",
+          "hasUnpublishedEdits": false,
+          "latestRev": 199,
+          "createdAt": 1491322803429,
+          "updatedAt": 1491324775310,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491324775310,
+          "latestPublishedAt": 1491324775310,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "The point of college is to provide a well rounded, educational background that can be applied to many different problems. College is the…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 242,
+            "imageCount": 0,
+            "readingTime": 0.9132075471698113,
+            "subtitle": "The point of college is to provide a well rounded, educational background that can be applied to many different problems. College is the…",
+            "usersBySocialRecommends": [],
+            "recommends": 27,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491324775573
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "read-the-last-paragraph-of-this-article-first-to-view-the-axe-that-is-being-ground-here",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "read-the-last-paragraph-of-this-article-first-to-view-the-axe-that-is-being-ground-here-939e0f25cca6",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "a4ca",
+                "type": 1,
+                "text": "Read the last paragraph of this article first to view the axe that is being ground here. Mr Morehouse, who obviously has not raised children to college age, is right about one thing. Your college degree is worthless, because it’s the education that matters.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "9c36efa7188": {
+          "id": "9c36efa7188",
+          "versionId": "2fd50d85c21a",
+          "creatorId": "17756313f41a",
+          "homeCollectionId": "",
+          "title": "I can point out the absurdity of college all day long.",
+          "detectedLanguage": "en",
+          "latestVersion": "2fd50d85c21a",
+          "latestPublishedVersion": "2fd50d85c21a",
+          "hasUnpublishedEdits": false,
+          "latestRev": 120,
+          "createdAt": 1491715793208,
+          "updatedAt": 1491716568175,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491716456541,
+          "latestPublishedAt": 1491716568175,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "But at the end of the day, I must concede: as long as you don’t drop out or take out too much debt, college is totally worth it.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*fMlVgjmA5TTjSJTvwb8E7A.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 410,
+              "originalHeight": 600,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 159,
+            "imageCount": 1,
+            "readingTime": 0.8,
+            "subtitle": "But at the end of the day, I must concede: as long as you don’t drop out or take out too much debt, college is totally worth it.",
+            "usersBySocialRecommends": [],
+            "recommends": 26,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "college",
+              "name": "College",
+              "postCount": 18925,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 138174,
+                "postCount": 18925,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "careers",
+              "name": "Careers",
+              "postCount": 15682,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 150222,
+                "postCount": 15682,
+                "coverImage": {
+                  "id": "1*vh8046PbhqSe6zWSNL4Omg.jpeg",
+                  "originalWidth": 1024,
+                  "originalHeight": 489
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "economics",
+              "name": "Economics",
+              "postCount": 20556,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 649033,
+                "postCount": 20556,
+                "coverImage": {
+                  "id": "1*gjb0hF7VdnVfnvoG7x2Sjw.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-lessons",
+              "name": "Life Lessons",
+              "postCount": 141788,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 950222,
+                "postCount": 141788,
+                "coverImage": {
+                  "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 3,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491716568480
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "i-can-take-jabs-at-college-all-day-long",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-can-take-jabs-at-college-all-day-long-9c36efa7188",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "c0a7",
+                "type": 3,
+                "text": "I can point out the absurdity of college all day long.",
+                "markups": [{
+                  "type": 3,
+                  "start": 41,
+                  "end": 53,
+                  "href": "https://www.quora.com/What-are-some-examples-of-bad-design/answer/Quincy-Larson",
+                  "title": "",
+                  "rel": "noopener",
+                  "anchorType": 0
+                }],
+                "alignment": 1
+              }, {
+                "name": "cbe3",
+                "type": 1,
+                "text": "But at the end of the day, I must concede: as long as you don’t drop out or take out too much debt, college is totally worth it.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "552056812889": {
+          "id": "552056812889",
+          "versionId": "2345bfd49616",
+          "creatorId": "568f0e20f9af",
+          "homeCollectionId": "",
+          "title": "Ugh. This just makes me tired.",
+          "detectedLanguage": "en",
+          "latestVersion": "2345bfd49616",
+          "latestPublishedVersion": "2345bfd49616",
+          "hasUnpublishedEdits": false,
+          "latestRev": 53,
+          "createdAt": 1491333204633,
+          "updatedAt": 1491333535962,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491333535962,
+          "latestPublishedAt": 1491333535962,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Has it occurred to you that university education is about learning to be a human being and function in society? It’s not just voc-ed. The…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 109,
+            "imageCount": 0,
+            "readingTime": 0.41132075471698115,
+            "subtitle": "Has it occurred to you that university education is about learning to be a human being and function in society? It’s not just voc-ed. The…",
+            "usersBySocialRecommends": [],
+            "recommends": 24,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 2,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491333536316
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "ugh-this-just-makes-me-tired",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "ugh-this-just-makes-me-tired-552056812889",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "4620",
+                "type": 1,
+                "text": "Ugh. This just makes me tired.",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "b8f1",
+                "type": 1,
+                "text": "Has it occurred to you that university education is about learning to be a human being and function in society? It’s not just voc-ed. The echo-chamber that produced Trump is likely to intensify with prescriptions like yours that isolate people from, you know, the larger world, bigger options…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "f6ac5c1e0fbb": {
+          "id": "f6ac5c1e0fbb",
+          "versionId": "5fb483318e6e",
+          "creatorId": "8234aac92e5b",
+          "homeCollectionId": "",
+          "title": "Yet another depressing example of our cultural and intellectual devolution.",
+          "detectedLanguage": "en",
+          "latestVersion": "5fb483318e6e",
+          "latestPublishedVersion": "5fb483318e6e",
+          "hasUnpublishedEdits": false,
+          "latestRev": 75,
+          "createdAt": 1491490979898,
+          "updatedAt": 1491491521635,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491491366654,
+          "latestPublishedAt": 1491491521635,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "(That said, the cost of higher education is an obscenity.)",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 105,
+            "imageCount": 0,
+            "readingTime": 0.39622641509433965,
+            "subtitle": "(That said, the cost of higher education is an obscenity.)",
+            "usersBySocialRecommends": [],
+            "recommends": 18,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491491521879
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "yet-another-depressing-example-of-our-cultural-and-intellectual-devolution",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "yet-another-depressing-example-of-our-cultural-and-intellectual-devolution-f6ac5c1e0fbb",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "07c4",
+                "type": 1,
+                "text": "Yet another depressing example of our cultural and intellectual devolution. Life’s not all about creating value for brands, for fuck’s sake. I’d trade 10 years of my e-commerce career for one more year of stimulating philosophy seminars. You can burn the stupid piece of paper, but you can’t destroy the tangible and intangible benefits of engaged work…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "63ccd65cbc99": {
+          "id": "63ccd65cbc99",
+          "versionId": "693bd82e5cd8",
+          "creatorId": "fcabbb2d3264",
+          "homeCollectionId": "",
+          "title": "My college degree is valuable to me precisely because of all the hard work I put into getting it.",
+          "detectedLanguage": "en",
+          "latestVersion": "693bd82e5cd8",
+          "latestPublishedVersion": "693bd82e5cd8",
+          "hasUnpublishedEdits": false,
+          "latestRev": 499,
+          "createdAt": 1491469599798,
+          "updatedAt": 1491481265170,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491481265170,
+          "latestPublishedAt": 1491481265170,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "I agree with all those responding to this article who point out the many professions, most notably practicing medicine, that would be…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 307,
+            "imageCount": 0,
+            "readingTime": 1.1584905660377358,
+            "subtitle": "I agree with all those responding to this article who point out the many professions, most notably practicing medicine, that would be…",
+            "usersBySocialRecommends": [],
+            "recommends": 19,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "higher-education",
+              "name": "Higher Education",
+              "postCount": 5376,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 786,
+                "postCount": 5376,
+                "coverImage": {
+                  "id": "1*pm-dUisyLTTNJ3ClCS3_cQ.jpeg",
+                  "originalWidth": 1383,
+                  "originalHeight": 1374
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "college",
+              "name": "College",
+              "postCount": 18925,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 138174,
+                "postCount": 18925,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-experience",
+              "name": "Life Experience",
+              "postCount": 195,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 5,
+                "postCount": 195,
+                "coverImage": {
+                  "id": "1*iyh_wQPsKaEM9vcd9hZtdg.jpeg",
+                  "originalWidth": 1280,
+                  "originalHeight": 848,
+                  "isFeatured": true
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-lessons",
+              "name": "Life Lessons",
+              "postCount": 141788,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 950222,
+                "postCount": 141788,
+                "coverImage": {
+                  "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491481265622
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "my-college-degree-is-valuable-to-me-precisely-because-of-all-the-hard-work-i-put-into-getting-it",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "my-college-degree-is-valuable-to-me-precisely-because-of-all-the-hard-work-i-put-into-getting-it-63ccd65cbc99",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "2d1f",
+                "type": 1,
+                "text": "My college degree is valuable to me precisely because of all the hard work I put into getting it. Not just the classwork, but holding a full time job at the same time to pay for it. (And in my case there was a lot more to it than that.)",
+                "markups": [{
+                  "type": 2,
+                  "start": 36,
+                  "end": 45,
+                  "href": "",
+                  "title": "",
+                  "rel": "",
+                  "name": "",
+                  "anchorType": 0,
+                  "creatorIds": [],
+                  "userId": ""
+                }, {
+                  "type": 2,
+                  "start": 208,
+                  "end": 213,
+                  "href": "",
+                  "title": "",
+                  "rel": "",
+                  "name": "",
+                  "anchorType": 0,
+                  "creatorIds": [],
+                  "userId": ""
+                }],
+                "alignment": 1
+              }, {
+                "name": "1fce",
+                "type": 1,
+                "text": "I agree with all those responding to this article who point out the many professions…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "473e34030f91784e27005c0b639a0b9d",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "6e48ee991623": {
+          "id": "6e48ee991623",
+          "versionId": "ff853e4a1ec2",
+          "creatorId": "eae3a7ea18b3",
+          "homeCollectionId": "",
+          "title": "Everyone is entitled to an opinion, and can take any path they want to sell a product, but I find…",
+          "detectedLanguage": "en",
+          "latestVersion": "ff853e4a1ec2",
+          "latestPublishedVersion": "ff853e4a1ec2",
+          "hasUnpublishedEdits": false,
+          "latestRev": 198,
+          "createdAt": 1491317961223,
+          "updatedAt": 1491319292502,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491319292502,
+          "latestPublishedAt": 1491319292502,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "We saw this play out in the election in the US where high school graduates overwhelmingly voted for Trump and opinion polls showed it was…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 301,
+            "imageCount": 0,
+            "readingTime": 1.1358490566037736,
+            "subtitle": "We saw this play out in the election in the US where high school graduates overwhelmingly voted for Trump and opinion polls showed it was…",
+            "usersBySocialRecommends": [],
+            "recommends": 12,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491319295656
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "everyone-is-entitled-to-an-opinion-and-can-take-any-path-they-want-to-sell-a-product-but-i-find",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "everyone-is-entitled-to-an-opinion-and-can-take-any-path-they-want-to-sell-a-product-but-i-find-6e48ee991623",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "dd8f",
+                "type": 1,
+                "text": "Everyone is entitled to an opinion, and can take any path they want to sell a product, but I find this problematic by the number of times you use the word “factual.”There is no science or evidence to back this up! Someone with a college degree will make, on average, over 30% more than a high school graduate over their lifetime. Studies have also show…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "821505b9f36c": {
+          "id": "821505b9f36c",
+          "versionId": "4b1e76318c5b",
+          "creatorId": "85c875b58f09",
+          "homeCollectionId": "",
+          "title": "I disagree with the entire premise of this essay.",
+          "detectedLanguage": "en",
+          "latestVersion": "4b1e76318c5b",
+          "latestPublishedVersion": "4b1e76318c5b",
+          "hasUnpublishedEdits": false,
+          "latestRev": 152,
+          "createdAt": 1491463591892,
+          "updatedAt": 1491464358478,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491464358478,
+          "latestPublishedAt": 1491464358478,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 55,
+            "imageCount": 0,
+            "readingTime": 0.20754716981132076,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 11,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491464358954
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "i-disagree-with-the-entire-premise-of-this-essay",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-disagree-with-the-entire-premise-of-this-essay-821505b9f36c",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "2a53",
+                "type": 1,
+                "text": "I disagree with the entire premise of this essay. It is impossible to put a price on the value of education. Understanding human culture, science, art, psychology, psychology impacts your enjoyment and appreciation of life, and the empathy you feel towards each-other. How SAD life would be if everything is just about financial gain.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "24b331897210": {
+          "id": "24b331897210",
+          "versionId": "f4fc2935bf34",
+          "creatorId": "3869ed02c540",
+          "homeCollectionId": "",
+          "title": "This depends on your degree.",
+          "detectedLanguage": "en",
+          "latestVersion": "f4fc2935bf34",
+          "latestPublishedVersion": "f4fc2935bf34",
+          "hasUnpublishedEdits": false,
+          "latestRev": 17,
+          "createdAt": 1491421283925,
+          "updatedAt": 1491421354687,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491421354687,
+          "latestPublishedAt": 1491421354687,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 27,
+            "imageCount": 0,
+            "readingTime": 0.1018867924528302,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 9,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491421355013
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "this-depends-on-your-degree",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "this-depends-on-your-degree-24b331897210",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "d4b3",
+                "type": 1,
+                "text": "This depends on your degree. Liberal arts and certain fields sure. Sciences and medicine where the pre-requisite knowledge has a higher barrier to entry I’d disagree.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "a787071613cfd3559129d5dfb47e1a95",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "f90c51cfe219": {
+          "id": "f90c51cfe219",
+          "versionId": "db112a54a2cd",
+          "creatorId": "4307997f44aa",
+          "homeCollectionId": "",
+          "title": "Medium, please tell me you aren’t now allowing CEOs to mask advertising inside an “article”.",
+          "detectedLanguage": "en",
+          "latestVersion": "db112a54a2cd",
+          "latestPublishedVersion": "db112a54a2cd",
+          "hasUnpublishedEdits": false,
+          "latestRev": 28,
+          "createdAt": 1491557092090,
+          "updatedAt": 1491557299505,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491557299505,
+          "latestPublishedAt": 1491557299505,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 33,
+            "imageCount": 0,
+            "readingTime": 0.12452830188679245,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 8,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491557299836
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "medium-please-tell-me-you-arent-now-allowing-ceos-to-mask-advertising-inside-an-article",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "medium-please-tell-me-you-arent-now-allowing-ceos-to-mask-advertising-inside-an-article-f90c51cfe219",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "076b",
+                "type": 1,
+                "text": "Medium, please tell me you aren’t now allowing CEOs to mask advertising inside an “article”. “Please… check out Praxis and our blog if you don’t want to ‘waste your time’ on college.” Really?",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "3503b1f9c1de": {
+          "id": "3503b1f9c1de",
+          "versionId": "6f4e7dae71ca",
+          "creatorId": "d11803fd9841",
+          "homeCollectionId": "",
+          "title": "What Mr. Morehouse fails to consider is that a college education is intended to create the…",
+          "detectedLanguage": "en",
+          "latestVersion": "6f4e7dae71ca",
+          "latestPublishedVersion": "6f4e7dae71ca",
+          "hasUnpublishedEdits": false,
+          "latestRev": 117,
+          "createdAt": 1491498347923,
+          "updatedAt": 1491498998398,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491498998398,
+          "latestPublishedAt": 1491498998398,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "A liberal arts education, at it’s finest, encourages a well-rounded, ethical, multi dimensional thinker - something that will never go out…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 173,
+            "imageCount": 0,
+            "readingTime": 0.6528301886792452,
+            "subtitle": "A liberal arts education, at it’s finest, encourages a well-rounded, ethical, multi dimensional thinker - something that will never go out…",
+            "usersBySocialRecommends": [],
+            "recommends": 7,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491498998666
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "what-mr-morehouse-fails-to-consider-is-that-a-college-education-is-intended-to-create-the",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "what-mr-morehouse-fails-to-consider-is-that-a-college-education-is-intended-to-create-the-3503b1f9c1de",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "da6c",
+                "type": 1,
+                "text": "What Mr. Morehouse fails to consider is that a college education is intended to create the foundation for a well rounded and thoughtful human being. Members of the technocracy (including Application driven startups) are drunken with power and financial success. In their hubris, members of the tech elite dismiss all other lines of work despite the…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "3f120e5514d095157d8da13c5d1fcb45",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "e61e5b2611ba": {
+          "id": "e61e5b2611ba",
+          "versionId": "3bbc87b5e27e",
+          "creatorId": "ec4d922cc5a0",
+          "homeCollectionId": "",
+          "title": "I think you’ve got an excellent point. Two points, actually:",
+          "detectedLanguage": "en",
+          "latestVersion": "3bbc87b5e27e",
+          "latestPublishedVersion": "3bbc87b5e27e",
+          "hasUnpublishedEdits": false,
+          "latestRev": 122,
+          "createdAt": 1491340025892,
+          "updatedAt": 1491340617059,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491340617059,
+          "latestPublishedAt": 1491340617059,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "People who know how to show their value to others will always be more successful than those who rely on generic credentials.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 246,
+            "imageCount": 0,
+            "readingTime": 0.9283018867924528,
+            "subtitle": "People who know how to show their value to others will always be more successful than those who rely on generic credentials.",
+            "usersBySocialRecommends": [],
+            "recommends": 6,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491340617368
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "i-think-youve-got-an-excellent-point-two-points-actually",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-think-youve-got-an-excellent-point-two-points-actually-e61e5b2611ba",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "78dc",
+                "type": 1,
+                "text": "I think you’ve got an excellent point. Two points, actually:",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "5fde",
+                "type": 9,
+                "text": "People who know how to show their value to others will always be more successful than those who rely on generic credentials.",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "d966",
+                "type": 9,
+                "text": "Many people get little out of a college experience.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "b997e7862dec": {
+          "id": "b997e7862dec",
+          "versionId": "f9b45d5c544a",
+          "creatorId": "d210f3c5db04",
+          "homeCollectionId": "",
+          "title": "I believe there is a lot of truth in what you wrote.",
+          "detectedLanguage": "en",
+          "latestVersion": "f9b45d5c544a",
+          "latestPublishedVersion": "f9b45d5c544a",
+          "hasUnpublishedEdits": false,
+          "latestRev": 83,
+          "createdAt": 1491310551481,
+          "updatedAt": 1491311715760,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491311715760,
+          "latestPublishedAt": 1491311715760,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 120,
+            "imageCount": 0,
+            "readingTime": 0.4528301886792453,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 6,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "tech",
+              "name": "Tech",
+              "postCount": 84902,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 1019609,
+                "postCount": 84902,
+                "coverImage": {
+                  "id": "1*CL91MC3Ou2BnxeMzDBZ4uQ.png",
+                  "originalWidth": 3540,
+                  "originalHeight": 2340
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "self-improvement",
+              "name": "Self Improvement",
+              "postCount": 65465,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 1144719,
+                "postCount": 65465,
+                "coverImage": {
+                  "id": "1*70mWmxgf52m1YqTcCfRkkQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491311716216
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "i-believe-there-is-a-lot-of-truth-in-what-you-wrote",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-believe-there-is-a-lot-of-truth-in-what-you-wrote-b997e7862dec",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "776f",
+                "type": 1,
+                "text": "I believe there is a lot of truth in what you wrote. Many degrees are very bad investments of time and money. Vocational degrees, like medical professionals, engineers, accountants or lawyers still can offer a return on investment that beats self education on average, I’d argue. But those professions do not interest the majority of people. And while…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "541cb1622e56": {
+          "id": "541cb1622e56",
+          "versionId": "333ed088e878",
+          "creatorId": "5153880ce2ee",
+          "homeCollectionId": "",
+          "title": "Although I agree with most of your premises, and enjoy the persuasiveness of your writing- you…",
+          "detectedLanguage": "en",
+          "latestVersion": "333ed088e878",
+          "latestPublishedVersion": "333ed088e878",
+          "hasUnpublishedEdits": false,
+          "latestRev": 68,
+          "createdAt": 1491678929427,
+          "updatedAt": 1491679398607,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491679398607,
+          "latestPublishedAt": 1491679398607,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": false,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 98,
+            "imageCount": 0,
+            "readingTime": 0.36981132075471695,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 6,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491679398963
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "although-i-agree-with-most-of-your-premises-and-enjoy-the-persuasiveness-of-your-writing-you",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "although-i-agree-with-most-of-your-premises-and-enjoy-the-persuasiveness-of-your-writing-you-541cb1622e56",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "3460",
+                "type": 1,
+                "text": "Although I agree with most of your premises, and enjoy the persuasiveness of your writing- you spent a lot of time saying you were stating facts without actually reporting any facts. Where is your data? Strong opinion and fact aren’t exactly the same thing. Again, I agree almost wholeheartedly. Having spent far too much time in college myself, I can…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "0b0b920a2d3b01321b4aec823949f87e",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "338a0effa837": {
+          "id": "338a0effa837",
+          "versionId": "1b659f6c5a07",
+          "creatorId": "1f2ae5082aa5",
+          "homeCollectionId": "",
+          "title": "You are quite a salesman… but I’m not buying.",
+          "detectedLanguage": "en",
+          "latestVersion": "1b659f6c5a07",
+          "latestPublishedVersion": "1b659f6c5a07",
+          "hasUnpublishedEdits": false,
+          "latestRev": 109,
+          "createdAt": 1491566162053,
+          "updatedAt": 1491566799552,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491566799552,
+          "latestPublishedAt": 1491566799552,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "My college degrees were the greatest thing I ever did for myself and my life. path. Not because they guaranteed an entry level job, but…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 210,
+            "imageCount": 0,
+            "readingTime": 0.7924528301886793,
+            "subtitle": "My college degrees were the greatest thing I ever did for myself and my life. path. Not because they guaranteed an entry level job, but…",
+            "usersBySocialRecommends": [],
+            "recommends": 5,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491566801844
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "you-are-quite-a-salesman-but-im-not-buying",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "you-are-quite-a-salesman-but-im-not-buying-338a0effa837",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "2049",
+                "type": 1,
+                "text": "You are quite a salesman… but I’m not buying.",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "8afe",
+                "type": 1,
+                "text": "My college degrees were the greatest thing I ever did for myself and my life. path. Not because they guaranteed an entry level job, but opened doors for me to worlds I never considered, nor never thought I’d access.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "1453e9257fba": {
+          "id": "1453e9257fba",
+          "versionId": "d4c0238ff04c",
+          "creatorId": "a452d85d7281",
+          "homeCollectionId": "",
+          "title": "There is a great section in Todd Rose’s book The End of Average about how major companies have…",
+          "detectedLanguage": "en",
+          "latestVersion": "d4c0238ff04c",
+          "latestPublishedVersion": "d4c0238ff04c",
+          "hasUnpublishedEdits": false,
+          "latestRev": 45,
+          "createdAt": 1491318673369,
+          "updatedAt": 1491318926113,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491318926113,
+          "latestPublishedAt": 1491318926113,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 60,
+            "imageCount": 0,
+            "readingTime": 0.22641509433962265,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 5,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491318926485
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "there-is-a-great-section-in-todd-roses-book-the-end-of-average-about-how-major-companies-have",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "there-is-a-great-section-in-todd-roses-book-the-end-of-average-about-how-major-companies-have-1453e9257fba",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "2502",
+                "type": 1,
+                "text": "There is a great section in Todd Rose’s book The End of Average about how major companies have moved away from using degrees, GPAs, even majors, etc. as hiring criteria. When they studied the characteristics of their most effective employees, they found that the kinds of things you are talking about were a much better indicator of a valuable employee.",
+                "markups": [{
+                  "type": 2,
+                  "start": 45,
+                  "end": 63
+                }],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "cb7fe243e9977bd87689e4d6fe4ee268",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "bef3c2d3e635": {
+          "id": "bef3c2d3e635",
+          "versionId": "74a968a4681a",
+          "creatorId": "812af8d0b55b",
+          "homeCollectionId": "",
+          "title": "I agree with most of what you’re saying here, but college isn’t dead or not worth it.",
+          "detectedLanguage": "en",
+          "latestVersion": "74a968a4681a",
+          "latestPublishedVersion": "74a968a4681a",
+          "hasUnpublishedEdits": false,
+          "latestRev": 29,
+          "createdAt": 1491418698600,
+          "updatedAt": 1491418839331,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491418839331,
+          "latestPublishedAt": 1491418839331,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "A push for tuition-free higher education (which is done in countries around the world, and our own country in the past) would also make…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 101,
+            "imageCount": 0,
+            "readingTime": 0.38113207547169814,
+            "subtitle": "A push for tuition-free higher education (which is done in countries around the world, and our own country in the past) would also make…",
+            "usersBySocialRecommends": [],
+            "recommends": 4,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491418841955
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "i-agree-with-most-of-what-youre-saying-here-but-college-isn-t-dead-or-not-worth-it",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-agree-with-most-of-what-youre-saying-here-but-college-isn-t-dead-or-not-worth-it-bef3c2d3e635",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "3eba",
+                "type": 1,
+                "text": "I agree with most of what you’re saying here, but college isn’t dead or not worth it. It simply needs to change — in short, educationneeds to stop being about the degree or credential. The more employers devalue degrees, the less school will be about degrees anymore. Good.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "f8918568a61f": {
+          "id": "f8918568a61f",
+          "versionId": "d2d238b662cb",
+          "creatorId": "27c78fbc39c0",
+          "homeCollectionId": "",
+          "title": "Clearly, Mr Morehouse’s college education (or lack thereof) is worthless, since he seems to miss…",
+          "detectedLanguage": "en",
+          "latestVersion": "d2d238b662cb",
+          "latestPublishedVersion": "d2d238b662cb",
+          "hasUnpublishedEdits": false,
+          "latestRev": 68,
+          "createdAt": 1491570866382,
+          "updatedAt": 1491571204351,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491571204351,
+          "latestPublishedAt": 1491571204351,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Higher education is not a pathway to employability. It is not a means to an end. It is a process through which critical skills of argument…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 152,
+            "imageCount": 0,
+            "readingTime": 0.5735849056603773,
+            "subtitle": "Higher education is not a pathway to employability. It is not a means to an end. It is a process through which critical skills of argument…",
+            "usersBySocialRecommends": [],
+            "recommends": 3,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491571206050
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "clearly-mr-morehouses-college-education-or-lack-thereof-is-worthless-since-he-seems-to-miss",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "clearly-mr-morehouses-college-education-or-lack-thereof-is-worthless-since-he-seems-to-miss-f8918568a61f",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "221d",
+                "type": 1,
+                "text": "Clearly, Mr Morehouse’s college education (or lack thereof) is worthless, since he seems to miss the actual point of college education.",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "f210",
+                "type": 1,
+                "text": "Higher education is not a pathway to employability. It is not a means to an end. It is a process through which critical skills of argument and inquiry are encouraged and developed. It is an…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "e8d2e9f4b94c": {
+          "id": "e8d2e9f4b94c",
+          "versionId": "7b29aff5caf2",
+          "creatorId": "209b14e49124",
+          "homeCollectionId": "",
+          "title": "I’m with you on that, and a greater variety of degrees.",
+          "detectedLanguage": "en",
+          "latestVersion": "7b29aff5caf2",
+          "latestPublishedVersion": "7b29aff5caf2",
+          "hasUnpublishedEdits": false,
+          "latestRev": 14,
+          "createdAt": 1491377092041,
+          "updatedAt": 1491377222229,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491377222229,
+          "latestPublishedAt": 1491377222229,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 42,
+            "imageCount": 0,
+            "readingTime": 0.15849056603773584,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 3,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491377222558
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "im-with-you-on-that-and-a-greater-variety-of-degrees",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "im-with-you-on-that-and-a-greater-variety-of-degrees-e8d2e9f4b94c",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "cbed",
+                "type": 1,
+                "text": "I’m with you on that, and a greater variety of degrees. However, most jobs do require a degree to be hired. Let’s be honest. A portfolio will get you a long way, though. But, remember, not all fields are design and tech.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "5680cf061b18abfa2c54578bf53c4338",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "9e659392c070": {
+          "id": "9e659392c070",
+          "versionId": "181a4cb01b3a",
+          "creatorId": "bba39189d296",
+          "homeCollectionId": "",
+          "title": "Here are three points I offer after almost 20 years trying to make higher education more innovative…",
+          "detectedLanguage": "en",
+          "latestVersion": "181a4cb01b3a",
+          "latestPublishedVersion": "181a4cb01b3a",
+          "hasUnpublishedEdits": false,
+          "latestRev": 77,
+          "createdAt": 1491400656025,
+          "updatedAt": 1491401104574,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491401104574,
+          "latestPublishedAt": 1491401104574,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Faculty and program leaders are often out of touch with requirements of the practical application of the degree they are offering.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 138,
+            "imageCount": 0,
+            "readingTime": 0.5207547169811321,
+            "subtitle": "Faculty and program leaders are often out of touch with requirements of the practical application of the degree they are offering.",
+            "usersBySocialRecommends": [],
+            "recommends": 3,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491401106192
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "here-are-three-points-i-offer-after-almost-20-years-trying-to-make-higher-education-more-innovative",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "here-are-three-points-i-offer-after-almost-20-years-trying-to-make-higher-education-more-innovative-9e659392c070",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "733c",
+                "type": 1,
+                "text": "Here are three points I offer after almost 20 years trying to make higher education more innovative:",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "b869",
+                "type": 10,
+                "text": "Faculty and program leaders are often out of touch with requirements of the practical application of the degree they are offering.",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "de94",
+                "type": 10,
+                "text": "HR managers are often simply clearinghouses of candidates and if the…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "ebe3b1d90671": {
+          "id": "ebe3b1d90671",
+          "versionId": "2cceb6907526",
+          "creatorId": "6257c823107a",
+          "homeCollectionId": "",
+          "title": "This is a funny but mostly true argument.",
+          "detectedLanguage": "en",
+          "latestVersion": "2cceb6907526",
+          "latestPublishedVersion": "2cceb6907526",
+          "hasUnpublishedEdits": false,
+          "latestRev": 12,
+          "createdAt": 1491276871657,
+          "updatedAt": 1491276959326,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491276959326,
+          "latestPublishedAt": 1491276959326,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 8,
+            "imageCount": 0,
+            "readingTime": 0.03018867924528302,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 2,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491276959681
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "this-is-a-funny-but-mostly-true-argument",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "this-is-a-funny-but-mostly-true-argument-ebe3b1d90671",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "5ac6",
+                "type": 1,
+                "text": "This is a funny but mostly true argument.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "b1b3d60331b1a5c4abc6fde7d068e566",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "e55b455c10ab": {
+          "id": "e55b455c10ab",
+          "versionId": "437dcc186df9",
+          "creatorId": "30338d70cf6f",
+          "homeCollectionId": "",
+          "title": "Of course not all jobs require a degree.",
+          "detectedLanguage": "en",
+          "latestVersion": "437dcc186df9",
+          "latestPublishedVersion": "437dcc186df9",
+          "hasUnpublishedEdits": false,
+          "latestRev": 217,
+          "createdAt": 1491367483747,
+          "updatedAt": 1491503774937,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491369949084,
+          "latestPublishedAt": 1491503774937,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 114,
+            "imageCount": 0,
+            "readingTime": 0.43018867924528303,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 2,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "education",
+              "name": "Education",
+              "postCount": 45010,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 519280,
+                "postCount": 45010,
+                "coverImage": {
+                  "id": "1*dVmAyTviHMkGJq46uvrLcg.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "college",
+              "name": "College",
+              "postCount": 18925,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 138174,
+                "postCount": 18925,
+                "coverImage": {
+                  "id": "1*8aoDZYvi_O9qgk5Oa8_enQ.jpeg",
+                  "originalWidth": 1632,
+                  "originalHeight": 1224
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "education-reform",
+              "name": "Education Reform",
+              "postCount": 7033,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 204207,
+                "postCount": 7033,
+                "coverImage": {
+                  "id": "1*3PGX_1mrXEeEqPkrH5B8_Q.jpeg",
+                  "originalWidth": 1600,
+                  "originalHeight": 830
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491503775177
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "of-course-not-all-jobs-require-a-degree",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "of-course-not-all-jobs-require-a-degree-e55b455c10ab",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "7f65",
+                "type": 1,
+                "text": "Of course not all jobs require a degree. Academia has its problems, not least of which is a lack of effective communication with broader society which feeds this sort of thing. Nevertheless some graduates gain an understanding of the world that facilitates critical assessment of contemporary issues in society, among other things. Obviously not every…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        },
+        "d41ae7fc39ca": {
+          "id": "d41ae7fc39ca",
+          "versionId": "62119c51c4c3",
+          "creatorId": "fff96e264674",
+          "homeCollectionId": "",
+          "title": "You have an opinion. Opinions are worthless.",
+          "detectedLanguage": "en",
+          "latestVersion": "62119c51c4c3",
+          "latestPublishedVersion": "62119c51c4c3",
+          "hasUnpublishedEdits": false,
+          "latestRev": 12,
+          "createdAt": 1491427988784,
+          "updatedAt": 1491428035521,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1491428035521,
+          "latestPublishedAt": 1491428035521,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 0,
+              "originalHeight": 0,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 7,
+            "imageCount": 0,
+            "readingTime": 0.026415094339622643,
+            "subtitle": "",
+            "usersBySocialRecommends": [],
+            "recommends": 2,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1491428035877
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0
+          },
+          "coverless": true,
+          "slug": "you-have-an-opinion-opinions-are-worthless",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "504d6f9e394c",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "you-have-an-opinion-opinions-are-worthless-d41ae7fc39ca",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "5b25",
+                "type": 1,
+                "text": "You have an opinion. Opinions are worthless.",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": true
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "f7d51e735a8f930b834b37f4a2430da2",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "type": "Post"
+        }
+      },
+      "Quote": {
+        "4c8baa59521c": {
+          "quoteId": "4c8baa59521c",
+          "postId": "504d6f9e394c",
+          "userId": "fcabbb2d3264",
+          "paragraphs": [{
+            "name": "56a7",
+            "type": 1,
+            "text": "So. This is a post about degrees. I met my wife on a campus, but guess what? After I flirtily said “Hi”, she didn’t ask, “Are you current on tuition payments?”. You can have every single element of the college experience — including sitting in classrooms — without registering or paying a dime in tuition. No one does, because they’re there for the paper, not the “intangibles”. You want the parties? Move to a college town. You want a cool career? Do some real work.",
+            "markups": [],
+            "dataId": "",
+            "hasDropCap": false,
+            "href": ""
+          }],
+          "startOffset": 425,
+          "endOffset": 467,
+          "createdAt": 1491469598585,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "f482c9bf414c": {
+          "quoteId": "f482c9bf414c",
+          "postId": "504d6f9e394c",
+          "userId": "3869ed02c540",
+          "paragraphs": [{
+            "name": "1015",
+            "type": 1,
+            "text": "Smart, hard-working people can quickly and easily create a more powerful signal than a college degree to demonstrate their value in the marketplace. Remember, the degree screams, “I’m about the same as other degree holders.” If you’re better, you need better information than a degree to show it.",
+            "markups": [],
+            "dataId": "",
+            "hasDropCap": false,
+            "href": ""
+          }],
+          "startOffset": 0,
+          "endOffset": 148,
+          "createdAt": 1491421282569,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "c9a2df9436ba": {
+          "quoteId": "c9a2df9436ba",
+          "postId": "504d6f9e394c",
+          "userId": "d11803fd9841",
+          "paragraphs": [{
+            "name": "45bf",
+            "type": 3,
+            "text": "Your College Degree is Worthless",
+            "markups": [],
+            "dataId": "",
+            "hasDropCap": false,
+            "href": ""
+          }],
+          "startOffset": 0,
+          "endOffset": 32,
+          "createdAt": 1491498346925,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "4cdc345754de": {
+          "quoteId": "4cdc345754de",
+          "postId": "504d6f9e394c",
+          "userId": "5153880ce2ee",
+          "paragraphs": [{
+            "name": "56a7",
+            "type": 1,
+            "text": "So. This is a post about degrees. I met my wife on a campus, but guess what? After I flirtily said “Hi”, she didn’t ask, “Are you current on tuition payments?”. You can have every single element of the college experience — including sitting in classrooms — without registering or paying a dime in tuition. No one does, because they’re there for the paper, not the “intangibles”. You want the parties? Move to a college town. You want a cool career? Do some real work.",
+            "markups": [],
+            "dataId": "",
+            "hasDropCap": false,
+            "href": ""
+          }],
+          "startOffset": 449,
+          "endOffset": 467,
+          "createdAt": 1491678928607,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "fa8a4eba3829": {
+          "quoteId": "fa8a4eba3829",
+          "postId": "504d6f9e394c",
+          "userId": "a452d85d7281",
+          "paragraphs": [{
+            "name": "2fbd",
+            "type": 3,
+            "text": "“But most companies list degrees as requirements!”",
+            "markups": []
+          }],
+          "startOffset": 0,
+          "endOffset": 50,
+          "createdAt": 1491318667209,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "3de25fd340f7": {
+          "quoteId": "3de25fd340f7",
+          "postId": "504d6f9e394c",
+          "userId": "209b14e49124",
+          "paragraphs": [{
+            "name": "da6d",
+            "type": 1,
+            "text": "Companies don’t require degrees, they require information. With a little creativity and hustle, you can provide better info in better ways. Oh, and as a general rule, the more interesting the company, the less they care about degrees.",
+            "markups": [],
+            "dataId": "",
+            "layout": 1,
+            "hasDropCap": false,
+            "alignment": 1,
+            "href": "",
+            "translationStatus": 1,
+            "purpose": 1
+          }],
+          "startOffset": 226,
+          "endOffset": 233,
+          "createdAt": 1491377090952,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        },
+        "649a3fb92afa": {
+          "quoteId": "649a3fb92afa",
+          "postId": "504d6f9e394c",
+          "userId": "6257c823107a",
+          "paragraphs": [{
+            "name": "b08a",
+            "type": 1,
+            "text": "This isn’t some far-flung, soon-to-be, if the AI and the internets and the drones and the 3D printers do the exponential thing prediction. This is today. It’s already here. College is dead (here I am saying it on a TED talk-like stage, so you know it must be true).",
+            "markups": [{
+              "type": 3,
+              "start": 190,
+              "end": 263,
+              "href": "https://www.youtube.com/watch?v=9qGBICsVeXQ",
+              "title": "",
+              "rel": "",
+              "name": "",
+              "anchorType": 0,
+              "creatorIds": [],
+              "userId": ""
+            }],
+            "dataId": "",
+            "hasDropCap": false,
+            "href": ""
+          }],
+          "startOffset": 189,
+          "endOffset": 265,
+          "createdAt": 1491276870801,
+          "removedAt": 0,
+          "quoteType": 1,
+          "type": "Quote"
+        }
+      }
+    },
+    "paging": {
+      "path": "/_/api/posts/504d6f9e394c/responsesStream",
+      "next": {
+        "limit": 25,
+        "to": "2:d41ae7fc39ca"
+      }
+    }
+  },
+  "v": 3,
+  "b": "28494"
+}

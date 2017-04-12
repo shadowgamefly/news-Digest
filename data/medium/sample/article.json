@@ -1,0 +1,382 @@
+{
+  "value": {
+    "id": "c6a4d1595d7b",
+    "versionId": "925bb380ee6b",
+    "creatorId": "592ce2a67248",
+    "creator": {
+      "userId": "592ce2a67248",
+      "name": "Andrew Ng",
+      "username": "andrewng",
+      "createdAt": 1439878479002,
+      "lastPostCreatedAt": 1490153536627,
+      "imageId": "1*9xfnIxWCa313OO4OaT-v2w.png",
+      "backgroundImageId": "",
+      "bio": "Machine Learning, Deep learning, MOOCs; Baidu/Coursera/Stanford.",
+      "twitterScreenName": "",
+      "socialStats": {
+        "userId": "592ce2a67248",
+        "usersFollowedCount": 1,
+        "usersFollowedByCount": 5674,
+        "type": "SocialStats"
+      },
+      "social": {
+        "userId": "lo_697bcdd4fed",
+        "targetUserId": "592ce2a67248",
+        "type": "Social"
+      },
+      "facebookAccountId": "",
+      "allowNotes": 1,
+      "type": "User"
+    },
+    "homeCollectionId": "",
+    "title": "Opening a new chapter of my work in AI",
+    "detectedLanguage": "en",
+    "latestVersion": "925bb380ee6b",
+    "latestPublishedVersion": "925bb380ee6b",
+    "hasUnpublishedEdits": false,
+    "latestRev": 59,
+    "createdAt": 1490153536627,
+    "updatedAt": 1490155041787,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1490155041787,
+    "latestPublishedAt": 1490155041787,
+    "vote": false,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "content": {
+      "subtitle": "Dear Friends,",
+      "bodyModel": {
+        "paragraphs": [
+          {
+            "name": "2ed6",
+            "type": 3,
+            "text": "Opening a new chapter of my work in AI",
+            "markups": [
+              {
+                "type": 1,
+                "start": 0,
+                "end": 38
+              }
+            ]
+          },
+          {
+            "name": "e686",
+            "type": 1,
+            "text": "Dear Friends,",
+            "markups": []
+          },
+          {
+            "name": "db90",
+            "type": 1,
+            "text": "I will be resigning from Baidu, where I have been leading the company’s AI Group. Baidu’s AI is incredibly strong, and the team is stacked up and down with talent; I am confident AI at Baidu will continue to flourish. After Baidu, I am excited to continue working toward the AI transformation of our society and the use of AI to make life better for everyone.",
+            "markups": []
+          },
+          {
+            "name": "26a6",
+            "type": 1,
+            "text": "Artificial Intelligence at Baidu",
+            "markups": [
+              {
+                "type": 1,
+                "start": 0,
+                "end": 32
+              }
+            ]
+          },
+          {
+            "name": "4a93",
+            "type": 1,
+            "text": "I joined Baidu in 2014 to work on AI. Since then, Baidu’s AI group has grown to roughly 1,300 people, which includes the 300-person Baidu Research. Our AI software is used every day by hundreds of millions of people. We have had tremendous revenue and product impact, through the many dozens of AI projects that support our existing businesses in search, advertising, maps, take-out delivery, voice search, security, consumer finance and many more.",
+            "markups": []
+          },
+          {
+            "name": "1b22",
+            "type": 1,
+            "text": "We have also used AI to develop new lines of business. My team birthed one new business unit per year each of the last two years: autonomous driving and the DuerOS Conversational Computing platform. We are also incubating additional promising technologies, such as face-recognition (used in turnstiles that open automatically when an authorized person approaches), Melody (an AI-powered conversational bot for healthcare) and several more. As the principal architect of Baidu’s AI strategy, I am proud to have led the incredible rise of AI within the company.",
+            "markups": []
+          },
+          {
+            "name": "69da",
+            "type": 1,
+            "text": "Baidu is now one of the few companies with world-class expertise in every major AI area: speech, NLP, computer vision, machine learning, knowledge graph. It’s been an honor to lead the AI Group and work with Baidu’s remarkable team, from the executive leadership to the brilliant engineers, scientists, product managers and others. Robin Li was the first large company CEO to clearly see the value of deep learning, and remains globally one of the best AI CEOs. COO Lu Qi is a seasoned business executive with significant experience in AI; with his leadership, AI at Baidu will flourish. Wang Haifeng, the new head of the AI Group, is a fantastic researcher and technology leader; his leadership firmly positions the team for future greatness. Lin Yuanqing, our newly appointed head of Baidu Research, is a brilliant technology and business leader, who is creating both great AI technologies and great business results. Under their capable leadership, and that of other AI stars at Baidu such as Adam Coates, Jing Kun, Li Ping, Xu Wei, and Zhu Kaihua, AI at Baidu will continue to thrive, and I will be cheering their progress.",
+            "markups": []
+          },
+          {
+            "name": "32a6",
+            "type": 1,
+            "text": "I’ve also been privileged to learn from both the U.S. and Chinese AI communities — both of which are powerhouses. The U.S. is very good at inventing new technology ideas. China is very good at inventing and quickly shipping AI products. I’m happy also to have had an opportunity to contribute to the rise of AI in both China and the U.S.",
+            "markups": []
+          },
+          {
+            "name": "8d24",
+            "type": 1,
+            "text": "AI is the new electricity",
+            "markups": [
+              {
+                "type": 1,
+                "start": 0,
+                "end": 25
+              }
+            ]
+          },
+          {
+            "name": "3628",
+            "type": 1,
+            "text": "Just as electricity transformed many industries roughly 100 years ago, AI will also now change nearly every major industry — healthcare, transportation, entertainment, manufacturing — enriching the lives of countless people. I am more excited than ever about where AI can take us.",
+            "markups": []
+          },
+          {
+            "name": "f7ea",
+            "type": 4,
+            "text": "AI is the new electricity",
+            "markups": [],
+            "layout": 4,
+            "metadata": {
+              "id": "1*QeioU8WhNX_4D_aGCWGufw.jpeg",
+              "originalWidth": 2500,
+              "originalHeight": 1667
+            }
+          },
+          {
+            "name": "49c7",
+            "type": 1,
+            "text": "As the founding lead of the Google Brain project, and more recently through my role at Baidu, I have played a role in the transformation of two leading technology companies into “AI companies.” But AI’s potential is far bigger than its impact on technology companies.",
+            "markups": []
+          },
+          {
+            "name": "d214",
+            "type": 1,
+            "text": "I will continue my work to shepherd in this important societal change. In addition to transforming large companies to use AI, there are also rich opportunities for entrepreneurship as well as further AI research. I want all of us to have self-driving cars; conversational computers that we can talk to naturally; and healthcare robots that understand what ails us. The industrial revolution freed humanity from much repetitive physical drudgery; I now want AI to free humanity from repetitive mental drudgery, such as driving in traffic. This work cannot be done by any single company — it will be done by the global AI community of researchers and engineers. My Machine Learning MOOC on Coursera helped many people enter AI. In addition to working on AI myself, I will also explore new ways to support all of you in the global AI community, so that we can all work together to bring this AI-powered society to fruition.",
+            "markups": []
+          },
+          {
+            "name": "1c76",
+            "type": 1,
+            "text": "I am more optimistic than ever about the fantastic future we will build with AI. Lets keep working hard to get AI to help everyone!",
+            "markups": []
+          },
+          {
+            "name": "ce92",
+            "type": 1,
+            "text": "Andrew Ng",
+            "markups": []
+          }
+        ],
+        "sections": [
+          {
+            "name": "55a5",
+            "startIndex": 0
+          }
+        ]
+      },
+      "postDisplay": {
+        "coverless": true
+      }
+    },
+    "virtuals": {
+      "allowNotes": true,
+      "previewImage": {
+        "imageId": "1*QeioU8WhNX_4D_aGCWGufw.jpeg",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 2500,
+        "originalHeight": 1667,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "wordCount": 775,
+      "imageCount": 1,
+      "readingTime": 3.1245283018867926,
+      "subtitle": "Dear Friends,",
+      "usersBySocialRecommends": [],
+      "recommends": 2462,
+      "socialRecommends": [],
+      "isBookmarked": false,
+      "tags": [
+        {
+          "slug": "artificial-intelligence",
+          "name": "Artificial Intelligence",
+          "postCount": 18709,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 543904,
+            "postCount": 18709,
+            "coverImage": {
+              "id": "1*gAn_BSffVBcwCIR6bDgK1g.jpeg"
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "machine-learning",
+          "name": "Machine Learning",
+          "postCount": 11677,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 14824,
+            "postCount": 11677,
+            "coverImage": {
+              "id": "1*QeioU8WhNX_4D_aGCWGufw.jpeg",
+              "originalWidth": 2500,
+              "originalHeight": 1667
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "baidu",
+          "name": "Baidu",
+          "postCount": 78,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 12,
+            "postCount": 78,
+            "coverImage": {
+              "id": "1*QeioU8WhNX_4D_aGCWGufw.jpeg",
+              "originalWidth": 2500,
+              "originalHeight": 1667
+            }
+          },
+          "type": "Tag"
+        }
+      ],
+      "socialRecommendsCount": 0,
+      "responsesCreatedCount": 80,
+      "links": {
+        "entries": [],
+        "version": "0.3",
+        "generatedAt": 1490155042086
+      },
+      "isLockedPreviewOnly": false,
+      "takeoverId": "",
+      "metaDescription": "",
+      "totalClapCount": 0
+    },
+    "coverless": true,
+    "slug": "opening-a-new-chapter-of-my-work-in-ai",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "opening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [
+          {
+            "name": "2ed6",
+            "type": 3,
+            "text": "Opening a new chapter of my work in AI",
+            "markups": [
+              {
+                "type": 1,
+                "start": 0,
+                "end": 38
+              }
+            ],
+            "alignment": 1
+          },
+          {
+            "name": "e686",
+            "type": 1,
+            "text": "Dear Friends,",
+            "markups": [],
+            "alignment": 1
+          },
+          {
+            "name": "db90",
+            "type": 1,
+            "text": "I will be resigning from Baidu, where I have been leading the company’s AI Group. Baidu’s AI is incredibly strong, and the team is stacked up and down with talent; I am confident AI at Baidu will continue to flourish…",
+            "markups": [],
+            "alignment": 1
+          }
+        ],
+        "sections": [
+          {
+            "startIndex": 0
+          }
+        ]
+      },
+      "isFullContent": false
+    },
+    "license": 1,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "https://medium.com/@andrewng/opening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b",
+    "approvedHomeCollectionId": "",
+    "newsletterId": "",
+    "webCanonicalUrl": "https://medium.com/@andrewng/opening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b",
+    "mediumUrl": "https://medium.com/@andrewng/opening-a-new-chapter-of-my-work-in-ai-c6a4d1595d7b",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": false,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "isSeries": false,
+    "isSubscriptionLocked": false,
+    "seriesLastAppendedAt": 0,
+    "type": "Post"
+  },
+  "mentionedUsers": [],
+  "collaborators": [],
+  "membershipPlans": [],
+  "collectionUserRelations": [],
+  "mode": null,
+  "references": {
+    "User": {
+      "592ce2a67248": {
+        "userId": "592ce2a67248",
+        "name": "Andrew Ng",
+        "username": "andrewng",
+        "createdAt": 1439878479002,
+        "lastPostCreatedAt": 1490153536627,
+        "imageId": "1*9xfnIxWCa313OO4OaT-v2w.png",
+        "backgroundImageId": "",
+        "bio": "Machine Learning, Deep learning, MOOCs; Baidu/Coursera/Stanford.",
+        "twitterScreenName": "",
+        "socialStats": {
+          "userId": "592ce2a67248",
+          "usersFollowedCount": 1,
+          "usersFollowedByCount": 5674,
+          "type": "SocialStats"
+        },
+        "social": {
+          "userId": "lo_697bcdd4fed",
+          "targetUserId": "592ce2a67248",
+          "type": "Social"
+        },
+        "facebookAccountId": "",
+        "allowNotes": 1,
+        "type": "User"
+      }
+    },
+    "Social": {
+      "592ce2a67248": {
+        "userId": "lo_697bcdd4fed",
+        "targetUserId": "592ce2a67248",
+        "type": "Social"
+      }
+    },
+    "SocialStats": {
+      "592ce2a67248": {
+        "userId": "592ce2a67248",
+        "usersFollowedCount": 1,
+        "usersFollowedByCount": 5674,
+        "type": "SocialStats"
+      }
+    }
+  }
+}

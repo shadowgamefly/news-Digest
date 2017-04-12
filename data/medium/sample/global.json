@@ -1,0 +1,287 @@
+{
+  "audioUrl": "https://d1fcbxp97j4nb2.cloudfront.net",
+  "baseUrl": "https://medium.com",
+  "buildLabel": "28303",
+  "currentUser": {
+    "userId": "lo_d7710c05ff33",
+    "isVerified": false,
+    "subscriberEmail": ""
+  },
+  "currentUserHasUnverifiedEmail": false,
+  "isAuthenticated": false,
+  "isCurrentUserVerified": false,
+  "language": "en-us",
+  "mediumTwitterScreenName": "medium",
+  "miroUrl": "https://cdn-images-1.medium.com",
+  "moduleUrls": {
+    "base": "https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.jm15p_pVV68m3Q1AW30bqg.js",
+    "notes": "https://cdn-static-1.medium.com/_/fp/gen-js/main-notes.bundle.X4t2C73tIvIlUrdVPNQ-tQ.js",
+    "posters": "https://cdn-static-1.medium.com/_/fp/gen-js/main-posters.bundle.SGSO18LtRXtMMGA7AAfSng.js",
+    "common-async": "https://cdn-static-1.medium.com/_/fp/gen-js/main-common-async.bundle._dRmX_byFCXPB29Nn6F_Ag.js",
+    "stats": "https://cdn-static-1.medium.com/_/fp/gen-js/main-stats.bundle.SDJXphX8atDV_2Be8fvPrw.js",
+    "home-screens": "https://cdn-static-1.medium.com/_/fp/gen-js/main-home-screens.bundle.Ap_QhfnWhELEURrY_Q-Mlw.js",
+    "misc-screens": "https://cdn-static-1.medium.com/_/fp/gen-js/main-misc-screens.bundle.3c2MoiRcHzP7eyhzHy5jCQ.js"
+  },
+  "previewConfig": {
+    "weightThreshold": 1,
+    "weightImageParagraph": 0.51,
+    "weightIframeParagraph": 0.8,
+    "weightTextParagraph": 0.08,
+    "weightEmptyParagraph": 0,
+    "weightP": 0.003,
+    "weightH": 0.005,
+    "weightBq": 0.003,
+    "minPTextLength": 60,
+    "truncateBoundaryChars": 20,
+    "detectTitle": true,
+    "detectTitleLevThreshold": 0.15
+  },
+  "productName": "Medium",
+  "supportsEdit": false,
+  "termsUrl": "//medium.com/policy/9db0094a1e0f",
+  "textshotHost": "textshot.medium.com",
+  "transactionId": "1490414173101:82062b59b34",
+  "useragent": {
+    "browser": "other",
+    "family": "",
+    "os": "",
+    "version": 0,
+    "supportsDesktopEdit": false,
+    "supportsInteract": false,
+    "supportsView": true,
+    "isMobile": false,
+    "isTablet": false,
+    "isNative": false,
+    "supportsFileAPI": false,
+    "isTier1": false,
+    "clientVersion": "",
+    "unknownParagraphsBad": false,
+    "clientChannel": "",
+    "supportsRealScrollEvents": false,
+    "supportsVhUnits": false,
+    "ruinsViewportSections": false,
+    "supportsHtml5Video": false,
+    "supportsMagicUnderlines": false,
+    "isWebView": false,
+    "isFacebookWebView": false,
+    "supportsProgressiveMedia": false,
+    "supportsPromotedPosts": true,
+    "isBot": false,
+    "isNativeIphone": false,
+    "supportsCssVariables": false,
+    "supportsScrollableMetabar": false
+  },
+  "variants": {
+    "enable_fuzzy_number_experiment": true,
+    "allow_access": true,
+    "allow_signup": true,
+    "allow_test_auth": "disallow",
+    "signin_services": "twitter,facebook,google,email,google-fastidv",
+    "signup_services": "twitter,facebook,google,email,google-fastidv",
+    "android_rating_prompt_recommend_threshold": 5,
+    "google_sign_in_android": true,
+    "enable_onboarding": true,
+    "ios_custom_miro_url": "https://cdn-images-1.medium.com",
+    "reengagement_notification_duration": 3,
+    "enable_adsnative_integration": true,
+    "browsable_stream_config_bucket": "curated-topics",
+    "ios_small_post_preview_truncation_length": 5.5,
+    "ios_large_post_preview_truncation_length": 5.5,
+    "disable_ios_catalog_badging": true,
+    "enable_series_creation": true,
+    "enable_your_series_pages": true,
+    "enable_productionized_series": true,
+    "enable_dedicated_series_tab_api_ios": true,
+    "enable_clap_milestone_notifications": true,
+    "enable_series_stats_page": true,
+    "enable_prepublish_share_settings": true,
+    "enable_direct_auth_connect": true,
+    "enable_post_import": true,
+    "enable_sponsored_post_labelling": true,
+    "enable_logged_in_follow_on_collection_post": true,
+    "promoted_story_placement_locations": "POST_PAGE_FOOTER",
+    "prmt_to_people_experiment": "default",
+    "show_topics": true,
+    "enable_related_reads_curse_words_filtering": true,
+    "enable_search_collection_by_tag_recency_filter": true,
+    "search_collection_by_tag_filter_min_votes": 10,
+    "enable_drag_and_drop_ui": true,
+    "enable_catalog_takeover_route": true,
+    "enable_crex_directory": true,
+    "enable_client_digest": true,
+    "honeypot_footer_copy_strategy": 1,
+    "enable_sms_app_promo": true,
+    "enable_export_members": true,
+    "enable_series_card_background_creation": true,
+    "enable_loyal_writers_onboarding": true,
+    "enable_onboarding_hybrid_users": true,
+    "enable_onboarding_users_by_tag": true,
+    "enable_new_writer_digest": true,
+    "enable_bento_homepage": true,
+    "can_see_subscription_branding": true,
+    "enable_subscriptions_landing_page": true,
+    "enable_partner_program_landing_page": true,
+    "enable_publication_popovers": true,
+    "enable_hide_broken_links": true,
+    "enable_mobile_web_bookmark": true,
+    "enable_pay_for_custom_domain": true,
+    "enable_promos_from_dynamo": true,
+    "enable_promos_in_placement": true,
+    "double_write_post_from_followed_tag_items": true,
+    "enable_series_promo_in_email": true,
+    "enable_sms": true,
+    "enable_series_in_user_profiles": true,
+    "enable_new_logged_out_bento_operation": true,
+    "enable_posts_published_by_friends_data": true
+  },
+  "xsrfToken": "",
+  "iosAppId": "828256236",
+  "supportEmail": "yourfriends@medium.com",
+  "teamName": "Team Medium",
+  "fp": {
+    "/icons/favicon.svg": "https://cdn-static-1.medium.com/_/fp/icons/favicon.KjTfUJo7yJH_fCoUzzH3cg.svg",
+    "/icons/favicon-dev-editor.ico": "https://cdn-static-1.medium.com/_/fp/icons/favicon-dev-editor.YKKRxBO8EMvIqhyCwIiJeQ.ico",
+    "/icons/favicon-hatch-editor.ico": "https://cdn-static-1.medium.com/_/fp/icons/favicon-hatch-editor.BuEyHIqlyh2s_XEk4Rl32Q.ico",
+    "/icons/favicon-medium-editor.ico": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium-editor.PiakrZWB7Yb80quUVQWM6g.ico"
+  },
+  "authBaseUrl": "https://medium.com",
+  "imageUploadSizeMb": 25,
+  "isAuthDomainRequest": true,
+  "algoliaApiEndpoint": "https://MQ57UUUQZ2-dsn.algolia.net",
+  "algoliaAppId": "MQ57UUUQZ2",
+  "algoliaSearchOnlyApiKey": "394474ced050e3911ae2249ecc774921",
+  "iosAppStoreUrl": "https://itunes.apple.com/app/medium-everyones-stories/id828256236?pt=698524&mt=8",
+  "iosAppLinkBaseUrl": "medium:",
+  "algoliaIndexPrefix": "medium_",
+  "androidPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.medium.reader",
+  "googleClientId": "216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com",
+  "androidPackage": "com.medium.reader",
+  "androidPlayStoreMarketScheme": "market://details?id=com.medium.reader",
+  "googleAuthUri": "https://accounts.google.com/o/oauth2/auth",
+  "androidScheme": "medium",
+  "layoutData": {
+    "useDynamicScripts": false,
+    "googleAnalyticsTrackingCode": "UA-24232453-2",
+    "jsShivUrl": "https://cdn-static-1.medium.com/_/fp/js/shiv.RI2ePTZ5gFmMgLzG5bEVAA.js",
+    "useDynamicCss": false,
+    "faviconUrl": "https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico",
+    "faviconImageId": "1*W0nmth_X8nFKjn6BZ388UQ.png",
+    "fontSets": [
+      {
+        "id": 1,
+        "url": "https://cdn-static-1.medium.com/_/fp/css/fonts-base.by5Oi_VbnwEIvhnWIsuUjA.css"
+      },
+      {
+        "id": 4,
+        "url": "https://cdn-static-1.medium.com/_/fp/css/fonts-lazy-base.g08Jj5TZPAiuPWj5YNUsSg.css"
+      },
+      {
+        "id": 6,
+        "url": "https://cdn-static-1.medium.com/_/fp/css/fonts-latin-base.141WxxXgxGxNcfeza73H7Q.css"
+      },
+      {
+        "id": 7,
+        "url": "https://cdn-static-1.medium.com/_/fp/css/fonts-lazy-latin-base.jMU532QDmysQMOINr-cr2A.css"
+      }
+    ]
+  },
+  "authBaseUrlRev": "moc.muidem//:sptth",
+  "isDnt": false,
+  "stripePublishableKey": "pk_live_7FReX44VnNIInZwrIIx6ghjl",
+  "archiveUploadSizeMb": 100,
+  "paymentData": {
+    "currencies": {
+      "1": {
+        "label": "US Dollar",
+        "external": "usd"
+      }
+    },
+    "countries": {
+      "1": {
+        "label": "United States of America",
+        "external": "US"
+      }
+    },
+    "accountTypes": {
+      "1": {
+        "label": "Individual",
+        "external": "individual"
+      },
+      "2": {
+        "label": "Company",
+        "external": "company"
+      }
+    }
+  },
+  "previewConfig2": {
+    "weightThreshold": 1,
+    "weightImageParagraph": 0.05,
+    "raiseImage": true,
+    "enforceHeaderHierarchy": true,
+    "isImageInsetRight": true
+  },
+  "isAmp": false,
+  "iosScheme": "medium",
+  "isSwBoot": false,
+  "lightstep": {
+    "accessToken": "ce5be895bef60919541332990ac9fef2",
+    "carrier": "{\"ot-tracer-spanid\":\"01c6312f0ea27645\",\"ot-tracer-traceid\":\"5280000870397d8e\",\"ot-tracer-sampled\":\"true\"}",
+    "host": "collector-medium.lightstep.com"
+  },
+  "facebook": {
+    "key": "542599432471018",
+    "secret": "c14df7146e9052a1131f3c900c1f0644",
+    "token": "542599432471018|1JqjIwxSfY9jOt_KwjWEl1R7T6I",
+    "namespace": "medium-com",
+    "scope": {
+      "default": [
+        "public_profile",
+        "email",
+        "user_friends"
+      ],
+      "connect": [
+        "public_profile",
+        "email",
+        "user_friends"
+      ],
+      "login": [
+        "public_profile",
+        "email",
+        "user_friends"
+      ],
+      "share": [
+        "public_profile",
+        "email",
+        "user_friends",
+        "publish_actions"
+      ]
+    },
+    "smartPublishWhitelistedPublications": [
+      "bcc38c8f6edf",
+      "f3726e2a5878",
+      "828a270689e",
+      "81c7d351c056",
+      "f30e42fd7ff8",
+      "8bf1d7d3081b",
+      "d16afa0ae7c",
+      "d8f3f6ad9c31",
+      "e74de0cedea9",
+      "15f753907972",
+      "c8c6a6b01ebd",
+      "3412b9729488",
+      "2ce4bbcf83bb",
+      "544c7006046e",
+      "7bfcdbc6b30a",
+      "a268fd916824",
+      "458a773bccd2"
+    ],
+    "instantArticles": {
+      "published": true,
+      "developmentMode": false
+    }
+  },
+  "mailingListArchiveUploadSizeMb": 2,
+  "availableMembershipPlans": [],
+  "isDoNotAuth": false,
+  "goldfinchUrl": "https://goldfinch.medium.com"
+}

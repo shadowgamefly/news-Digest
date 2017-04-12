@@ -1,0 +1,698 @@
+for (;;); {
+  "__ar": 1,
+  "__sf": "iw",
+  "payload": {
+    "totalCount": 94,
+    "commentIDs": ["1671040106245487_1671190502897114",
+      "1671040106245487_1671185842897580",
+      "1671040106245487_1671181259564705",
+      "1671040106245487_1671112116238286",
+      "1671040106245487_1671103092905855",
+      "1671040106245487_1671176542898510",
+      "1671040106245487_1671212002894964",
+      "1671040106245487_1671165059566325",
+      "1671040106245487_1671227039560127",
+      "1671040106245487_1671262449556586"
+    ],
+    "afterCursor": "69",
+    "idMap": {
+      "100012474103109": {
+        "id": "100012474103109",
+        "name": "Tom Nicholson",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c29.0.100.100\/p100x100\/10354686_10150004552801856_220367501106153455_n.jpg?oh=8947b83b5b9e5dfec972e7ee2de13985&oe=59649477",
+        "uri": "https:\/\/www.facebook.com\/tom.nicholson.1401",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487": {
+        "id": "1671040106245487",
+        "name": "Russia Detains Opposition Leader Navalny Amid Nationwide Protests",
+        "uri": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "type": "ogobject"
+      },
+      "1671040106245487_1671165059566325": {
+        "id": "1671040106245487_1671165059566325",
+        "authorID": "100012474103109",
+        "body": {
+          "text": "Trump IS Putin US on.\n\nQuit Stalin before we go Russian.....\n\n....Or is it too late already?\n\nSad really, in a bigly and yuge sort of weigh...way!"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490542731,
+          "text": "Mar 26, 2017 11:38am"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 2,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671165059566325&rid=100012474103109&comment_id=1671165059566325",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "100004170037990": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "school": {
+              "name": "Lakeshore Technical Institute",
+              "url": "https:\/\/www.facebook.com\/pages\/Lakeshore-Technical-Institute\/115821198432841",
+              "id": 115821198432841
+            }
+          }
+        },
+        "id": "100004170037990",
+        "name": "Dorinne Green",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c29.0.100.100\/p100x100\/1379841_10150004552801901_469209496895221757_n.jpg?oh=2f63f1af9616d35d212c73ac4bb2a31e&oe=596A4824",
+        "uri": "https:\/\/www.facebook.com\/dorinne.green.3",
+        "isVerified": false,
+        "type": "user"
+      },
+      "100000011749855": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "school": {
+              "name": "Acton-Boxborough Regional High School",
+              "url": "https:\/\/www.facebook.com\/pages\/Acton-Boxborough-Regional-High-School\/107201115976385",
+              "id": 107201115976385
+            }
+          }
+        },
+        "id": "100000011749855",
+        "name": "John DuPont",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/p100x100\/13466221_1221379874539059_39050646154284353_n.jpg?oh=1336e995e09666dc6957e66fd6374a83&oe=596EF308",
+        "uri": "https:\/\/www.facebook.com\/JHD359",
+        "isVerified": false,
+        "type": "user"
+      },
+      "100000458810125": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "employer": {
+              "name": "Self-Employed",
+              "url": "https:\/\/www.facebook.com\/pages\/Self-Employed\/594445203920155",
+              "id": 594445203920155
+            },
+            "school": {
+              "name": "DeVry Institute of Technology, Pomona, CA",
+              "url": "https:\/\/www.facebook.com\/pages\/DeVry-Institute-of-Technology-Pomona-CA\/112046612154932",
+              "id": 112046612154932
+            },
+            "city": {
+              "name": "Santa Clarita, California",
+              "url": "https:\/\/www.facebook.com\/pages\/Santa-Clarita-California\/112668612077840",
+              "id": 112668612077840
+            }
+          }
+        },
+        "id": "100000458810125",
+        "name": "Thomas Peters",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c0.25.100.100\/p100x100\/1779971_744614658897154_1417321804_n.jpg?oh=5755a68479414a5c2dce9f6ee2260605&oe=5964EDEE",
+        "uri": "https:\/\/www.facebook.com\/thomas.peters.127648",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1089649308": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "employer": {
+              "name": "Retired",
+              "url": "https:\/\/www.facebook.com\/pages\/Retired\/115064941843678",
+              "id": 115064941843678
+            },
+            "school": {
+              "name": "Elmhurst College",
+              "url": "https:\/\/www.facebook.com\/ElmCol\/",
+              "id": 86293358032
+            },
+            "city": {
+              "name": "Cape Canaveral, Florida",
+              "url": "https:\/\/www.facebook.com\/pages\/Cape-Canaveral-Florida\/112240802126396",
+              "id": 112240802126396
+            }
+          }
+        },
+        "id": "1089649308",
+        "name": "Susan Myers",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/p100x100\/16387204_10210803317974245_4516866197805600906_n.jpg?oh=ef0b60b806d42cdacae9becb054e8f49&oe=596CA0DD",
+        "uri": "https:\/\/www.facebook.com\/susan.myers.777",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671112116238286": {
+        "id": "1671040106245487_1671112116238286",
+        "authorID": "100004170037990",
+        "body": {
+          "text": "I have been following Russia's crack down on Jehovah's s Witnesses, they have been labeled extremists and they are about to be banned and all property will be seized. A global letter writing campaign has been set up in their defense."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490539802,
+          "text": "Mar 26, 2017 10:50am"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 5,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "moderationReason": "moderation",
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671112116238286&rid=100004170037990&comment_id=1671112116238286",
+        "spamCount": 1,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671262449556586": {
+        "id": "1671040106245487_1671262449556586",
+        "authorID": "100000011749855",
+        "body": {
+          "text": "Keep eyes wide open ladies and gentleman  I fear that Dump and his cohorts are looking for a way to start something that he will look to have the military move in \"saying it's for our safety\" . Then it's complete  We will be what we are witnessing in Russia"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490549618,
+          "text": "Mar 26, 2017 1:33pm"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 0,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671262449556586&rid=100000011749855&comment_id=1671262449556586",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671227039560127": {
+        "id": "1671040106245487_1671227039560127",
+        "authorID": "1089649308",
+        "body": {
+          "text": "No such thing as free speech in Russia...that is how 45 would like it to be here also...but we won't let him...Resist and Persist!"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490546968,
+          "text": "Mar 26, 2017 12:49pm"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 2,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671227039560127&rid=1089649308&comment_id=1671227039560127",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671212002894964": {
+        "id": "1671040106245487_1671212002894964",
+        "authorID": "100000458810125",
+        "body": {
+          "text": "With yet another \"Potemkin election\" on the horizon, honest Russians are inspired to speak out, with predictable results.\n\nThe Tsar is not pleased."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490545765,
+          "text": "Mar 26, 2017 12:29pm"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 2,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671212002894964&rid=100000458810125&comment_id=1671212002894964",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "100001572470006": {
+        "id": "100001572470006",
+        "name": "Rob Woodcock",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/p100x100\/16998074_1408546619207740_3655298117267622126_n.jpg?oh=fcb5c6d72c8af62bd2308d86cb0c0272&oe=599A9EBD",
+        "uri": "https:\/\/www.facebook.com\/robertwoodcock01",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671181259564705": {
+        "id": "1671040106245487_1671181259564705",
+        "authorID": "100001572470006",
+        "body": {
+          "text": "I would suggest the opposition lead to never be seen again. Those that often oppose Putin, either end up in jail and tried on bogus charges or dead. This is the reality of living in Russia. \nRachel Maddow has reported on such activity time and again."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490543759,
+          "text": "Mar 26, 2017 11:55am"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 4,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "moderationReason": "moderation",
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671181259564705&rid=100001572470006&comment_id=1671181259564705",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1558522312": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "school": {
+              "name": "Cal State Long Beach",
+              "url": "https:\/\/www.facebook.com\/pages\/Cal-State-Long-Beach\/110811005614404",
+              "id": 110811005614404
+            },
+            "city": {
+              "name": "Nixa, Missouri",
+              "url": "https:\/\/www.facebook.com\/pages\/Nixa-Missouri\/113095482037448",
+              "id": 113095482037448
+            }
+          }
+        },
+        "id": "1558522312",
+        "name": "Glenda Sitnek",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c0.21.100.100\/p100x100\/40652_1515953949650_5840072_n.jpg?oh=8a21add634b364c0e8fc437c6bdc7d3b&oe=596170D2",
+        "uri": "https:\/\/www.facebook.com\/glenda.sitnek",
+        "isVerified": false,
+        "type": "user"
+      },
+      "100000470906785": {
+        "id": "100000470906785",
+        "name": "Susan Bibb Keller",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c26.8.96.96\/p111x111\/27917_553899891302369_2113708282_n.jpg?oh=2485ff521c7839b19cd34a7e8f4eb63f&oe=5966BA36",
+        "uri": "https:\/\/www.facebook.com\/susan.b.keller.9",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671190502897114": {
+        "id": "1671040106245487_1671190502897114",
+        "authorID": "1558522312",
+        "body": {
+          "text": "Putin doesn't appear to have any qualms about how to get rid of the opposition. IMO there is nothing about Putin to admire so t is a puzzle as to why Trump seems to admire him so much. My mamma said if you play with matches you might get burned. Trump might want to take mamma's advice."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490544449,
+          "text": "Mar 26, 2017 12:07pm"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "public_replies": {
+          "totalCount": 1,
+          "commentIDs": ["1671040106245487_1671211716228326"]
+        },
+        "likeCount": 3,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671190502897114&rid=1558522312&comment_id=1671190502897114",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671211716228326": {
+        "id": "1671040106245487_1671211716228326",
+        "authorID": "100000470906785",
+        "body": {
+          "text": "Don't you think it is probably to late? Trump owes Putin big time.  And Putin aims to get it."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490545748,
+          "text": "Mar 26, 2017 12:29pm"
+        },
+        "targetID": "1671040106245487_1671190502897114",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 2,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671211716228326&rid=100000470906785&comment_id=1671211716228326",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "100002998985763": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "city": {
+              "name": "Bellingham, Washington",
+              "url": "https:\/\/www.facebook.com\/pages\/Bellingham-Washington\/107946072559714",
+              "id": 107946072559714
+            }
+          }
+        },
+        "id": "100002998985763",
+        "name": "Jim Clark",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c8.8.96.96\/p111x111\/298645_104195429690423_738713960_n.jpg?oh=719c4f54a44e096dc175b17967149d6c&oe=5954B074",
+        "uri": "https:\/\/www.facebook.com\/jim.clark.7927",
+        "isVerified": false,
+        "type": "user"
+      },
+      "100000201592328": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "city": {
+              "name": "Maryville, Illinois",
+              "url": "https:\/\/www.facebook.com\/pages\/Maryville-Illinois\/108620485829345",
+              "id": 108620485829345
+            }
+          }
+        },
+        "id": "100000201592328",
+        "name": "Joseph Ernst",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c12.0.100.100\/p100x100\/269080_255237161159668_6941789_n.jpg?oh=f2da744648fbb08c449caf97088f7ee4&oe=5950AB4F",
+        "uri": "https:\/\/www.facebook.com\/Dr.Ernst",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671103092905855": {
+        "id": "1671040106245487_1671103092905855",
+        "authorID": "100002998985763",
+        "body": {
+          "text": "\"lock her up! - lock her up! - lock her up!\"\nFacism has already found a home in America."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490539281,
+          "text": "Mar 26, 2017 10:41am"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "public_replies": {
+          "totalCount": 1,
+          "commentIDs": ["1671040106245487_1671106712905493"]
+        },
+        "likeCount": 19,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671103092905855&rid=100002998985763&comment_id=1671103092905855",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671106712905493": {
+        "id": "1671040106245487_1671106712905493",
+        "authorID": "100000201592328",
+        "body": {
+          "text": "I'm sure that in Russia the Kremlin party was shouting,  \"Lock him up!  Lock him up!\"  In Russian, of course."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490539497,
+          "text": "Mar 26, 2017 10:44am"
+        },
+        "targetID": "1671040106245487_1671103092905855",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 7,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671106712905493&rid=100000201592328&comment_id=1671106712905493",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1676821563": {
+        "id": "1676821563",
+        "name": "Margaret Paine",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/p100x100\/17361806_10207213241564151_4938643375013077255_n.jpg?oh=409791af08169b3817363c4ae4cb1230&oe=59529161",
+        "uri": "https:\/\/www.facebook.com\/margaret.paine.79",
+        "isVerified": false,
+        "type": "user"
+      },
+      "100007000082390": {
+        "id": "100007000082390",
+        "name": "Ron Winer",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c29.0.100.100\/p100x100\/10354686_10150004552801856_220367501106153455_n.jpg?oh=8947b83b5b9e5dfec972e7ee2de13985&oe=59649477",
+        "uri": "https:\/\/www.facebook.com\/profile.php?id=100007000082390",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671176542898510": {
+        "id": "1671040106245487_1671176542898510",
+        "authorID": "1676821563",
+        "body": {
+          "text": "And if you're not reading this Lille it could happen that's get Russianize you'd better wake up. We need to stop any cozy up to Russia type behavior of our leaders."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490543481,
+          "text": "Mar 26, 2017 11:51am"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "public_replies": {
+          "totalCount": 1,
+          "commentIDs": ["1671040106245487_1671217682894396"]
+        },
+        "likeCount": 4,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671176542898510&rid=1676821563&comment_id=1671176542898510",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671217682894396": {
+        "id": "1671040106245487_1671217682894396",
+        "authorID": "100007000082390",
+        "body": {
+          "text": "Trump is under the controlof Putin and his tax returns show the Russian connections."
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490546252,
+          "text": "Mar 26, 2017 12:37pm"
+        },
+        "targetID": "1671040106245487_1671176542898510",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 2,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671217682894396&rid=100007000082390&comment_id=1671217682894396",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "100002375534336": {
+        "bio": {
+          "preferredTypes": [
+            ["position", "department", "employer"],
+            ["school"],
+            ["network"],
+            ["city"]
+          ],
+          "stats": {
+            "school": {
+              "name": "University of Central Florida",
+              "url": "https:\/\/www.facebook.com\/pages\/University-of-Central-Florida\/110824245604669",
+              "id": 110824245604669
+            },
+            "city": {
+              "name": "Lynchburg, South Carolina",
+              "url": "https:\/\/www.facebook.com\/pages\/Lynchburg-South-Carolina\/108056895881221",
+              "id": 108056895881221
+            }
+          }
+        },
+        "id": "100002375534336",
+        "name": "Nancy Mikolon",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c0.0.100.100\/p100x100\/321201_161273197295197_2061738678_n.jpg?oh=ad90e91271035149ec523bee4e5663a6&oe=595F2859",
+        "uri": "https:\/\/www.facebook.com\/nancy.mikolon",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671185842897580": {
+        "id": "1671040106245487_1671185842897580",
+        "authorID": "100002375534336",
+        "body": {
+          "text": "And that kind of crackdown is coming soon to an American city near you unless we the people take back our country from TrumPutinBannon!"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490544088,
+          "text": "Mar 26, 2017 12:01pm"
+        },
+        "targetID": "1671040106245487",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "public_replies": {
+          "totalCount": 3,
+          "commentIDs": ["1671040106245487_1671198022896362",
+            "1671040106245487_1671203256229172",
+            "1671040106245487_1671203506229147"
+          ],
+          "afterCursor": "Y29tbWVudF9jdXJzb3I6MTY3MTIwMzUwNjIyOTE0NzoxNDkwNTQ1MzI2"
+        },
+        "likeCount": 6,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671185842897580&rid=100002375534336&comment_id=1671185842897580",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671203506229147": {
+        "id": "1671040106245487_1671203506229147",
+        "authorID": "100002375534336",
+        "body": {
+          "text": "Yep, probably! Depressing!"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490545326,
+          "text": "Mar 26, 2017 12:22pm"
+        },
+        "targetID": "1671040106245487_1671185842897580",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 0,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671203506229147&rid=100002375534336&comment_id=1671203506229147",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1671040106245487_1671203256229172": {
+        "id": "1671040106245487_1671203256229172",
+        "authorID": "100002375534336",
+        "body": {
+          "text": "Yep, probably! Depressing!"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490545308,
+          "text": "Mar 26, 2017 12:21pm"
+        },
+        "targetID": "1671040106245487_1671185842897580",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 0,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671203256229172&rid=100002375534336&comment_id=1671203256229172",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      },
+      "1410171554": {
+        "id": "1410171554",
+        "name": "Kirsten Mahlzahn",
+        "thumbSrc": "https:\/\/scontent-iad3-1.xx.fbcdn.net\/v\/t1.0-1\/c8.8.96.96\/p111x111\/262910_2283036361286_8072141_n.jpg?oh=22b718788103a9fb3edca076e1878e51&oe=596A4F1E",
+        "uri": "https:\/\/www.facebook.com\/kirsten.doerwald",
+        "isVerified": false,
+        "type": "user"
+      },
+      "1671040106245487_1671198022896362": {
+        "id": "1671040106245487_1671198022896362",
+        "authorID": "1410171554",
+        "body": {
+          "text": "not a city, Standing Rock..\nMark my words"
+        },
+        "ranges": [],
+        "timestamp": {
+          "time": 1490544922,
+          "text": "Mar 26, 2017 12:15pm"
+        },
+        "targetID": "1671040106245487_1671185842897580",
+        "ogURL": "http:\/\/www.huffingtonpost.com\/entry\/russia-protests-navalny-arrests_us_58d7c0c3e4b02a2eaab4e296",
+        "likeCount": 1,
+        "hasLiked": false,
+        "canLike": true,
+        "canEdit": false,
+        "hidden": false,
+        "highlightedWords": [],
+        "reportURI": "\/report\/dispatch\/?content_type=98&cid=1671198022896362&rid=1410171554&comment_id=1671198022896362",
+        "spamCount": 0,
+        "canEmbed": true,
+        "type": "comment"
+      }
+    }
+  },
+  "bootloadable": {},
+  "ixData": {},
+  "lid": "6401862661701276708"
+}
