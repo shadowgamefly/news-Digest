@@ -83,6 +83,7 @@ if __name__ == '__main__':
     while not q.empty():
         time.sleep(10)
         uid = q.get()
+        analyze(d[uid])
         parse(d[uid],pk,uid)
         pk += 1
         savevariable(list(q.queue), d, pk)
