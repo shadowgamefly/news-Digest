@@ -12,6 +12,17 @@ def write_html(filename, data, pk):
     output.write(data.content.decode('utf-8'))
     output.close()
 
+def parse_fullcomment(href):
+    page = requests.get(href)
+    tree = html.fromstring(page.content.decode('utf-8'))
+
+    body = tree.xpath('//div[@class="section-inner sectionLayout--insetColumn"]/*')
+    content = ''
+    for para in body:
+        sentence = para.text_content()
+        content += sentence + ' '
+    return content
+
 def parse_comment(page, uid, pk):
     resp = requests.get(
         url="https://medium.com/_/api/posts/"+uid+"/responsesStream",
@@ -22,30 +33,107 @@ def parse_comment(page, uid, pk):
     resp_data = json.loads(resp.content.decode('utf-8')[16:])
     write_json('cache/json/'+str(pk) +"_"+ str(uid)+'.json', resp_data, pk)
 
-
     if (resp_data['success']):
         try:
             comm_data=resp_data['payload']['references']['Post']
+            user_data=resp_data['payload']['references']['User']
         except KeyError:
+            print("comment key error with pk="+str(pk), file=sys.stderr)
             return None
+
         count = 0
+        commment_dict = {}
+        # parse all comments
         for key, value in comm_data.items():
             count += 1
-            comment = ""
-            # value['inResponseToMediaResourceId'] matches value['MediaResource'][key]
-            # "mediumQuote" not none
-            for comm_para in value['previewContent']['bodyModel']['paragraphs']:
-                comment+=comm_para['text']
+
+            comment_id = ''
+            creator_id = ''
+            comment = ''
+            media_id = ''
+            try:
+                comment_full = value['previewContent']['isFullContent']
+                comment_paras = value['previewContent']['bodyModel']['paragraphs']
+                comment_id = value['id']
+                creator_id = value['creatorId']
+                media_id = value['inResponseToMediaResourceId']
+            except KeyError:
+                print("id key error with pk="+str(pk), file=sys.stderr)
+                count-=1
+                continue
+                
+            if comment_id == uid:
+                count-=1
+                continue
+
+            if comment_full:
+                # print(comment_id)
+                for comm_para in comment_paras:
+                    comment+=comm_para['text']
+            else:
+                username = user_data[creator_id]['username']
+                unique_slug = value['uniqueSlug']
+                comment = parse_fullcomment('https://medium.com/@'+username+'/'+unique_slug)
+
+            if media_id != '': #assume one media_id only to one sentences
+                commment_dict[media_id] = comment_id
 
             comm_dict = {
                 'content': comment,
                 'child': '',
                 'title': '',
+                'id': comment_id,
+                'creatorid': creator_id,
                 'name': str(pk) + '_' + str(count),
                 'parent': str(pk)
             }
             json_f = 'data/comment/' + comm_dict['name'] + '.json'
             write_json(json_f, comm_dict, pk)
+
+        # parse quote
+        # value['inResponseToMediaResourceId'] matches value['MediaResource'][key]
+        # "mediumQuote" not none
+        quote_count = 0
+        try:
+            quote_data=resp_data['payload']['references']['Quote']
+            media_data=resp_data['payload']['references']['MediaResource']
+        except KeyError:
+            print("quote key error with pk="+str(pk), file=sys.stderr)
+            return count
+
+        for mediaResourceId, media in media_data.items():
+            if 'mediumQuote' in media:
+                quote_count += 1
+                media_id = str(mediaResourceId)
+                comment_id = commment_dict.get(media_id)
+
+                quote_id = media['mediumQuote']['quoteId']
+                quote = quote_data[quote_id]
+                creator_id = ''
+                comment = ''
+                sentence_id = ''
+                try:
+                    comment_paras = quote['paragraphs']
+                    sentence_id = quote['paragraphs'][0]['name']
+                    creator_id = quote['userId']
+                except KeyError:
+                    print("id key error with pk="+str(pk), file=sys.stderr)
+
+                for comm_para in comment_paras:
+                    comment+=comm_para['text']
+
+                quote_dict = {
+                    'content': comment, #match sentence piece
+                    'child': '',
+                    'title': '',
+                    'sentenceid': sentence_id,
+                    'commentid': comment_id,
+                    'creatorid': creator_id,
+                    'name': str(pk) + '_' + str(quote_count),
+                    'parent': str(pk)
+                }
+                json_f = 'data/truth/' + quote_dict['name'] + '.json'
+                write_json(json_f, quote_dict, pk)
 
         return count
     else:
@@ -65,11 +153,13 @@ def parse_article(page, url, count, pk):
         'child': ''
     }
 
-    body = tree.xpath('//div[@class="section-inner sectionLayout--insetColumn"]/p')
+    body = tree.xpath('//div[@class="section-inner sectionLayout--insetColumn"]/*')
 
     for para in body:
         sentence = para.text_content()
-        art['sentences'].append({'sentence': sentence})
+        key = para.xpath('@id')[0]
+        if sentence == "" or not key: continue
+        art['sentences'].append({key : sentence})
         art['content'] += sentence + ' '
 
     for i in range(1, count+1):
@@ -124,4 +214,4 @@ if __name__ == '__main__':
     if len(sys.argv) == 3:
         parse(sys.argv[1], int(sys.argv[2]))
     else:
-        parse("https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b", 0)
+        parse("https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e", 0)

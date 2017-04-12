@@ -1,0 +1,4386 @@
+{
+  "b": "28562-0db87ff",
+  "payload": {
+    "references": {
+      "User": {
+        "653e7df71c6c": {
+          "bio": "",
+          "type": "User",
+          "userId": "653e7df71c6c",
+          "username": "yawarbaig",
+          "mediumMemberAt": 0,
+          "imageId": "0*xTKxDmbDV7T4mT85.",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1477332638813,
+          "lastPostCreatedAt": 1491998709982,
+          "backgroundImageId": "",
+          "name": "Mirza Yawar Baig",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "8a07e49227cc": {
+          "bio": "",
+          "type": "User",
+          "userId": "8a07e49227cc",
+          "username": "BryanBuck1",
+          "mediumMemberAt": 0,
+          "imageId": "0*CehPEpZit-Jhmih1.jpg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "BryanBuck1",
+          "createdAt": 1490121295674,
+          "lastPostCreatedAt": 1491934129831,
+          "backgroundImageId": "",
+          "name": "Bryan",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "1cd5196a8bf": {
+          "bio": "",
+          "type": "User",
+          "userId": "1cd5196a8bf",
+          "username": "brodie276343",
+          "mediumMemberAt": 0,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1488313318864,
+          "lastPostCreatedAt": 1492001194953,
+          "backgroundImageId": "",
+          "name": "Doug",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "9e991aa3d62": {
+          "bio": "Owner/Founder AcCollegeMents",
+          "type": "User",
+          "userId": "9e991aa3d62",
+          "username": "PBLamp",
+          "mediumMemberAt": 0,
+          "imageId": "1*jHCF1VWJH6ic3yym6YYaCg.jpeg",
+          "facebookAccountId": "939466576131804",
+          "allowNotes": 1,
+          "twitterScreenName": "PBLamp",
+          "createdAt": 1457023184432,
+          "lastPostCreatedAt": 1491929816933,
+          "backgroundImageId": "",
+          "name": "Patty Brown Lamprinakos",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "24521b06ed51": {
+          "bio": "",
+          "type": "User",
+          "userId": "24521b06ed51",
+          "username": "rickfischer",
+          "mediumMemberAt": 0,
+          "imageId": "0*VRgLfUtZjZYKHzuk.jpg",
+          "facebookAccountId": "10205837416593204",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1435421996779,
+          "lastPostCreatedAt": 1491926454718,
+          "backgroundImageId": "",
+          "name": "Rick Fischer",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "5787c4eaaaa9": {
+          "bio": "Political writer at Civic Ventures. Co-founder of the Seattle Review of Books.",
+          "type": "User",
+          "userId": "5787c4eaaaa9",
+          "username": "paulconstant",
+          "mediumMemberAt": 0,
+          "imageId": "0*IE0I7o58ue0e3gIA.jpg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "paulconstant",
+          "createdAt": 1355164537958,
+          "lastPostCreatedAt": 1491845370982,
+          "backgroundImageId": "",
+          "name": "Paul Constant",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "cf0c3f5342fe": {
+          "bio": "I oppose fascism in all its forms.",
+          "type": "User",
+          "userId": "cf0c3f5342fe",
+          "username": "eclai93",
+          "mediumMemberAt": 0,
+          "imageId": "0*YmQpwmg1MOPi5HWY.jpeg",
+          "facebookAccountId": "",
+          "allowNotes": 0,
+          "twitterScreenName": "eclai93",
+          "createdAt": 1479242033943,
+          "lastPostCreatedAt": 1492016488081,
+          "backgroundImageId": "",
+          "name": "Edwin Lai",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "bc292738095f": {
+          "bio": "TheLizard tweets about current events, politics in Virginia, #RVA and the US, as well as threats to the Internet and technology.",
+          "type": "User",
+          "userId": "bc292738095f",
+          "username": "thelizard",
+          "mediumMemberAt": 0,
+          "imageId": "0*JUCJvGw9m1LIWz_o.JPG",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "TheLizard",
+          "createdAt": 1371999801797,
+          "lastPostCreatedAt": 1492012742887,
+          "backgroundImageId": "",
+          "name": "TheLizard",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "8cd16013c2a": {
+          "bio": "",
+          "type": "User",
+          "userId": "8cd16013c2a",
+          "username": "jasonericsson",
+          "mediumMemberAt": 0,
+          "imageId": "0*DuMD_jq5z76evqTI.",
+          "facebookAccountId": "619453678213302",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1470994691796,
+          "lastPostCreatedAt": 1491881976621,
+          "backgroundImageId": "",
+          "name": "Jason Ericsson",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "d5d91beb9cd9": {
+          "bio": "Jesus-loving iOS developer in Washington, DC.",
+          "type": "User",
+          "userId": "d5d91beb9cd9",
+          "username": "chriswoolfe",
+          "mediumMemberAt": 0,
+          "imageId": "0*AboNsFgc15n2K-0g.",
+          "facebookAccountId": "10108414089149711",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1479734601960,
+          "lastPostCreatedAt": 1491915019200,
+          "backgroundImageId": "",
+          "name": "Chris Woolfe",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "477f02d8912b": {
+          "bio": "",
+          "type": "User",
+          "userId": "477f02d8912b",
+          "username": "nZenitram",
+          "mediumMemberAt": 0,
+          "imageId": "1*ux5oaWZfJ3md9V5n8qUEPA.jpeg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1465279209422,
+          "lastPostCreatedAt": 1492022427946,
+          "backgroundImageId": "",
+          "name": "Nicholas Martinez",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "ceeb4e206c6e": {
+          "bio": "",
+          "type": "User",
+          "userId": "ceeb4e206c6e",
+          "username": "Glass2707",
+          "mediumMemberAt": 0,
+          "imageId": "0*5_ecO2-KgGQAwNgO.",
+          "allowNotes": 1,
+          "createdAt": 1486149121887,
+          "lastPostCreatedAt": 1491934111520,
+          "backgroundImageId": "",
+          "name": "Austin Glass",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "f475a89ef784": {
+          "bio": "",
+          "type": "User",
+          "userId": "f475a89ef784",
+          "username": "michele.cox",
+          "mediumMemberAt": 0,
+          "imageId": "0*4sVADjxObjsJmCW4.",
+          "facebookAccountId": "1207338282650356",
+          "allowNotes": 1,
+          "twitterScreenName": "Gramina",
+          "createdAt": 1461251589190,
+          "lastPostCreatedAt": 1491933596420,
+          "backgroundImageId": "",
+          "name": "Michele Cox",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "b5053511cc00": {
+          "bio": "",
+          "type": "User",
+          "userId": "b5053511cc00",
+          "username": "nfoster14",
+          "mediumMemberAt": 0,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1465917523850,
+          "lastPostCreatedAt": 1491934226055,
+          "backgroundImageId": "",
+          "name": "Nick Foster",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "9db9984cc493": {
+          "bio": "",
+          "type": "User",
+          "userId": "9db9984cc493",
+          "username": "mauriziopiglia",
+          "mediumMemberAt": 0,
+          "imageId": "0*XKLFEMI8vLSEVCCq.jpg",
+          "facebookAccountId": "10208567866663670",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1456259598540,
+          "lastPostCreatedAt": 1491944000995,
+          "backgroundImageId": "",
+          "name": "Maurizio Piglia",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "8026721227fd": {
+          "bio": "The principal shareholder of Sweetwater Investments, a former host of a radio show with 9 million listeners, a guest CNBC commentator, and a lover of scotch.",
+          "type": "User",
+          "userId": "8026721227fd",
+          "username": "DennisGibb",
+          "mediumMemberAt": 0,
+          "imageId": "1*NufAe-G7WJusB0UutTDnCA.jpeg",
+          "facebookAccountId": "10209874531088316",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1467919541987,
+          "lastPostCreatedAt": 1491916373889,
+          "backgroundImageId": "",
+          "name": "Dennis Gibb",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "146ea91aed8c": {
+          "bio": "",
+          "type": "User",
+          "userId": "146ea91aed8c",
+          "username": "byronh49",
+          "mediumMemberAt": 0,
+          "imageId": "1*93JcLh2VaU4o63hxC3_ybQ.jpeg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1445358013396,
+          "lastPostCreatedAt": 1491926580072,
+          "backgroundImageId": "",
+          "name": "Byron Hathaway",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "e3764d683192": {
+          "bio": "",
+          "type": "User",
+          "userId": "e3764d683192",
+          "username": "tsshiro",
+          "mediumMemberAt": 0,
+          "imageId": "0*XeRu7G6UH34F_dQf.jpeg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "tsshiro",
+          "createdAt": 1491653550884,
+          "lastPostCreatedAt": 1491912858322,
+          "backgroundImageId": "",
+          "name": "Timothy Shiro",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "d4a43ea991d3": {
+          "bio": "I'm not just a software engineer. Writing elegant code is only one of the ways I enjoy solving problems.",
+          "type": "User",
+          "userId": "d4a43ea991d3",
+          "username": "jhabdas",
+          "mediumMemberAt": 0,
+          "imageId": "1*5GZJ2S9udE8Sg0pBtUx3qA.jpeg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1472309417727,
+          "lastPostCreatedAt": 1491974890172,
+          "backgroundImageId": "",
+          "name": "Josh Habdas",
+          "mediumMemberWaitlistedAt": 1490475381827
+        },
+        "56f1f16bf4a0": {
+          "bio": "",
+          "type": "User",
+          "userId": "56f1f16bf4a0",
+          "username": "JimmieRustle",
+          "mediumMemberAt": 0,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "allowNotes": 1,
+          "createdAt": 1474674373002,
+          "lastPostCreatedAt": 1491945705730,
+          "backgroundImageId": "",
+          "name": "Jim E. Rustle",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "878d5bc112a": {
+          "bio": "",
+          "type": "User",
+          "userId": "878d5bc112a",
+          "username": "courtenaysmith_68115",
+          "mediumMemberAt": 0,
+          "imageId": "0*e2dSmpk64hANF_EP.",
+          "facebookAccountId": "1736164249972032",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1489348332593,
+          "lastPostCreatedAt": 1491923569704,
+          "backgroundImageId": "",
+          "name": "Courtenay Smith",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "ba3c069c2d8f": {
+          "bio": "President Diamond Strategy Partnership. My motto “Perspective Is Everything!” reflects my passion for teaching people to see their own big picture!",
+          "type": "User",
+          "userId": "ba3c069c2d8f",
+          "username": "Surfernova",
+          "mediumMemberAt": 0,
+          "imageId": "1*fQKbO4EbV5a_veAHigrX3g.png",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1465780386920,
+          "lastPostCreatedAt": 1491864770854,
+          "backgroundImageId": "",
+          "name": "D Scott Pierce",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "f4d8f58c3405": {
+          "bio": "",
+          "type": "User",
+          "userId": "f4d8f58c3405",
+          "username": "sporto",
+          "mediumMemberAt": 0,
+          "imageId": "1*dmbNkD5D-u45r44go_cf0g.png",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "",
+          "createdAt": 1444263605191,
+          "lastPostCreatedAt": 1491917785485,
+          "backgroundImageId": "",
+          "name": "gary keenan",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "24fc51462de1": {
+          "bio": "",
+          "type": "User",
+          "userId": "24fc51462de1",
+          "username": "ArchaeoPhotoTom",
+          "mediumMemberAt": 0,
+          "imageId": "0*p9zYEiog0xj-w1ts.jpg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "twitterScreenName": "ArchaeoPhotoTom",
+          "createdAt": 1491874125845,
+          "lastPostCreatedAt": 1491874195535,
+          "backgroundImageId": "",
+          "name": "Thomas Carr",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "17bb3a83a9c2": {
+          "bio": "Registered Independent, Fiscally Conservative, Progressive, Aerospace Engineer, Green, Egalitarian, Feminist, Mathmagician, CBO Fanboy, and Community Volunteer.",
+          "type": "User",
+          "userId": "17bb3a83a9c2",
+          "username": "k_swiss",
+          "mediumMemberAt": 0,
+          "imageId": "1*KNj0Ul1frkJzC_L3z6L38g.png",
+          "allowNotes": 1,
+          "createdAt": 1474300259976,
+          "lastPostCreatedAt": 1492012657238,
+          "backgroundImageId": "",
+          "name": "A Voiceless Nation",
+          "mediumMemberWaitlistedAt": 0
+        },
+        "615c8af3478f": {
+          "bio": "",
+          "type": "User",
+          "userId": "615c8af3478f",
+          "username": "captaincorny",
+          "mediumMemberAt": 0,
+          "imageId": "0*Ddz8S6DqHSKAPfdU.",
+          "allowNotes": 0,
+          "createdAt": 1473792109134,
+          "lastPostCreatedAt": 1492026416070,
+          "backgroundImageId": "",
+          "name": "J. w",
+          "mediumMemberWaitlistedAt": 0
+        }
+      },
+      "Quote": {
+        "ba5910ea7411": {
+          "startOffset": 330,
+          "paragraphs": [{
+            "name": "5447",
+            "text": "So we’ve got the jokes about air travel being a hellish dystopia for anyone not in first class. We’ve got Wall Street cashing in on the metrics while ignoring the human horror of the story. And we’ve got “helpful” news stories explaining that in order to not have this happen to you, it’s wise to exercise some sort of privilege. It should be clear to anyone who’s paying attention that this story is not about customer service. It’s about income inequality. Helaine Olen posted a very good thread on Twitter about this:",
+            "type": 1,
+            "markups": [{
+              "href": "https://twitter.com/helaineolen/status/851455264675045376",
+              "type": 3,
+              "rel": "noopener",
+              "end": 508,
+              "title": "",
+              "anchorType": 0,
+              "start": 479
+            }, {
+              "end": 458,
+              "type": 1,
+              "start": 387
+            }]
+          }],
+          "createdAt": 1491945453872,
+          "quoteType": 1,
+          "type": "Quote",
+          "userId": "56f1f16bf4a0",
+          "removedAt": 0,
+          "endOffset": 458,
+          "quoteId": "ba5910ea7411",
+          "postId": "52e47b455f2e"
+        },
+        "4cca664983f6": {
+          "startOffset": 60,
+          "paragraphs": [{
+            "href": "",
+            "text": "You’ve probably by now seen the video of the doctor who was physically beaten and removed from a United flight because United wanted the seat for its employees. If you haven’t, here it is. Be warned: it’s an incredibly disturbing video:",
+            "type": 1,
+            "markups": [],
+            "name": "ea17",
+            "hasDropCap": false,
+            "dataId": ""
+          }],
+          "createdAt": 1491945816278,
+          "quoteType": 1,
+          "type": "Quote",
+          "userId": "1cd5196a8bf",
+          "removedAt": 0,
+          "endOffset": 78,
+          "quoteId": "4cca664983f6",
+          "postId": "52e47b455f2e"
+        },
+        "b222c8ca71b4": {
+          "startOffset": 0,
+          "paragraphs": [{
+            "href": "",
+            "text": "We must support middle-out policies like higher wages for everyone, higher taxes for corporations and the wealthy, and sensible regulations on business. If every American feels like they have a hand in America’s success, we’ll see less tolerance for intolerable actions like what happened on that United flight. Then, when we’ve moved the balance more toward something resembling equity, we can talk about commonsense ideas like breaking up monopolies and penalizing malicious businesses like United for harming Americans who do everything right and play by the rules.",
+            "type": 1,
+            "markups": [],
+            "name": "4939",
+            "hasDropCap": false,
+            "dataId": ""
+          }],
+          "createdAt": 1491974888266,
+          "quoteType": 1,
+          "type": "Quote",
+          "userId": "d4a43ea991d3",
+          "removedAt": 0,
+          "endOffset": 152,
+          "quoteId": "b222c8ca71b4",
+          "postId": "52e47b455f2e"
+        },
+        "d99936afeed0": {
+          "startOffset": 488,
+          "paragraphs": [{
+            "name": "500b",
+            "text": "In plain language under Rule 25 — on page 35 if you print it out — the agreement says exactly what happens if the flight is oversold. “If there are not enough volunteers, other Passengers may be denied boarding involuntarily,” the language reads. (Of course, the deplaned man was not denied boarding, he was already boarded.) The language continues however, shining light on how these “other Passengers” are chosen. It’s not random, it’s “in accordance with UA’s boarding priority.” That means that if you have a higher fare class, have a complex itinerary, have status (e.g. gold or platinum), have checked in early, or are a frequent flier, you are less likely to be asked to take the next flight. Even if it’s just a frequent flier card that you never use, it might save you from being forcibly dragged off a plane.",
+            "type": 6,
+            "markups": [{
+              "end": 818,
+              "type": 2,
+              "start": 0
+            }]
+          }],
+          "createdAt": 1491927523562,
+          "quoteType": 1,
+          "type": "Quote",
+          "userId": "17bb3a83a9c2",
+          "removedAt": 0,
+          "endOffset": 641,
+          "quoteId": "d99936afeed0",
+          "postId": "52e47b455f2e"
+        }
+      },
+      "Post": {
+        "b6eafce452d1": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491934140812,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491934141126,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 10,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 4,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.03773584905660377,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491934140812,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I noticed they didn’t drag anyone out of first class.",
+          "createdAt": 1491934129831,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "86f2c5ed307c",
+          "creatorId": "8a07e49227cc",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "i-noticed-they-didnt-drag-anyone-out-of-first-class-b6eafce452d1",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "6269",
+                "alignment": 1,
+                "text": "I noticed they didn’t drag anyone out of first class.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "b6eafce452d1",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-noticed-they-didnt-drag-anyone-out-of-first-class",
+          "license": 0,
+          "latestVersion": "86f2c5ed307c",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491934140812,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "86f2c5ed307c",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 8,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "d6805f89c14f": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491944136742,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491944137158,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 28,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 1,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.10566037735849057,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491944136742,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Only consolation is that , so far , Wall Street sold off United stock, shaving a billion dollar…",
+          "createdAt": 1491944000995,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "1f4d5e15f285",
+          "creatorId": "9db9984cc493",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "only-consolation-is-that-so-far-wall-street-sold-off-united-stock-shaving-a-billion-dollar-d6805f89c14f",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "86b9",
+                "alignment": 1,
+                "text": "Only consolation is that , so far , Wall Street sold off United stock, shaving a billion dollar from the capitalisation. They can see a massive boycott coming…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "d6805f89c14f",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "only-consolation-is-that-so-far-wall-street-sold-off-united-stock-shaving-a-billion-dollar",
+          "license": 0,
+          "latestVersion": "1f4d5e15f285",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491944136742,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "1f4d5e15f285",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 21,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "db4f94f09784": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491933711021,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491933711334,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 56,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 4,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.21132075471698114,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "I will certainly avoid booking with United in the future, and I hope that they are never again confronted with such a challenging situation…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491933711021,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "I will certainly avoid booking with United in the future, and I hope that they are never again confronted with such a challenging situation…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I hope that after this article points out how challenging United’s over-booking problem is for them…",
+          "createdAt": 1491933596420,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "c53b54ab7b1a",
+          "creatorId": "f475a89ef784",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "i-hope-that-after-this-article-points-out-how-challenging-uniteds-over-booking-problem-is-for-them-db4f94f09784",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "8d7c",
+                "alignment": 1,
+                "text": "I hope that after this article points out how challenging United’s over-booking problem is for them, people will demonstrate compassion and help them avoid a repetition of such an unpleasant event.",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "2ec7",
+                "alignment": 1,
+                "text": "I will certainly avoid booking with United in the future, and I hope that they are never again confronted with such a challenging situation.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "db4f94f09784",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-hope-that-after-this-article-points-out-how-challenging-uniteds-over-booking-problem-is-for-them",
+          "license": 0,
+          "latestVersion": "c53b54ab7b1a",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491933711021,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "c53b54ab7b1a",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 29,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "8db06fac9d78": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491934384955,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 1,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491934385197,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 94,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.35471698113207545,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491934384955,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "If the author thinks that a doctor getting beat up on a plane and dragged off is a story about…",
+          "createdAt": 1491934111520,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "c49655700591",
+          "creatorId": "ceeb4e206c6e",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "if-the-author-thinks-that-a-doctor-getting-beat-up-on-a-plane-and-dragged-off-is-a-story-about-8db06fac9d78",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "3b22",
+                "alignment": 1,
+                "text": "If the author thinks that a doctor getting beat up on a plane and dragged off is a story about income inequality then all stories to him are about income inequality. It is about too much power being given to airlines and airport security and not enough rights for consumers. This isn’t about deregulation either. Ultra regulation has put us in this…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "8db06fac9d78",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "if-the-author-thinks-that-a-doctor-getting-beat-up-on-a-plane-and-dragged-off-is-a-story-about",
+          "license": 0,
+          "latestVersion": "c49655700591",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491934384955,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "c49655700591",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 43,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "f68faabe98de": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491864789515,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491864789883,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 3,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.011320754716981131,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491864789515,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Excellent reframe…spot on!",
+          "createdAt": 1491864770854,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "40b29d27bb0d",
+          "creatorId": "ba3c069c2d8f",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "excellent-reframe-spot-on-f68faabe98de",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "b3cf",
+                "alignment": 1,
+                "text": "Excellent reframe…spot on!",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "f68faabe98de",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "excellent-reframe-spot-on",
+          "license": 0,
+          "latestVersion": "40b29d27bb0d",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "un",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491864789515,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "40b29d27bb0d",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 9,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "822a67398523": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491975648422,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491975648983,
+              "version": "0.3",
+              "entries": [{
+                "alts": [{
+                  "type": 3,
+                  "url": "medium://p/229d384fd83f"
+                }, {
+                  "type": 2,
+                  "url": "medium://p/229d384fd83f"
+                }],
+                "url": "https://medium.com/@jhabdas/passionate-programming-229d384fd83f"
+              }, {
+                "alts": [{
+                  "type": 2,
+                  "url": "medium://p/36e7845151c8"
+                }, {
+                  "type": 3,
+                  "url": "medium://p/36e7845151c8"
+                }],
+                "url": "https://medium.com/@jhabdas/i-left-my-six-figure-job-to-start-freelancing-36e7845151c8?source=linkShare-d4a43ea991d3-1491975060"
+              }, {
+                "alts": [{
+                  "type": 3,
+                  "url": "medium://p/981fb68a64e2"
+                }, {
+                  "type": 2,
+                  "url": "medium://p/981fb68a64e2"
+                }],
+                "url": "https://medium.com/@jhabdas/what-i-learned-in-4-years-without-facebook-981fb68a64e2"
+              }]
+            },
+            "imageCount": 0,
+            "wordCount": 67,
+            "socialRecommendsCount": 0,
+            "tags": [{
+              "slug": "social-change",
+              "type": "Tag",
+              "postCount": 3324,
+              "name": "Social Change",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 3324,
+                "followerCount": 312,
+                "coverImage": {
+                  "originalWidth": 933,
+                  "originalHeight": 700,
+                  "id": "1*PGcv6S1FeSFj963dsw1syQ.png"
+                }
+              }
+            }, {
+              "slug": "class-divide",
+              "type": "Tag",
+              "postCount": 2,
+              "name": "Class Divide",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 2,
+                "followerCount": 0,
+                "coverImage": {
+                  "originalWidth": 1080,
+                  "originalHeight": 1920,
+                  "id": "1*LpkH4s_DCavGfC83ZhcHJA.jpeg"
+                }
+              }
+            }, {
+              "slug": "atomization",
+              "type": "Tag",
+              "postCount": 2,
+              "name": "Atomization",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 2,
+                "followerCount": 0
+              }
+            }, {
+              "slug": "digital-divide",
+              "type": "Tag",
+              "postCount": 207,
+              "name": "Digital Divide",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 207,
+                "followerCount": 11,
+                "coverImage": {
+                  "originalWidth": 960,
+                  "originalHeight": 480,
+                  "id": "1*ZuA-1yj5j-kLrslHgdtOEw.jpeg"
+                }
+              }
+            }, {
+              "slug": "attention-economy",
+              "type": "Tag",
+              "postCount": 108,
+              "name": "Attention Economy",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 108,
+                "followerCount": 9,
+                "coverImage": {
+                  "originalWidth": 2400,
+                  "originalHeight": 600,
+                  "id": "1*_szjsZiy6YcKrcTzMS-r-Q.png"
+                }
+              }
+            }],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.2528301886792453,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491975648422,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Fuck policy.",
+          "createdAt": 1491974890172,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "115dd200898",
+          "creatorId": "d4a43ea991d3",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "fuck-policy-822a67398523",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "a9ce",
+                "alignment": 1,
+                "text": "Fuck policy. Make shit happen. Step 1, quit your soul sucking job. Step 2, fly a 5 star airline like Qatar then write about it in comparison to the shit airlines in the States. Step 3, curtail use of social media because you’re giving everything away for free to corporations. And remember, in the fissure of the class divide in America, social change must come from within.",
+                "type": 1,
+                "markups": [{
+                  "href": "https://medium.com/@jhabdas/i-left-my-six-figure-job-to-start-freelancing-36e7845151c8?source=linkShare-d4a43ea991d3-1491975060",
+                  "creatorIds": [],
+                  "type": 3,
+                  "userId": "",
+                  "rel": "",
+                  "end": 43,
+                  "name": "",
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 39
+                }, {
+                  "href": "https://medium.com/@jhabdas/passionate-programming-229d384fd83f",
+                  "creatorIds": [],
+                  "type": 3,
+                  "userId": "",
+                  "rel": "",
+                  "end": 61,
+                  "name": "",
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 49
+                }, {
+                  "href": "https://medium.com/@jhabdas/what-i-learned-in-4-years-without-facebook-981fb68a64e2",
+                  "creatorIds": [],
+                  "type": 3,
+                  "userId": "",
+                  "rel": "",
+                  "end": 250,
+                  "name": "",
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 221
+                }, {
+                  "href": "",
+                  "creatorIds": [],
+                  "type": 1,
+                  "userId": "",
+                  "rel": "",
+                  "end": 250,
+                  "name": "",
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 221
+                }, {
+                  "href": "",
+                  "creatorIds": [],
+                  "type": 2,
+                  "userId": "",
+                  "rel": "",
+                  "end": 373,
+                  "name": "",
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 367
+                }]
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "822a67398523",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "fuck-policy",
+          "license": 0,
+          "latestVersion": "115dd200898",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "un",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491975648422,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "115dd200898",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "0c6998fb5f629e2113527dfcf5ee2ddb",
+          "latestRev": 77,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "84b774aa03dc": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491936033285,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491936033656,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 440,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 1.6603773584905661,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "When you get down to it, like everything else in America today, this is about the haves and the have-nots.”",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491936033285,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "When you get down to it, like everything else in America today, this is about the haves and the have-nots.”",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "“It should be clear to anyone who’s paying attention that this story is not about customer service.",
+          "createdAt": 1491934226055,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "8fd9b355d8a4",
+          "creatorId": "b5053511cc00",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "it-should-be-clear-to-anyone-whos-paying-attention-that-this-story-is-not-about-customer-service-84b774aa03dc",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "9150",
+                "alignment": 1,
+                "text": "“It should be clear to anyone who’s paying attention that this story is not about customer service. It’s about income inequality.",
+                "type": 1,
+                "markups": [{
+                  "end": 129,
+                  "type": 1,
+                  "start": 58
+                }]
+              }, {
+                "name": "92b4",
+                "alignment": 1,
+                "text": "When you get down to it, like everything else in America today, this is about the haves and the have-nots.”",
+                "type": 1,
+                "markups": [{
+                  "end": 105,
+                  "type": 1,
+                  "start": 64
+                }]
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "84b774aa03dc",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "it-should-be-clear-to-anyone-whos-paying-attention-that-this-story-is-not-about-customer-service",
+          "license": 0,
+          "latestVersion": "8fd9b355d8a4",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491936033285,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "8fd9b355d8a4",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 283,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "74db224ff69": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491981666798,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491981667347,
+              "version": "0.3",
+              "entries": [{
+                "alts": [{
+                  "type": 1,
+                  "url": "https://cdn.ampproject.org/c/www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story,amp.html"
+                }],
+                "url": "http://www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story.html"
+              }]
+            },
+            "imageCount": 0,
+            "wordCount": 24,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": false,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.09056603773584905,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "http://www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story.html",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491981666798,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "http://www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story.html",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "If you’re in first class, things get slightly better. You’ll only be threatened with handcuffs.",
+          "createdAt": 1491981636850,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "84eb4e88cc38",
+          "creatorId": "cf0c3f5342fe",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "if-youre-in-first-class-things-get-slightly-better-you-ll-only-be-threatened-with-handcuffs-74db224ff69",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "c025",
+                "alignment": 1,
+                "text": "If you’re in first class, things get slightly better. You’ll only be threatened with handcuffs.",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "4d65",
+                "alignment": 1,
+                "text": "http://www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story.html",
+                "type": 1,
+                "markups": [{
+                  "href": "http://www.latimes.com/business/lazarus/la-fi-lazarus-united-low-priority-passenger-20170412-story.html",
+                  "type": 3,
+                  "rel": "nofollow",
+                  "end": 103,
+                  "title": "",
+                  "anchorType": 0,
+                  "start": 0
+                }]
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "74db224ff69",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "if-youre-in-first-class-things-get-slightly-better-you-ll-only-be-threatened-with-handcuffs",
+          "license": 0,
+          "latestVersion": "84eb4e88cc38",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491981666798,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "84eb4e88cc38",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 17,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "5b9674968995": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491881966396,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 2,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491881966821,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 61,
+            "socialRecommendsCount": 0,
+            "tags": [{
+              "slug": "airlines",
+              "type": "Tag",
+              "postCount": 3113,
+              "name": "Airlines",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 3113,
+                "followerCount": 160,
+                "coverImage": {
+                  "originalWidth": 465,
+                  "originalHeight": 233,
+                  "id": "0*Qdvubop67cFtdvmy.png"
+                }
+              }
+            }, {
+              "slug": "travel",
+              "type": "Tag",
+              "postCount": 114492,
+              "name": "Travel",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 114492,
+                "followerCount": 1191687,
+                "coverImage": {
+                  "id": "1*_yra0Ypvf2zplyb0VSoQPA.jpeg"
+                }
+              }
+            }, {
+              "slug": "economics",
+              "type": "Tag",
+              "postCount": 20756,
+              "name": "Economics",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 20756,
+                "followerCount": 654771,
+                "coverImage": {
+                  "id": "1*gjb0hF7VdnVfnvoG7x2Sjw.jpeg"
+                }
+              }
+            }, {
+              "slug": "politics",
+              "type": "Tag",
+              "postCount": 165624,
+              "name": "Politics",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 165624,
+                "followerCount": 966859,
+                "coverImage": {
+                  "id": "1*jD5UgtVZ5u1nomTTo-LzQg.jpeg"
+                }
+              }
+            }, {
+              "slug": "retail",
+              "type": "Tag",
+              "postCount": 6676,
+              "name": "Retail",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 6676,
+                "followerCount": 545,
+                "coverImage": {
+                  "originalWidth": 465,
+                  "originalHeight": 233,
+                  "id": "0*Qdvubop67cFtdvmy.png"
+                }
+              }
+            }],
+            "recommends": 13,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.23018867924528302,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491881966396,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I agree Americans at this point need to stop being party cheerleaders and unite for rights.",
+          "createdAt": 1491881737216,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "223359db4780",
+          "creatorId": "9e991aa3d62",
+          "acceptedAt": 0,
+          "notifyFacebook": true,
+          "allowResponses": true,
+          "uniqueSlug": "i-agree-americans-at-this-point-need-to-stop-being-party-cheerleaders-and-unite-for-rights-5b9674968995",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "c6c2",
+                "alignment": 1,
+                "text": "I agree Americans at this point need to stop being party cheerleaders and unite for rights. If everyone boycotted United, we would see change in air travel. If every person put their money in credit unions, the big banks would struggle. If we boycotted healthcare as much as possible, change would occur. The people have power…they just have to use it.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "5b9674968995",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-agree-americans-at-this-point-need-to-stop-being-party-cheerleaders-and-unite-for-rights",
+          "license": 0,
+          "latestVersion": "223359db4780",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": true,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491881966396,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "223359db4780",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 43,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "52e47b455f2e": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491851727870,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491851729229,
+              "version": "0.3",
+              "entries": [{
+                "alts": [{
+                  "type": 3,
+                  "url": "yahoo://article/view?uuid=b098d16b-5734-3c09-8e87-f884135edc1f&src=web"
+                }, {
+                  "type": 2,
+                  "url": "yahoo://article/view?uuid=b098d16b-5734-3c09-8e87-f884135edc1f&src=web"
+                }, {
+                  "type": 1,
+                  "url": "https://cdn.ampproject.org/c/s/www.yahoo.com/amphtml/finance/news/reduce-chances-getting-dragged-off-united-flight-152105288.html"
+                }],
+                "url": "http://finance.yahoo.com/news/reduce-chances-getting-dragged-off-united-flight-152105288.html"
+              }, {
+                "alts": [{
+                  "type": 2,
+                  "url": "medium://p/757fdf8be5a4"
+                }, {
+                  "type": 3,
+                  "url": "medium://p/757fdf8be5a4"
+                }],
+                "url": "https://civicskunk.works/yes-retail-is-dying-no-its-not-because-of-the-minimum-wage-757fdf8be5a4"
+              }]
+            },
+            "imageCount": 1,
+            "wordCount": 1482,
+            "statusForCollection": "APPROVED",
+            "socialRecommendsCount": 0,
+            "recommends": 303,
+            "usersBySocialRecommends": [],
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "0*Qdvubop67cFtdvmy.png",
+              "strategy": "resample",
+              "originalHeight": 233,
+              "originalWidth": 465,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 5.7924528301886795,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "publishedInCount": 1,
+            "responsesCreatedCount": 55,
+            "subtitle": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+            "metaDescription": "",
+            "tags": [{
+              "slug": "airlines",
+              "type": "Tag",
+              "postCount": 3113,
+              "name": "Airlines",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 3113,
+                "followerCount": 160,
+                "coverImage": {
+                  "originalWidth": 465,
+                  "originalHeight": 233,
+                  "id": "0*Qdvubop67cFtdvmy.png"
+                }
+              }
+            }, {
+              "slug": "travel",
+              "type": "Tag",
+              "postCount": 114492,
+              "name": "Travel",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 114492,
+                "followerCount": 1191687,
+                "coverImage": {
+                  "id": "1*_yra0Ypvf2zplyb0VSoQPA.jpeg"
+                }
+              }
+            }, {
+              "slug": "economics",
+              "type": "Tag",
+              "postCount": 20756,
+              "name": "Economics",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 20756,
+                "followerCount": 654771,
+                "coverImage": {
+                  "id": "1*gjb0hF7VdnVfnvoG7x2Sjw.jpeg"
+                }
+              }
+            }, {
+              "slug": "politics",
+              "type": "Tag",
+              "postCount": 165624,
+              "name": "Politics",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 165624,
+                "followerCount": 966859,
+                "coverImage": {
+                  "id": "1*jD5UgtVZ5u1nomTTo-LzQg.jpeg"
+                }
+              }
+            }, {
+              "slug": "retail",
+              "type": "Tag",
+              "postCount": 6676,
+              "name": "Retail",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 6676,
+                "followerCount": 545,
+                "coverImage": {
+                  "originalWidth": 465,
+                  "originalHeight": 233,
+                  "id": "0*Qdvubop67cFtdvmy.png"
+                }
+              }
+            }]
+          },
+          "latestPublishedAt": 1491851727870,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "createdAt": 1491845370982,
+          "approvedHomeCollectionId": "cee6d3abe166",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "b5bf6b397f03",
+          "creatorId": "5787c4eaaaa9",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "59a4",
+                "alignment": 1,
+                "text": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+                "type": 3,
+                "markups": []
+              }, {
+                "name": "db04",
+                "alignment": 1,
+                "text": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+                "type": 13,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "http://civicskunkworks.com/united-airlines-economic-inequality-and-first-class-privilege/",
+          "translationSourcePostId": "",
+          "id": "52e47b455f2e",
+          "inResponseToPostId": "",
+          "webCanonicalUrl": "http://civicskunkworks.com/united-airlines-economic-inequality-and-first-class-privilege/",
+          "displayAuthor": "",
+          "slug": "the-united-story-isnt-about-customer-service-it-s-about-class-warfare",
+          "license": 0,
+          "latestVersion": "b5bf6b397f03",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491817260000,
+          "homeCollectionId": "cee6d3abe166",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "b5bf6b397f03",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "",
+          "latestRev": 158,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 1491817260000,
+          "isApprovedTranslation": false
+        },
+        "c398fc277eaf": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491874328544,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491874328877,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 75,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 8,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.2830188679245283,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491874328544,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "This is a good article about the class-warfare behind what happened.",
+          "createdAt": 1491874195535,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "fbaeadc5f071",
+          "creatorId": "24fc51462de1",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "this-is-a-good-article-about-the-class-warfare-behind-what-happened-c398fc277eaf",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "6924",
+                "alignment": 1,
+                "text": "This is a good article about the class-warfare behind what happened. I’m sorry, but anyone who’s already been seated should not be forcibly removed from a flight unless they’ve done something illegal or unsafe, not because of some BS class system. I understand how this might happen before boarding starts, but once you’re on the plane, that should be…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "c398fc277eaf",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "this-is-a-good-article-about-the-class-warfare-behind-what-happened",
+          "license": 0,
+          "latestVersion": "fbaeadc5f071",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491874328544,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "fbaeadc5f071",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 23,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "a706bc316f11": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491918389873,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491918390195,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 128,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 6,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.4830188679245283,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "I have a harder time seeing this as a class issue. Half the people who sit in first class are doing it w/ saved miles, etc., and are hardly…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491918389873,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "I have a harder time seeing this as a class issue. Half the people who sit in first class are doing it w/ saved miles, etc., and are hardly…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Sue the bastards is what comes to mind.",
+          "createdAt": 1491917785485,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "e92d718f3610",
+          "creatorId": "f4d8f58c3405",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "sue-the-bastards-is-what-comes-to-mind-a706bc316f11",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "73ce",
+                "alignment": 1,
+                "text": "Sue the bastards is what comes to mind. I hope the doctor will and will receive an award of punitive damages in the three figure millions, something large enough to really hurt the “corporate” person that is United Airlines and teach it and other corporations like it a lesson it won’t forget.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "a706bc316f11",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "sue-the-bastards-is-what-comes-to-mind",
+          "license": 0,
+          "latestVersion": "e92d718f3610",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491918389873,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "e92d718f3610",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 83,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "7e7840128cc3": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491923114198,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491923114580,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 26,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.09811320754716982,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491923114198,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I only fly as a last resort.",
+          "createdAt": 1491923067812,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "a29a601b0889",
+          "creatorId": "24521b06ed51",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "i-only-fly-as-a-last-resort-7e7840128cc3",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "439d",
+                "alignment": 1,
+                "text": "I only fly as a last resort. I’ll drive two days to avoid flying. When I do fly, I expect the worst, so I’m rarely disappointed.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "7e7840128cc3",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-only-fly-as-a-last-resort",
+          "license": 0,
+          "latestVersion": "a29a601b0889",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491923114198,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "a29a601b0889",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 13,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "db08b471fcfd": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491945957454,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491945957796,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 17,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 3,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.06415094339622641,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "And wasn’t this the cops the pulled the guy off the plane?",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491945957454,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "And wasn’t this the cops the pulled the guy off the plane?",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Where was he physically beaten?",
+          "createdAt": 1491945817202,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "5cd04c4d4603",
+          "creatorId": "1cd5196a8bf",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "where-was-he-physically-beaten-db08b471fcfd",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "2c00",
+                "alignment": 1,
+                "text": "Where was he physically beaten?",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "e369",
+                "alignment": 1,
+                "text": "And wasn’t this the cops the pulled the guy off the plane?",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "db08b471fcfd",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "where-was-he-physically-beaten",
+          "license": 0,
+          "latestVersion": "5cd04c4d4603",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491945957454,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "5cd04c4d4603",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "154102c9a26bff617de022d246729926",
+          "latestRev": 18,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "58471ad7d7f0": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491915022500,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491915022812,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 219,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 4,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.8264150943396227,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "United has procedures for choosing who to remove from the plane if there are no volunteers. The order is “in accordance with UA’s boarding…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491915022500,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "United has procedures for choosing who to remove from the plane if there are no volunteers. The order is “in accordance with UA’s boarding…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Several years ago, I was on a plane.",
+          "createdAt": 1491915019200,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "9484314eef89",
+          "creatorId": "d5d91beb9cd9",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "several-years-ago-i-was-on-a-plane-58471ad7d7f0",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "d24b",
+                "alignment": 1,
+                "text": "Several years ago, I was on a plane. As I was waiting to take off, I was reading a book. With the first class section in my periphery I read: “..if you pay attention to the one who wears the fine clothing and say, “You sit here in a good place,” while you say to the poor man, “You stand over there,” or, “Sit down at my feet,” have you not then made…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "58471ad7d7f0",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "several-years-ago-i-was-on-a-plane",
+          "license": 0,
+          "latestVersion": "9484314eef89",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491915022500,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "9484314eef89",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 11,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "cd950bdeb067": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491920771478,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491920774484,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 9,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 5,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.033962264150943396,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491920771478,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Kinda puts the kibosh on “Friendly Skies” don’t it?",
+          "createdAt": 1491920683391,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "8c79e5f1c92e",
+          "creatorId": "878d5bc112a",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "kinda-puts-the-kibosh-on-friendly-skies-dont-it-cd950bdeb067",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "709b",
+                "alignment": 1,
+                "text": "Kinda puts the kibosh on “Friendly Skies” don’t it?",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "cd950bdeb067",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "kinda-puts-the-kibosh-on-friendly-skies-dont-it",
+          "license": 0,
+          "latestVersion": "8c79e5f1c92e",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491920771478,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "8c79e5f1c92e",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 19,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "4d83d80ade36": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1492013675169,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1492013675447,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 439,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 1.6566037735849057,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "Yea, that’s not going to work. Higher wages are great, but when importing jobs and importing cheap labor is so easy, it’s not going to…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1492013675169,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "Yea, that’s not going to work. Higher wages are great, but when importing jobs and importing cheap labor is so easy, it’s not going to…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "We must support middle-out policies like higher wages for everyone, higher taxes for corporations…",
+          "createdAt": 1492012742887,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "23f2353bf90d",
+          "creatorId": "bc292738095f",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "we-must-support-middle-out-policies-like-higher-wages-for-everyone-higher-taxes-for-corporations-4d83d80ade36",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "1f67",
+                "alignment": 1,
+                "text": "We must support middle-out policies like higher wages for everyone, higher taxes for corporations and the wealthy, and sensible regulations on business.",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "7826",
+                "alignment": 1,
+                "text": "Yea, that’s not going to work. Higher wages are great, but when importing jobs and importing cheap labor is so easy, it’s not going to happen. You won’t get higher wages in…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "4d83d80ade36",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "we-must-support-middle-out-policies-like-higher-wages-for-everyone-higher-taxes-for-corporations",
+          "license": 0,
+          "latestVersion": "23f2353bf90d",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1492013675169,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "23f2353bf90d",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 162,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "bc0d3129f201": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491919547442,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 3,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491919547671,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 170,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 20,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.6415094339622641,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491919547442,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I had to stop reading after the title.",
+          "createdAt": 1491919256277,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "8830316524ac",
+          "creatorId": "477f02d8912b",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "i-had-to-stop-reading-after-the-title-bc0d3129f201",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "c6f7",
+                "alignment": 1,
+                "text": "I had to stop reading after the title.",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "64f3",
+                "alignment": 1,
+                "text": "When corporations can openly beat their customers and deny them service, why would they even bother trying to be nice?",
+                "type": 6,
+                "markups": []
+              }, {
+                "name": "7655",
+                "alignment": 1,
+                "text": "Did you read the words on the backs of the officers that removed the passenger? They read POLICE. I’ll grant you the evil corporation called…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "bc0d3129f201",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-had-to-stop-reading-after-the-title",
+          "license": 0,
+          "latestVersion": "8830316524ac",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491919382788,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "8830316524ac",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 72,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "4eb5caf6e144": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491916757612,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 2,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491916757983,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 173,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 15,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.6528301886792452,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "I have been on airplanes asking for volunteers and I have not gotten off because of the lack of options to get to my destination and have…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491916757612,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "I have been on airplanes asking for volunteers and I have not gotten off because of the lack of options to get to my destination and have…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Oh please, this is really going out of your way to create a class warfare angle.",
+          "createdAt": 1491916373889,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "369e1cd7600d",
+          "creatorId": "8026721227fd",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "oh-please-this-is-really-going-out-of-your-way-to-create-a-class-warfare-angle-4eb5caf6e144",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "f320",
+                "alignment": 1,
+                "text": "Oh please, this is really going out of your way to create a class warfare angle. I fly about 100,000 miles a year most of it coach and I go to places most other people don’t go. I have had a lot of bad experiences on airlines including United but this is not class warfare, it is simply a tone deaf organization, some stupid security people getting out…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "4eb5caf6e144",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "oh-please-this-is-really-going-out-of-your-way-to-create-a-class-warfare-angle",
+          "license": 0,
+          "latestVersion": "369e1cd7600d",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491916757612,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "369e1cd7600d",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 79,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "935e98e5242e": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491973937555,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 1,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491973937954,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 249,
+            "socialRecommendsCount": 0,
+            "tags": [{
+              "slug": "united-airlines",
+              "type": "Tag",
+              "postCount": 180,
+              "name": "United Airlines",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 180,
+                "followerCount": 2,
+                "coverImage": {
+                  "originalHeight": 708,
+                  "id": "1*lVGIcnd4jdAy288Xc3h3xw.jpeg",
+                  "focusPercentY": 43,
+                  "originalWidth": 917,
+                  "isFeatured": true,
+                  "focusPercentX": 73
+                }
+              }
+            }, {
+              "slug": "racism",
+              "type": "Tag",
+              "postCount": 19416,
+              "name": "Racism",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 19416,
+                "followerCount": 363023,
+                "coverImage": {
+                  "id": "1*RC7PYbHchlxQxJTcm2bw1Q.jpeg"
+                }
+              }
+            }, {
+              "slug": "injustice",
+              "type": "Tag",
+              "postCount": 244,
+              "name": "Injustice",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 244,
+                "followerCount": 2,
+                "coverImage": {
+                  "originalWidth": 6000,
+                  "originalHeight": 4000,
+                  "id": "1*OOQeXdlDoXRMxtiGkk8Pfw.jpeg"
+                }
+              }
+            }, {
+              "slug": "discrimination",
+              "type": "Tag",
+              "postCount": 1117,
+              "name": "Discrimination",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 1117,
+                "followerCount": 27,
+                "coverImage": {
+                  "originalWidth": 1500,
+                  "originalHeight": 1000,
+                  "id": "1*MrUnSRgDJWHQLMX3zdH_EA.jpeg"
+                }
+              }
+            }, {
+              "slug": "crime",
+              "type": "Tag",
+              "postCount": 7398,
+              "name": "Crime",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 7398,
+                "followerCount": 379,
+                "coverImage": {
+                  "originalHeight": 350,
+                  "id": "1*1ipUN7USFDdDFKbTiuvt0Q.jpeg",
+                  "focusPercentY": 81,
+                  "originalWidth": 622,
+                  "isFeatured": true,
+                  "focusPercentX": 49
+                }
+              }
+            }],
+            "recommends": 6,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.939622641509434,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "Try it people. As long as you are willing to take shit, shit shall be dished out to you. That is the law of nature. United didn’t invent it…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491973937555,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "Try it people. As long as you are willing to take shit, shit shall be dished out to you. That is the law of nature. United didn’t invent it…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "I travel all the time, but never on United.",
+          "createdAt": 1491973385779,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "7037e5c4dce",
+          "creatorId": "653e7df71c6c",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "i-travel-all-the-time-but-never-on-united-935e98e5242e",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "00e0",
+                "alignment": 1,
+                "text": "I travel all the time, but never on United. I agree with all that has been said in this article. However, my question is not about airlines though I support #neverflyunited. It is about humanity and decency. There was a time when people stood up to support one another. What happened to that? Why did all the other passengers simply sit there and watch…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "935e98e5242e",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "i-travel-all-the-time-but-never-on-united",
+          "license": 0,
+          "latestVersion": "7037e5c4dce",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491973937555,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "7037e5c4dce",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 83,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "9624a5cef23e": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491923582704,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491923583096,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 666,
+            "socialRecommendsCount": 0,
+            "tags": [{
+              "slug": "united-airlines",
+              "type": "Tag",
+              "postCount": 180,
+              "name": "United Airlines",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 180,
+                "followerCount": 2,
+                "coverImage": {
+                  "originalHeight": 708,
+                  "id": "1*lVGIcnd4jdAy288Xc3h3xw.jpeg",
+                  "focusPercentY": 43,
+                  "originalWidth": 917,
+                  "isFeatured": true,
+                  "focusPercentX": 73
+                }
+              }
+            }, {
+              "slug": "class-warfare",
+              "type": "Tag",
+              "postCount": 21,
+              "name": "Class Warfare",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 21,
+                "followerCount": 0,
+                "coverImage": {
+                  "id": "0*e5Xk4QJbci0ENqvu.jpg",
+                  "externalSrc": "http://filmschoolrejects.com/images/lookbackinanger.jpg"
+                }
+              }
+            }, {
+              "slug": "travel",
+              "type": "Tag",
+              "postCount": 114492,
+              "name": "Travel",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 114492,
+                "followerCount": 1191687,
+                "coverImage": {
+                  "id": "1*_yra0Ypvf2zplyb0VSoQPA.jpeg"
+                }
+              }
+            }, {
+              "slug": "economics",
+              "type": "Tag",
+              "postCount": 20756,
+              "name": "Economics",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 20756,
+                "followerCount": 654771,
+                "coverImage": {
+                  "id": "1*gjb0hF7VdnVfnvoG7x2Sjw.jpeg"
+                }
+              }
+            }, {
+              "slug": "retail",
+              "type": "Tag",
+              "postCount": 6676,
+              "name": "Retail",
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "postCount": 6676,
+                "followerCount": 545,
+                "coverImage": {
+                  "originalWidth": 465,
+                  "originalHeight": 233,
+                  "id": "0*Qdvubop67cFtdvmy.png"
+                }
+              }
+            }],
+            "recommends": 4,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 2.513207547169811,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "During the times of US history when it was “ok” to own slaves, their treatment guidelines were exactly those expressed in the posted Wall…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491923582704,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "During the times of US history when it was “ok” to own slaves, their treatment guidelines were exactly those expressed in the posted Wall…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "A Broken Record…",
+          "createdAt": 1491920908347,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "33b3fb30202c",
+          "creatorId": "146ea91aed8c",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "a-broken-record-9624a5cef23e",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "827e",
+                "alignment": 1,
+                "text": "A Broken Record…",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "4d75",
+                "alignment": 1,
+                "text": "During the times of US history when it was “ok” to own slaves, their treatment guidelines were exactly those expressed in the posted Wall Street tweet. All behavior was okay, as long as the profits kept coming.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "9624a5cef23e",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "a-broken-record",
+          "license": 0,
+          "latestVersion": "33b3fb30202c",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491923582704,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "33b3fb30202c",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 369,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "2455466ae61": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491913452162,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491913452540,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 80,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 3,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.3018867924528302,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491913452162,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "It’s no accident that the cities that significantly raised their minimum wage and put in other…",
+          "createdAt": 1491912858322,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "aa39fa8de4c6",
+          "creatorId": "e3764d683192",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "its-no-accident-that-the-cities-that-significantly-raised-their-minimum-wage-and-put-in-other-2455466ae61",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "e195",
+                "alignment": 1,
+                "text": "It’s no accident that the cities that significantly raised their minimum wage and put in other worker protections have thriving economies. Cities such as Seattle, San Francisco, New York, Boston, etc.. are all liberal cities in liberal leaning states and all have strong economies. There are exceptions to this, Charlotte, NC is a somewhat liberal city…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "2455466ae61",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "its-no-accident-that-the-cities-that-significantly-raised-their-minimum-wage-and-put-in-other",
+          "license": 0,
+          "latestVersion": "aa39fa8de4c6",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491913452162,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "aa39fa8de4c6",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 70,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "82708d1a7a6d": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491945511375,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491945511685,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 13,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 6,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.04905660377358491,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491945511375,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Since when are doctors considered to be in the lower income brackets? Rediculous",
+          "createdAt": 1491945460854,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "9ad95bdb5cf",
+          "creatorId": "56f1f16bf4a0",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "since-when-are-doctors-considered-to-be-in-the-lower-income-brackets-rediculous-82708d1a7a6d",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "c487",
+                "alignment": 1,
+                "text": "Since when are doctors considered to be in the lower income brackets? Rediculous",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "82708d1a7a6d",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "since-when-are-doctors-considered-to-be-in-the-lower-income-brackets-rediculous",
+          "license": 0,
+          "latestVersion": "9ad95bdb5cf",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491945511375,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "9ad95bdb5cf",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "a4c08e97b8526c01c79bf9e9aae380fb",
+          "latestRev": 12,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "2e00c7a86b9": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1492013899072,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491929115781,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 56,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 7,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.21132075471698114,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491929115527,
+          "mediumUrl": "",
+          "content": {
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "A complex itinerary doesn’t jive with class warfare criticism.",
+          "createdAt": 1491927535215,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "f45992cd296f",
+          "creatorId": "17bb3a83a9c2",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "a-complex-itinerary-doesnt-jive-with-class-warfare-criticism-2e00c7a86b9",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "7da8",
+                "alignment": 1,
+                "text": "A complex itinerary doesn’t jive with class warfare criticism. Neither does early check-in. And given the propensity of business travelers to have higher fare tickets, status, or be a frequent flier — it seems targeting passengers is less about class warfare and more about doing the least damage possible while maintaining some semblance of objectivity.",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "2e00c7a86b9",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "a-complex-itinerary-doesnt-jive-with-class-warfare-criticism",
+          "license": 0,
+          "latestVersion": "f45992cd296f",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": true,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491929115210,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "f45992cd296f",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "8dd8f79350a8ee6217f73e1e2b59bc9b",
+          "latestRev": 159,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "2ea7479b008f": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491882161053,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491882161473,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 9,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": true,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.033962264150943396,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "Police men? Blade runner. 0:41",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491882161053,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "Police men? Blade runner. 0:41",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "Are they actually police?",
+          "createdAt": 1491881976621,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "f79b1657b80f",
+          "creatorId": "8cd16013c2a",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "are-they-actually-police-2ea7479b008f",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "ff54",
+                "alignment": 1,
+                "text": "Are they actually police?",
+                "type": 1,
+                "markups": []
+              }, {
+                "text": "",
+                "type": 11,
+                "markups": [],
+                "name": "1760",
+                "layout": 9,
+                "iframe": {
+                  "iframeHeight": 480,
+                  "thumbnailUrl": "",
+                  "mediaResourceId": "bdc1d00a49d8abe7fd3f594ee84dd0ad",
+                  "iframeWidth": 640,
+                  "externalSrc": ""
+                }
+              }, {
+                "name": "f444",
+                "alignment": 1,
+                "text": "Police men? Blade runner. 0:41",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": true
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "2ea7479b008f",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "are-they-actually-police",
+          "license": 0,
+          "latestVersion": "f79b1657b80f",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491882161053,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "f79b1657b80f",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 11,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        },
+        "90b5035aaf38": {
+          "isRequestToPubDisabled": false,
+          "updatedAt": 1491928574539,
+          "isTitleSynthesized": true,
+          "virtuals": {
+            "responsesCreatedCount": 0,
+            "isBookmarked": false,
+            "takeoverId": "",
+            "links": {
+              "generatedAt": 1491928574981,
+              "version": "0.3",
+              "entries": []
+            },
+            "imageCount": 0,
+            "wordCount": 88,
+            "socialRecommendsCount": 0,
+            "tags": [],
+            "recommends": 2,
+            "allowNotes": false,
+            "previewImage": {
+              "width": 0,
+              "filter": "",
+              "imageId": "",
+              "strategy": "resample",
+              "originalHeight": 0,
+              "originalWidth": 0,
+              "backgroundSize": "",
+              "height": 0
+            },
+            "readingTime": 0.3320754716981132,
+            "isLockedPreviewOnly": false,
+            "totalClapCount": 0,
+            "usersBySocialRecommends": [],
+            "subtitle": "What is with these knee jerk reactions against police? They were right to remove a man from a place he shouldn’t have been. Did the company…",
+            "metaDescription": ""
+          },
+          "latestPublishedAt": 1491928574539,
+          "mediumUrl": "",
+          "content": {
+            "subtitle": "What is with these knee jerk reactions against police? They were right to remove a man from a place he shouldn’t have been. Did the company…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "title": "This might shock you, but buying a ticket on an airplane does not give you ownership of it any more…",
+          "createdAt": 1491928137435,
+          "approvedHomeCollectionId": "",
+          "type": "Post",
+          "canonicalUrl": "",
+          "versionId": "f2ba95c35121",
+          "creatorId": "615c8af3478f",
+          "acceptedAt": 0,
+          "notifyFacebook": false,
+          "allowResponses": true,
+          "uniqueSlug": "this-might-shock-you-but-buying-a-ticket-on-an-airplane-does-not-give-you-ownership-of-it-90b5035aaf38",
+          "inResponseToRemovedAt": 0,
+          "previewContent": {
+            "bodyModel": {
+              "sections": [{
+                "startIndex": 0
+              }],
+              "paragraphs": [{
+                "name": "9184",
+                "alignment": 1,
+                "text": "This might shock you, but buying a ticket on an airplane does not give you ownership of it any more than at a football game or a movie theater. They can ask you to leave.",
+                "type": 1,
+                "markups": []
+              }, {
+                "name": "caa6",
+                "alignment": 1,
+                "text": "What is with these knee jerk reactions against police? They were right to remove a man from a place he shouldn’t have been. Did the company perhaps violate…",
+                "type": 1,
+                "markups": []
+              }]
+            },
+            "isFullContent": false
+          },
+          "importedUrl": "",
+          "translationSourcePostId": "",
+          "id": "90b5035aaf38",
+          "inResponseToPostId": "52e47b455f2e",
+          "webCanonicalUrl": "",
+          "displayAuthor": "",
+          "slug": "this-might-shock-you-but-buying-a-ticket-on-an-airplane-does-not-give-you-ownership-of-it",
+          "license": 0,
+          "latestVersion": "f2ba95c35121",
+          "migrationId": "",
+          "vote": false,
+          "detectedLanguage": "en",
+          "newsletterId": "",
+          "isSeries": false,
+          "hasUnpublishedEdits": false,
+          "isSponsored": false,
+          "notifyTwitter": false,
+          "isSubscriptionLocked": false,
+          "notifyFollowers": true,
+          "firstPublishedAt": 1491928166850,
+          "homeCollectionId": "",
+          "seriesLastAppendedAt": 0,
+          "experimentalCss": "",
+          "latestPublishedVersion": "f2ba95c35121",
+          "responseHiddenOnParentPostAt": 0,
+          "visibility": 0,
+          "inResponseToMediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "latestRev": 54,
+          "translationSourceCreatorId": "",
+          "coverless": true,
+          "importedPublishedAt": 0,
+          "isApprovedTranslation": false
+        }
+      },
+      "Collection": {
+        "cee6d3abe166": {
+          "colorPalette": {
+            "highlightSpectrum": {
+              "colorPoints": [{
+                "color": "#FFFFF1C1",
+                "point": 0
+              }, {
+                "color": "#FFFFEFB7",
+                "point": 0.1
+              }, {
+                "color": "#FFFFEDAC",
+                "point": 0.2
+              }, {
+                "color": "#FFFFEBA2",
+                "point": 0.3
+              }, {
+                "color": "#FFFFE997",
+                "point": 0.4
+              }, {
+                "color": "#FFFFE78D",
+                "point": 0.5
+              }, {
+                "color": "#FFFFE482",
+                "point": 0.6
+              }, {
+                "color": "#FFFFE278",
+                "point": 0.7
+              }, {
+                "color": "#FFFFDF6D",
+                "point": 0.8
+              }, {
+                "color": "#FFFFDD62",
+                "point": 0.9
+              }, {
+                "color": "#FFFFDB56",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [{
+                "color": "#FFA67D00",
+                "point": 0
+              }, {
+                "color": "#FF9A7500",
+                "point": 0.1
+              }, {
+                "color": "#FF8D6C00",
+                "point": 0.2
+              }, {
+                "color": "#FF816300",
+                "point": 0.3
+              }, {
+                "color": "#FF745A00",
+                "point": 0.4
+              }, {
+                "color": "#FF675100",
+                "point": 0.5
+              }, {
+                "color": "#FF5A4700",
+                "point": 0.6
+              }, {
+                "color": "#FF4C3C02",
+                "point": 0.7
+              }, {
+                "color": "#FF3E3104",
+                "point": 0.8
+              }, {
+                "color": "#FF2F2605",
+                "point": 0.9
+              }, {
+                "color": "#FF201903",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "tintBackgroundSpectrum": {
+              "colorPoints": [{
+                "color": "#FFFFCF14",
+                "point": 0
+              }, {
+                "color": "#FFF1C200",
+                "point": 0.1
+              }, {
+                "color": "#FFE2B400",
+                "point": 0.2
+              }, {
+                "color": "#FFD3A600",
+                "point": 0.3
+              }, {
+                "color": "#FFC49800",
+                "point": 0.4
+              }, {
+                "color": "#FFB48A00",
+                "point": 0.5
+              }, {
+                "color": "#FFA47B00",
+                "point": 0.6
+              }, {
+                "color": "#FF936C00",
+                "point": 0.7
+              }, {
+                "color": "#FF815C00",
+                "point": 0.8
+              }, {
+                "color": "#FF6F4B00",
+                "point": 0.9
+              }, {
+                "color": "#FF5A3A00",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFCF14"
+            }
+          },
+          "id": "cee6d3abe166",
+          "type": "Collection",
+          "metadata": {
+            "postCount": 0,
+            "followerCount": 1409,
+            "activeAt": 1491862697173
+          },
+          "sections": [{
+            "collectionHeaderMetadata": {
+              "backgroundImage": {},
+              "logoImage": {
+                "originalWidth": 4167,
+                "originalHeight": 1250,
+                "id": "1*l0d_L-LwBlX58RftQzEExw@2x.png",
+                "alt": "Civic Skunk Works"
+              },
+              "alignment": 1,
+              "layout": 6
+            },
+            "type": 2
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "layout": 2,
+              "postIds": [],
+              "number": 15,
+              "source": 1
+            }
+          }],
+          "virtuals": {
+            "isNewsletterSubscribed": false,
+            "permissions": {
+              "canEditOwnPosts": false,
+              "canRepublish": false,
+              "canBeAssignedAuthor": false,
+              "canPublish": false,
+              "canSubmit": false,
+              "canViewStats": false,
+              "canViewLockedPosts": false,
+              "canManageAll": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewCloaked": false,
+              "canPublishAll": false,
+              "canRemove": false,
+              "canSendNewsletter": false
+            },
+            "isSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "facebookPageName": "CivicSkunkWork",
+          "navItems": [],
+          "colorBehavior": 1,
+          "slug": "civic-skunk-works",
+          "publicEmail": "cass@civic-ventures.com",
+          "shortDescription": "Because conventional wisdom stinks.",
+          "name": "Civic Skunk Works",
+          "ampLogo": {
+            "width": 0,
+            "filter": "",
+            "imageId": "",
+            "strategy": "resample",
+            "originalHeight": 0,
+            "originalWidth": 0,
+            "backgroundSize": "",
+            "height": 0
+          },
+          "tintColor": "#FFFFCF14",
+          "image": {
+            "width": 0,
+            "filter": "",
+            "imageId": "1*2SAJmer4BBrGDIHNPCXDWA.png",
+            "strategy": "resample",
+            "originalHeight": 500,
+            "originalWidth": 500,
+            "backgroundSize": "",
+            "height": 0
+          },
+          "lightText": false,
+          "domain": "civicskunk.works",
+          "creatorId": "9d884bfe6887",
+          "twitterUsername": "civicskunkworks",
+          "tags": [
+            "ECONOMICS",
+            "POLITICS",
+            "MINIMUM WAGE"
+          ],
+          "acceleratedMobilePagesState": 0,
+          "header": {
+            "backgroundImage": {},
+            "logoImage": {
+              "originalWidth": 4167,
+              "originalHeight": 1250,
+              "id": "1*l0d_L-LwBlX58RftQzEExw@2x.png",
+              "alt": "Civic Skunk Works"
+            },
+            "alignment": 1,
+            "layout": 6
+          },
+          "instantArticlesState": 0,
+          "favicon": {
+            "width": 0,
+            "filter": "",
+            "imageId": "",
+            "strategy": "resample",
+            "originalHeight": 0,
+            "originalWidth": 0,
+            "backgroundSize": "",
+            "height": 0
+          },
+          "description": "Because conventional wisdom stinks.",
+          "logo": {
+            "width": 0,
+            "filter": "",
+            "imageId": "1*gzteNMm9n8vOOT5cljSZuQ.jpeg",
+            "strategy": "resample",
+            "originalHeight": 72,
+            "originalWidth": 600,
+            "backgroundSize": "",
+            "height": 0
+          }
+        }
+      },
+      "MediaResource": {
+        "632ba3708f65c82a8fbc9d98f4aaeb42": {
+          "thumbnailUrl": "",
+          "mediaResourceType": "MediaResourceMediumPost",
+          "iframeSrc": "",
+          "type": "MediaResource",
+          "domain": "civicskunk.works",
+          "iframeHeight": 0,
+          "description": "",
+          "mediaResourceId": "632ba3708f65c82a8fbc9d98f4aaeb42",
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "thumbnailWidth": 465,
+          "mediumPost": {
+            "postId": "52e47b455f2e"
+          },
+          "authorName": "",
+          "href": "https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e",
+          "thumbnailImageId": "0*Qdvubop67cFtdvmy.png",
+          "thumbnailHeight": 233,
+          "display": 1,
+          "iframeWidth": 0
+        },
+        "154102c9a26bff617de022d246729926": {
+          "thumbnailUrl": "",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "iframeSrc": "",
+          "type": "MediaResource",
+          "domain": "civicskunk.works",
+          "iframeHeight": 0,
+          "description": "",
+          "mediaResourceId": "154102c9a26bff617de022d246729926",
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "thumbnailWidth": 465,
+          "mediumPost": {
+            "postId": "52e47b455f2e"
+          },
+          "authorName": "",
+          "href": "https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e#ea17--highlight-4cca664983f6",
+          "thumbnailImageId": "0*Qdvubop67cFtdvmy.png",
+          "thumbnailHeight": 233,
+          "display": 1,
+          "iframeWidth": 0,
+          "mediumQuote": {
+            "quoteId": "4cca664983f6"
+          }
+        },
+        "a4c08e97b8526c01c79bf9e9aae380fb": {
+          "thumbnailUrl": "",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "iframeSrc": "",
+          "type": "MediaResource",
+          "domain": "civicskunk.works",
+          "iframeHeight": 0,
+          "description": "",
+          "mediaResourceId": "a4c08e97b8526c01c79bf9e9aae380fb",
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "thumbnailWidth": 465,
+          "mediumPost": {
+            "postId": "52e47b455f2e"
+          },
+          "authorName": "",
+          "href": "https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e#5447--highlight-ba5910ea7411",
+          "thumbnailImageId": "0*Qdvubop67cFtdvmy.png",
+          "thumbnailHeight": 233,
+          "display": 1,
+          "iframeWidth": 0,
+          "mediumQuote": {
+            "quoteId": "ba5910ea7411"
+          }
+        },
+        "8dd8f79350a8ee6217f73e1e2b59bc9b": {
+          "thumbnailUrl": "",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "iframeSrc": "",
+          "type": "MediaResource",
+          "domain": "civicskunk.works",
+          "iframeHeight": 0,
+          "description": "",
+          "mediaResourceId": "8dd8f79350a8ee6217f73e1e2b59bc9b",
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "thumbnailWidth": 465,
+          "mediumPost": {
+            "postId": "52e47b455f2e"
+          },
+          "authorName": "",
+          "href": "https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e#500b--highlight-d99936afeed0",
+          "thumbnailImageId": "0*Qdvubop67cFtdvmy.png",
+          "thumbnailHeight": 233,
+          "display": 1,
+          "iframeWidth": 0,
+          "mediumQuote": {
+            "quoteId": "d99936afeed0"
+          }
+        },
+        "0c6998fb5f629e2113527dfcf5ee2ddb": {
+          "thumbnailUrl": "",
+          "mediaResourceType": "MediaResourceMediumQuote",
+          "iframeSrc": "",
+          "type": "MediaResource",
+          "domain": "civicskunk.works",
+          "iframeHeight": 0,
+          "description": "",
+          "mediaResourceId": "0c6998fb5f629e2113527dfcf5ee2ddb",
+          "title": "The United Story Isn’t About Customer Service. It’s About Class Warfare.",
+          "thumbnailWidth": 465,
+          "mediumPost": {
+            "postId": "52e47b455f2e"
+          },
+          "authorName": "",
+          "href": "https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e#4939--highlight-b222c8ca71b4",
+          "thumbnailImageId": "0*Qdvubop67cFtdvmy.png",
+          "thumbnailHeight": 233,
+          "display": 1,
+          "iframeWidth": 0,
+          "mediumQuote": {
+            "quoteId": "b222c8ca71b4"
+          }
+        }
+      }
+    },
+    "paging": {
+      "next": {
+        "to": "1:d6805f89c14f",
+        "limit": 25
+      },
+      "path": "/_/api/posts/52e47b455f2e/responsesStream"
+    },
+    "streamItems": [{
+      "randomId": "e23123f0ec17",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "bc0d3129f201"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "193a51e154fa",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "4eb5caf6e144"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "45ba65b74755",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "5b9674968995"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "86fa74563d6b",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "c398fc277eaf"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "f8ebe5b00658",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "2e00c7a86b9"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "890305ceca7c",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "a706bc316f11"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "9179e178aa2f",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "935e98e5242e"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "dd4eee8c77a",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "82708d1a7a6d"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "15d4730e9ec0",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "cd950bdeb067"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "12647f9e265e",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "db4f94f09784"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "fae6b30c849a",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "b6eafce452d1"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "9845be93ddbb",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "9624a5cef23e"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "ff85609c3d8c",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "58471ad7d7f0"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "cf9107af3516",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "db08b471fcfd"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "304953d4b61b",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "2455466ae61"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "bc03f6682a79",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "f68faabe98de"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "e0b2565c5850",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "90b5035aaf38"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "43ea51c04a06",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "8db06fac9d78"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "d64316b86a16",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "84b774aa03dc"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "6f946c8d0dc",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "822a67398523"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "987f81471c23",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "7e7840128cc3"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "51189949357f",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "74db224ff69"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "9667e474f08",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "4d83d80ade36"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "a535f87e3a3f",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "2ea7479b008f"
+      },
+      "itemType": "postPreview"
+    }, {
+      "randomId": "10a625de9941",
+      "createdAt": 1492029960068,
+      "type": "StreamItem",
+      "postPreview": {
+        "postId": "d6805f89c14f"
+      },
+      "itemType": "postPreview"
+    }]
+  },
+  "v": 3,
+  "success": true
+}
