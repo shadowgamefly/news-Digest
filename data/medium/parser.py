@@ -37,7 +37,7 @@ def parse_comment(page, uid, pk):
         try:
             comm_data=resp_data['payload']['references']['Post']
             user_data=resp_data['payload']['references']['User']
-        except KeyError:
+        except:
             print("comment key error with pk="+str(pk), file=sys.stderr)
             return None
 
@@ -57,11 +57,11 @@ def parse_comment(page, uid, pk):
                 comment_id = value['id']
                 creator_id = value['creatorId']
                 media_id = value['inResponseToMediaResourceId']
-            except KeyError:
+            except:
                 print("id key error with pk="+str(pk), file=sys.stderr)
                 count-=1
                 continue
-                
+
             if comment_id == uid:
                 count-=1
                 continue
@@ -116,7 +116,7 @@ def parse_comment(page, uid, pk):
                     comment_paras = quote['paragraphs']
                     sentence_id = quote['paragraphs'][0]['name']
                     creator_id = quote['userId']
-                except KeyError:
+                except:
                     print("id key error with pk="+str(pk), file=sys.stderr)
 
                 for comm_para in comment_paras:
@@ -137,7 +137,7 @@ def parse_comment(page, uid, pk):
 
         return count
     else:
-        print("bad request")
+        print("bad request", file=sys.stderr)
 
 
 def parse_article(page, url, count, pk):
@@ -157,7 +157,11 @@ def parse_article(page, url, count, pk):
 
     for para in body:
         sentence = para.text_content()
-        key = para.xpath('@id')[0]
+        try:
+            key = para.xpath('@id')[0]
+        except:
+            print("no id in tag"+str(pk), file=sys.stderr)
+            continue
         if sentence == "" or not key: continue
         art['sentences'].append({key : sentence})
         art['content'] += sentence + ' '
