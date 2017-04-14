@@ -143,7 +143,10 @@ def parse_comment(page, uid, pk):
 def parse_article(page, url, count, pk):
     tree = html.fromstring(page.content.decode('utf-8'))
     print(url)
-    article_name = tree.xpath('//h1/text()')[0]
+    try:
+        article_name = tree.xpath('//h1/text()')[0]
+    except:
+        return
     art = {
         'name': str(pk),
         'parent': '',
