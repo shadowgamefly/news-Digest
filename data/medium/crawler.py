@@ -19,7 +19,7 @@ def analyze(url):
     global q
     global s
     global t
-    page = requests.get(url)
+    page = requests.get(url, allow_redirects=True)
     tree = html.fromstring(page.content.decode('utf-8'))
 
     all_links = tree.xpath('//a/@href')
