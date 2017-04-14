@@ -1,0 +1,1 @@
+{"name": "1082_13", "child": "", "content": "But funny that it doesn\u2019t understand that number is between 0 and 1. So following code compiles but will never be executed:if (Math.random() > 2) {\n    console.log(':)');\n}It\u2019s not an issues with TS, just funny observation :)", "title": "", "parent": "1082", "creatorid": "80e47c84200f", "id": "bed1f57cffdf"}

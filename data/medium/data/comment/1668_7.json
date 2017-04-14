@@ -1,0 +1,1 @@
+{"name": "1668_7", "child": "", "content": "For some reason, the game.ugly_moves() and game.ugly_move() methods were not running for me. Had to replace the same with game.moves() and game.move() respectively.PS : I ran it in localhost. Fiddle version just works fine.", "title": "", "parent": "1668", "creatorid": "9ee722c1eaba", "id": "be003c3e6f25"}

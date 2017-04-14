@@ -1,0 +1,1 @@
+{"name": "1668_2", "child": "", "content": "A visualization of the minimax algorithm in an artificial position. The best move for white is b2-c3, because we can guarantee that we can get to a position where the evaluation is -50", "title": "", "parent": "1668", "creatorid": "1b1c246323d5", "sentenceid": "1cdb", "commentid": "5cf90db29ab7"}

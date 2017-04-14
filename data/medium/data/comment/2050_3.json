@@ -1,0 +1,1 @@
+{"child": "", "title": "", "id": "82fef51bd42d", "content": "There is a limit on how many methods your dex file can have which is 64k. If your app is bigger and adds more than 64k methods you need to enable multi-dex.Refer:https://developer.android.com/studio/build/multidex.html", "creatorid": "d36b66059f1", "name": "2050_3", "parent": "2050"}
