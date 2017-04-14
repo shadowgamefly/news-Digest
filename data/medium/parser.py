@@ -23,7 +23,7 @@ def parse_fullcomment(href):
         content += sentence + ' '
     return content
 
-def parse_comment(page, uid, pk):
+def parse_comment(page, uid, pk, url):
     resp = requests.get(
         url="https://medium.com/_/api/posts/"+uid+"/responsesStream",
         params={},
@@ -38,7 +38,7 @@ def parse_comment(page, uid, pk):
             comm_data=resp_data['payload']['references']['Post']
             user_data=resp_data['payload']['references']['User']
         except:
-            print("comment key error with pk="+str(pk), file=sys.stderr)
+            print("comment key error with url: "+url, file=sys.stderr)
             return None
 
         count = 0
@@ -58,7 +58,7 @@ def parse_comment(page, uid, pk):
                 creator_id = value['creatorId']
                 media_id = value['inResponseToMediaResourceId']
             except:
-                print("id key error with pk="+str(pk), file=sys.stderr)
+                print("id key error with url: "+url, file=sys.stderr)
                 count-=1
                 continue
 
@@ -98,7 +98,7 @@ def parse_comment(page, uid, pk):
             quote_data=resp_data['payload']['references']['Quote']
             media_data=resp_data['payload']['references']['MediaResource']
         except KeyError:
-            print("quote key error with pk="+str(pk), file=sys.stderr)
+            print("quote key error with url: "+url, file=sys.stderr)
             return count
 
         for mediaResourceId, media in media_data.items():
@@ -117,7 +117,7 @@ def parse_comment(page, uid, pk):
                     sentence_id = quote['paragraphs'][0]['name']
                     creator_id = quote['userId']
                 except:
-                    print("id key error with pk="+str(pk), file=sys.stderr)
+                    print("id key error with url: "+url, file=sys.stderr)
 
                 for comm_para in comment_paras:
                     comment+=comm_para['text']
@@ -137,7 +137,7 @@ def parse_comment(page, uid, pk):
 
         return count
     else:
-        print("bad request", file=sys.stderr)
+        print("bad request with url: "+url, file=sys.stderr)
 
 
 def parse_article(page, url, count, pk):
@@ -146,6 +146,7 @@ def parse_article(page, url, count, pk):
     try:
         article_name = tree.xpath('//h1/text()')[0]
     except:
+        print(url)
         return
     art = {
         'name': str(pk),
@@ -155,23 +156,26 @@ def parse_article(page, url, count, pk):
         'content': '',
         'child': ''
     }
+    section = tree.xpath('//section/div[@class="section-content"]')
+    # print(len(section))
 
-    body = tree.xpath('//div[@class="section-inner sectionLayout--insetColumn"]/*')
+    for sec in section:
+        body = sec.xpath('./div[@class="section-inner sectionLayout--insetColumn"]/*')
 
-    for para in body:
-        sentence = para.text_content()
-        try:
-            key = para.xpath('@id')[0]
-        except:
-            print("no id in tag"+str(pk), file=sys.stderr)
-            continue
-        if sentence == "" or not key: continue
-        art['sentences'].append({key : sentence})
-        art['content'] += sentence + ' '
+        for para in body:
+            sentence = para.text_content()
+            try:
+                key = para.xpath('@id')[0]
+            except:
+                # print("no id in tag"+str(pk), file=sys.stderr)
+                continue
+            if sentence == "" or not key: continue
+            art['sentences'].append({key : sentence})
+            art['content'] += sentence + ' '
 
-    for i in range(1, count+1):
-        art['child'] += str(pk) + '_' + str(i)
-        if i != count: art['child'] += '\t'
+        for i in range(1, count+1):
+            art['child'] += str(pk) + '_' + str(i)
+            if i != count: art['child'] += '\t'
 
     write_json('data/article/'+str(pk) + '.json', art, pk)
     # return len(art['sentences'])
@@ -212,7 +216,7 @@ def parse(href, pk, id=None):
         uid = id
     page = requests.get(href)
     write_html('cache/html/' + str(pk)+"_"+ str(uid) +".html", page, pk)
-    count = parse_comment(page, uid, pk)
+    count = parse_comment(page, uid, pk, href)
     if count: parse_article(page, href, count, pk)
     # parse_image(page, href, count, pk)
 
@@ -221,4 +225,6 @@ if __name__ == '__main__':
     if len(sys.argv) == 3:
         parse(sys.argv[1], int(sys.argv[2]))
     else:
+        # parse("https://medium.com/tag/artificial-intelligence", 0)
+        # parse("https://medium.freecodecamp.com/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274", 0)
         parse("https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e", 0)

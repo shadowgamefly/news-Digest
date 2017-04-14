@@ -18,13 +18,18 @@ def concat(href):
 def analyze(url):
     global q
     global s
+    global t
     page = requests.get(url)
     tree = html.fromstring(page.content.decode('utf-8'))
 
     all_links = tree.xpath('//a/@href')
     regex = re.compile(r'https:\/\/[\s\S]+-[\w]{12}\?source=[\s\S]+')
+    re_tag = re.compile(r'https:\/\/[\w|.]+\/(tag|topic|tagged)\/[\s\S]+')
 
     for href in all_links:
+        if re_tag.search(href):
+            t.append(href)
+            continue
         if regex.search(href):
             link, uid = concat(href)
             if not link or not uid: continue
@@ -40,20 +45,26 @@ def loadvaribles():
         f1 = open('cache/variable/queue.pckl', 'rb')
         f2 = open('cache/variable/dict.pckl', 'rb')
         f3 = open('cache/variable/pk.pckl', 'rb')
+        f4 = open('cache/variable/topic.pckl', 'rb')
     except FileNotFoundError:
-        return None, None, None
+        return None, None, None, None
     q = pickle.load(f1)
     f1.close()
     d = pickle.load(f2)
     f2.close()
     pk = pickle.load(f3)
     f3.close()
-    return q, d, pk
+    t = pickle.load(f4)
+    f4.close()
+    return q, t, d, pk
 
 
-def savevariable(q, d, pk):
+def savevariable(q, t, d, pk):
     f = open('cache/variable/queue.pckl', 'wb')
     pickle.dump(q, f)
+    f.close()
+    f = open('cache/variable/topic.pckl', 'wb')
+    pickle.dump(t, f)
     f.close()
     f = open('cache/variable/dict.pckl', 'wb')
     pickle.dump(d, f)
@@ -67,23 +78,24 @@ if __name__ == '__main__':
     os.system('mkdir cache/logs/'+logtime+'/')
     sys.stdout = open('cache/logs/'+logtime+'/std.log', 'w')
     sys.stderr = open('cache/logs/'+logtime+'/error.log', 'w')
-    l, d, pk = loadvaribles()
+    l, t, d, pk = loadvaribles()
     q = queue.Queue()
     if not d:
         d = {}
         pk = 1
+        t = []
     else:
         for item in l:
             q.put(item)
 
+    t.append('https://medium.com/topic/popular')
+    while len(t) > 0:
+        analyze(t.pop())
 
-    analyze('https://medium.com/topic/popular')
-
-
-    while not q.empty():
-        time.sleep(10)
-        uid = q.get()
-        analyze(d[uid])
-        parse(d[uid],pk,uid)
-        pk += 1
-        savevariable(list(q.queue), d, pk)
+        while not q.empty():
+            time.sleep(10)
+            uid = q.get()
+            analyze(d[uid])
+            parse(d[uid],pk,uid)
+            pk += 1
+            savevariable(list(q.queue), t, d, pk)
