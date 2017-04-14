@@ -22,7 +22,7 @@ def analyze(url):
     tree = html.fromstring(page.content.decode('utf-8'))
 
     all_links = tree.xpath('//a/@href')
-    regex = re.compile(r'https://\w+-\w+\?source+=\w+')
+    regex = re.compile(r'https:\/\/[\s\S]+-[\w]{12}\?source=[\s\S]+')
 
     for href in all_links:
         if regex.search(href):
