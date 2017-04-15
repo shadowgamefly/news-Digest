@@ -13,7 +13,10 @@ def write_html(filename, data, pk):
     output.close()
 
 def parse_fullcomment(href):
-    page = requests.get(href)
+    try:
+        page = requests.get(href, allow_redirects=True, timeout=1)
+    except:
+        return
     tree = html.fromstring(page.content.decode('utf-8'))
 
     body = tree.xpath('//div[@class="section-inner sectionLayout--insetColumn"]/*')
@@ -27,7 +30,7 @@ def parse_comment(page, uid, pk, url):
     resp = requests.get(
         url="https://medium.com/_/api/posts/"+uid+"/responsesStream",
         params={},
-        headers={},
+        headers={}, allow_redirects=True, timeout=1
     )
     print(uid)
     resp_data = json.loads(resp.content.decode('utf-8')[16:])
@@ -214,7 +217,10 @@ def parse(href, pk, id=None):
         uid = parse_uid(href)
     else:
         uid = id
-    page = requests.get(href)
+    try:
+        page = requests.get(href, allow_redirects=True, timeout=1)
+    except:
+        return
     write_html('cache/html/' + str(pk)+"_"+ str(uid) +".html", page, pk)
     count = parse_comment(page, uid, pk, href)
     if count: parse_article(page, href, count, pk)
