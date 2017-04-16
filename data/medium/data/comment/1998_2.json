@@ -1,1 +1,0 @@
-{"child": "", "title": "", "id": "9661aab027f8", "content": "Any reason why you don\u2019t just use @click.native on the component rather than passing a function as a prop?Alternatively if you the component was to $emit(\u2018click\u2019) itself you could then remove the .native part.", "creatorid": "3e7f30eb93b5", "name": "1998_2", "parent": "1998"}

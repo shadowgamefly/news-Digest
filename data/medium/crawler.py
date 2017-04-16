@@ -76,11 +76,21 @@ def savevariable(q, t, d, pk):
     pickle.dump(pk, f)
     f.close()
 
+def create_directory(n):
+    os.system('mkdir cache/html/'+n+'/')
+    os.system('mkdir cache/json/'+n+'/')
+    os.system('mkdir data/article/'+n+'/')
+    os.system('mkdir data/comment/'+n+'/')
+    os.system('mkdir data/truth/'+n+'/')
+
+
 if __name__ == '__main__':
     logtime = str(time.time())
     os.system('mkdir cache/logs/'+logtime+'/')
     sys.stdout = open('cache/logs/'+logtime+'/std.log', 'w')
     sys.stderr = open('cache/logs/'+logtime+'/error.log', 'w')
+    create_directory(str(0))
+
     l, t, d, pk = loadvaribles()
     q = queue.Queue()
     if not d:
@@ -101,4 +111,7 @@ if __name__ == '__main__':
             analyze(d[uid])
             parse(d[uid],pk,uid)
             pk += 1
+            if pk%1000 == 0:
+                create_directory(str(pk//1000))
+
             savevariable(list(q.queue), t, d, pk)

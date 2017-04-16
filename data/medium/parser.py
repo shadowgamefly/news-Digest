@@ -27,14 +27,16 @@ def parse_fullcomment(href):
     return content
 
 def parse_comment(page, uid, pk, url):
-    resp = requests.get(
-        url="https://medium.com/_/api/posts/"+uid+"/responsesStream",
-        params={},
-        headers={}, allow_redirects=True, timeout=1
-    )
+    try:
+        resp = requests.get(
+            url="https://medium.com/_/api/posts/"+uid+"/responsesStream",
+            allow_redirects=True, timeout=1
+        )
+    except:
+        return
     print(uid)
     resp_data = json.loads(resp.content.decode('utf-8')[16:])
-    write_json('cache/json/'+str(pk) +"_"+ str(uid)+'.json', resp_data, pk)
+    write_json('cache/json/'+str(pk//1000)+'/'+str(pk) +"_"+ str(uid)+'.json', resp_data, pk)
 
     if (resp_data['success']):
         try:
@@ -60,6 +62,7 @@ def parse_comment(page, uid, pk, url):
                 comment_id = value['id']
                 creator_id = value['creatorId']
                 media_id = value['inResponseToMediaResourceId']
+                timestamp = value['latestPublishedAt']
             except:
                 print("id key error with url: "+url, file=sys.stderr)
                 count-=1
@@ -69,12 +72,16 @@ def parse_comment(page, uid, pk, url):
                 count-=1
                 continue
 
+            try:
+                username = user_data[creator_id]['username']
+            except:
+                return None
+
             if comment_full:
                 # print(comment_id)
                 for comm_para in comment_paras:
                     comment+=comm_para['text']
             else:
-                username = user_data[creator_id]['username']
                 unique_slug = value['uniqueSlug']
                 comment = parse_fullcomment('https://medium.com/@'+username+'/'+unique_slug)
 
@@ -87,10 +94,12 @@ def parse_comment(page, uid, pk, url):
                 'title': '',
                 'id': comment_id,
                 'creatorid': creator_id,
+                'username': username,
+                'timestamp': timestamp,
                 'name': str(pk) + '_' + str(count),
                 'parent': str(pk)
             }
-            json_f = 'data/comment/' + comm_dict['name'] + '.json'
+            json_f = 'data/comment/' +str(pk//1000)+'/'+ comm_dict['name'] + '.json'
             write_json(json_f, comm_dict, pk)
 
         # parse quote
@@ -135,7 +144,7 @@ def parse_comment(page, uid, pk, url):
                     'name': str(pk) + '_' + str(quote_count),
                     'parent': str(pk)
                 }
-                json_f = 'data/truth/' + quote_dict['name'] + '.json'
+                json_f = 'data/truth/' +str(pk//1000)+'/'+ quote_dict['name'] + '.json'
                 write_json(json_f, quote_dict, pk)
 
         return count
@@ -148,6 +157,8 @@ def parse_article(page, url, count, pk):
     print(url)
     try:
         article_name = tree.xpath('//h1/text()')[0]
+        author = tree.xpath('//a[@class="link link link--darken link--darker u-baseColor--link"]/text()')[0]
+        timestamp = tree.xpath('//time/text()')[0]
     except:
         print(url)
         return
@@ -155,6 +166,8 @@ def parse_article(page, url, count, pk):
         'name': str(pk),
         'parent': '',
         'title': article_name,
+        'timestamp': timestamp,
+        'author': author,
         'sentences': [],
         'content': '',
         'child': ''
@@ -180,7 +193,8 @@ def parse_article(page, url, count, pk):
             art['child'] += str(pk) + '_' + str(i)
             if i != count: art['child'] += '\t'
 
-    write_json('data/article/'+str(pk) + '.json', art, pk)
+
+    write_json('data/article/'+str(pk//1000)+'/'+str(pk) + '.json', art, pk)
     # return len(art['sentences'])
 
 
@@ -221,7 +235,7 @@ def parse(href, pk, id=None):
         page = requests.get(href, allow_redirects=True, timeout=1)
     except:
         return
-    write_html('cache/html/' + str(pk)+"_"+ str(uid) +".html", page, pk)
+    write_html('cache/html/'+str(pk//1000)+'/'+str(pk)+"_"+ str(uid) +".html", page, pk)
     count = parse_comment(page, uid, pk, href)
     if count: parse_article(page, href, count, pk)
     # parse_image(page, href, count, pk)

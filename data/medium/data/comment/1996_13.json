@@ -1,1 +1,0 @@
-{"child": "", "title": "", "id": "eddf3e80d39", "content": "Thank you for the article. It helps to break the UI apart in functional way.BTW, I introduced a ESLint plugin that checks module pureness: https://www.npmjs.com/package/eslint-plugin-purenessHope you\u2019ll find it useful.", "creatorid": "7b045186f3c3", "name": "1996_13", "parent": "1996"}
