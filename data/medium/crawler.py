@@ -95,7 +95,7 @@ if __name__ == '__main__':
     q = queue.Queue()
     if not d:
         d = {}
-        pk = 1
+        pk = 998
         t = []
     else:
         for item in l:
