@@ -1,0 +1,1 @@
+{"parent": "663", "commentid": "a98de7e0d1a2", "title": "", "name": "663_7", "content": "Advanced technique: If you really need to use display: none, you can also delay that with pure CSS, by transitioning the display property and setting a delay.", "creatorid": "f667b9e8d3e8", "child": "", "sentenceid": "0bda"}

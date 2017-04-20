@@ -1,0 +1,1 @@
+{"title": "", "name": "1972_6", "id": "e4f39a7d5de1", "creatorid": "c44a0a468e7b", "timestamp": 1492240126563, "child": "", "content": "Great article :)The main difference is that the sigmoid function asymptotes at y = -1 instead of y = 0, intercepting the y-axis at y = 0 instead of y = 0.5.Did you mean tanh here? :)", "username": "michadulemba", "parent": "1972"}

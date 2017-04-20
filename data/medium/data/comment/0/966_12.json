@@ -1,0 +1,1 @@
+{"parent": "966", "title": "", "id": "b9a86a38dd57", "name": "966_12", "content": "This is what I\u2019m talking about.  This will also do the same thing that you\u2019re trying to do. lockScreenEl will always get reset every time a test runs in your describe or context block. ", "creatorid": "8ea83dfb2b87", "timestamp": 1486483927214, "child": "", "username": "rodoabad"}

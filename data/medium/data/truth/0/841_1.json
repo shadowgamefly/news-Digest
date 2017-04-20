@@ -1,0 +1,1 @@
+{"parent": "841", "commentid": "bed1f57cffdf", "title": "", "name": "841_1", "content": "A static type checker understands that Math.random() returns a number, which does not contain the string method toLowerCase().", "creatorid": "80e47c84200f", "child": "", "sentenceid": "0a0f"}

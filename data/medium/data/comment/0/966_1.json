@@ -1,0 +1,1 @@
+{"parent": "966", "title": "", "id": "ddfde943388e", "name": "966_1", "content": "No, because TypeScript will only tell you if you passed an invalid set of props to you component, not which valid one you expected.", "creatorid": "ce38edf4c865", "timestamp": 1487293607167, "child": "", "username": "suchipi"}

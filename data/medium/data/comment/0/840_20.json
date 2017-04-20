@@ -1,0 +1,1 @@
+{"parent": "840", "title": "", "id": "cdc8c2417cc", "name": "840_20", "content": "It\u2019s sent places only on componentWillUnmount and submit to avoid any of that overhead while typing. Most of the validation and logics for the character counter is done inline via twitter-text.", "creatorid": "b97642f6668f", "timestamp": 1492208429077, "child": "", "username": "paularmstrong"}

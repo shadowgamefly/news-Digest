@@ -1,0 +1,1 @@
+{"parent": "805", "title": "", "id": "c7640c5c0a6a", "name": "805_15", "content": "Not all UI space and size can be fixed valuee.g. padding-top: 16pxHow about if the unit of margin is % ?e.g. margin-right: 12%We cant ignore the case of % !!!!!!How do u handle this case ???????????", "creatorid": "9a1f95464330", "timestamp": 1490509058124, "child": "", "username": "litiangdev"}

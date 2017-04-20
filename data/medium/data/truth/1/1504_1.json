@@ -1,0 +1,1 @@
+{"sentenceid": "6821", "name": "1504_1", "content": "This is one of the key ideas of Redux. The state object isn\u2019t manipulated directly. Instead, each slice is copied and then all of the slices are combined into a new state object.", "creatorid": "ff4220508ec9", "parent": "1504", "commentid": "9a73814da096", "child": "", "title": ""}

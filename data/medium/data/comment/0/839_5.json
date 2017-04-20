@@ -1,0 +1,1 @@
+{"parent": "839", "title": "", "id": "772edd5e768e", "name": "839_5", "content": "The link to graphql-server is wrong, pointing to graphql-js instead. It should link to http://dev.apollodata.com/tools/graphql-server/ . Otherwise, nice writeup!", "creatorid": "f8b9e3144ed0", "timestamp": 1492113025003, "child": "", "username": "estaub2"}
