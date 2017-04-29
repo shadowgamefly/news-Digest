@@ -1,3 +1,6 @@
 [submodule "medium-chrome-extension"]
 	path = medium-chrome-extension
 	url = https://github.com/Charleo85/medium-chrome-extension.git
+[submodule "medium-crawler"]
+	path = medium-crawler
+	url = https://github.com/Charleo85/medium-crawler.git
