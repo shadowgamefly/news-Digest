@@ -1,0 +1,1 @@
+{"parent": "800", "title": "", "id": "57021ddabd36", "name": "800_6", "content": "It looks elegant for prototyping but for production, it looks dangerous. Which branch/tag is it downloading from github? Will another dev (or CI server) get the same code.", "creatorid": "3e147995dafb", "timestamp": 1492289027036, "child": "", "username": "styfle"}

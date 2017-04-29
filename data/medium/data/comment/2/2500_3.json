@@ -1,0 +1,1 @@
+{"parent": "2500", "content": "I\u2019m getting an error , when trying to execute this command:geth --genesis genesis.json --datadir eth-data --networkid 123 --nodiscover --maxpeers 0 consoleflag provided but not defined: -genesis", "title": "", "id": "bd79f08fd3c0", "name": "2500_3", "username": "paul.y91", "timestamp": 1492621104299, "creatorid": "e4dbfeb76e41", "child": ""}

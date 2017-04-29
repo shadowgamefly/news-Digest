@@ -1,0 +1,1 @@
+{"parent": "651", "commentid": "a4bd2cdf0f2b", "title": "", "name": "651_1", "content": "  public int getUserIcon(){ \n    if (gender == true) \n      return R.drawable.user_female; // Ladies first! ^^\n    else\n      return R.drawable.user_male;\n  }\n}", "creatorid": "a0a1a0b391cf", "child": "", "sentenceid": "2ec6"}

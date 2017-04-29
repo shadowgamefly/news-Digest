@@ -1,0 +1,1 @@
+{"title": "", "commentid": "93491d3703fe", "creatorid": "f953b8bca048", "name": "2148_1", "child": "", "content": "line 23: layout_scrollFlags\nTells the CollapsingToolbarLayout and its children, how to behave on a scroll.\nHere\u2019s what the flags mean, straight from the developer\u2019s blog:", "sentenceid": "7a34", "parent": "2148"}
