@@ -101,17 +101,25 @@ if __name__ == '__main__':
         for item in l:
             q.put(item)
 
-    t.append('https://medium.com/topic/popular')
-    while len(t) > 0:
-        analyze(t.pop())
+    while True: #sleep for a while and load updates
+        t.append('https://medium.com')
+        t.append('https://medium.com/topic/popular')
+        t.append('https://medium.com/topic/editors-picks')
+        t.append('https://medium.com/topic/world')
+        t.append('https://medium.com/topic/future')
 
-        while not q.empty():
-            time.sleep(10)
-            uid = q.get()
-            analyze(d[uid])
-            parse(d[uid],pk,uid)
-            pk += 1
-            if pk%1000 == 0:
-                create_directory(str(pk//1000))
+        while len(t) > 0:
+            analyze(t.pop())
 
-            savevariable(list(q.queue), t, d, pk)
+            while not q.empty():
+                time.sleep(10)
+                uid = q.get()
+                analyze(d[uid])
+                parse(d[uid],pk,uid)
+                pk += 1
+                if pk%1000 == 0:
+                    create_directory(str(pk//1000))
+
+                savevariable(list(q.queue), t, d, pk)
+
+        sleep(60)

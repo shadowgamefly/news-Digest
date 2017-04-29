@@ -158,10 +158,12 @@ def parse_article(page, url, count, pk):
     try:
         article_name = tree.xpath('//h1/text()')[0]
         author = tree.xpath('//a[@class="link link link--darken link--darker u-baseColor--link"]/text()')[0]
+        tags = tree.xpath('//ul[@class="tags tags--postTags tags--borderless"]')[0]
         timestamp = tree.xpath('//time/text()')[0]
     except:
-        print(url)
+        print("bad format cannot parse the article"+url, file=sys.stderr)
         return
+
     art = {
         'name': str(pk),
         'parent': '',
@@ -170,53 +172,44 @@ def parse_article(page, url, count, pk):
         'author': author,
         'sentences': [],
         'content': '',
+        'tag': [],
         'child': ''
     }
+
+    for tag in tags.xpath('./*/a/text()'):
+        art['tag'].append(tag)
+
     section = tree.xpath('//section/div[@class="section-content"]')
     # print(len(section))
 
     for sec in section:
-        body = sec.xpath('./div[@class="section-inner sectionLayout--insetColumn"]/*')
+        # body = sec.xpath('./div[@class="section-inner sectionLayout--insetColumn"]/*')
+        body = sec.xpath('./div[starts-with(@class,"section-inner")]/*')
+        art = parse_para(art, body)
 
-        for para in body:
-            sentence = para.text_content()
-            try:
-                key = para.xpath('@id')[0]
-            except:
-                # print("no id in tag"+str(pk), file=sys.stderr)
-                continue
-            if sentence == "" or not key: continue
-            art['sentences'].append({key : sentence})
-            art['content'] += sentence + ' '
-
-        for i in range(1, count+1):
-            art['child'] += str(pk) + '_' + str(i)
-            if i != count: art['child'] += '\t'
+    for i in range(1, count+1):
+        art['child'] += str(pk) + '_' + str(i)
+        if i != count: art['child'] += '\t'
 
 
     write_json('data/article/'+str(pk//1000)+'/'+str(pk) + '.json', art, pk)
     # return len(art['sentences'])
 
+def parse_para(art, body):
+    for para in body:
+        sentence = para.text_content()
+        try:
+            key = para.xpath('@id')[0]
+        except:
+            # print("no id in tag"+str(pk), file=sys.stderr)
+            sub_body = para.xpath('./*')
+            art = parse_para(art, sub_body)
+            continue
+        if sentence == "" or not key: continue
+        art['sentences'].append({key : sentence})
+        art['content'] += sentence + ' '
 
-# def parse_image(page, url, count, pk):
-#     page = requests.get(url)
-#     tree = html.fromstring(page.content.decode('utf-8'))
-#
-#     imgs = tree.xpath('//img[@class="media-viewer-candidate"]')
-#     imgs_json = []
-#
-#     for img in imgs:
-#         caption = img.get('data-mediaviewer-caption')
-#         caption = caption.replace('&rsquo;', '\'')
-#         fields = {
-#             'src': img.get('src'),
-#             'caption': caption,
-#             'article': pk,
-#             'position': random.randint(0, count-1),
-#         }
-#         imgs_json.append({'model': 'api.Image', 'fields': fields})
-#
-#     write_json('/app/img_' + str(pk) + '.json', imgs_json, pk)
+    return art
 
 def parse_uid(href):
     n = len(href)
@@ -247,4 +240,4 @@ if __name__ == '__main__':
     else:
         # parse("https://medium.com/tag/artificial-intelligence", 0)
         # parse("https://medium.freecodecamp.com/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274", 0)
-        parse("https://civicskunk.works/the-united-story-isnt-about-customer-service-it-s-about-class-warfare-52e47b455f2e", 0)
+        parse("https://medium.com/the-year-of-the-looking-glass/books-that-changed-my-perspective-502c25baeeaa", 0) #815
