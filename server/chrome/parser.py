@@ -40,7 +40,7 @@ def parse_comment(page, uid, pk, url):
         return
     print(uid)
     resp_data = json.loads(resp.content.decode('utf-8')[16:])
-    write_json('dataset/cache/json/'+str(pk//1000)+'/'+str(pk) +"_"+ str(uid)+'.json', resp_data, pk)
+    # write_json('../dataset/cache/json/'+str(pk//1000)+'/'+str(pk) +"_"+ str(uid)+'.json', resp_data, pk)
 
     if (resp_data['success']):
         try:
@@ -255,20 +255,20 @@ def parse(href, pk, id=None, first=True):
         uid = parse_uid(href)
     else:
         uid = id
-    try:
-        page = requests.get(href, allow_redirects=True, timeout=1)
-    except:
-        return
-    write_html('dataset/cache/html/'+str(pk//1000)+'/'+str(pk)+"_"+ str(uid) +".html", page, pk)
 
-    if not first:
-        # try:
-        os.system('rm data/*/'+str(pk//1000)+'/'+str(pk)+'_*')
-        os.system('rm data/article/'+str(pk//1000)+'/'+str(pk)+'.json')
-        print("again")
-        # except:
-        #     print("fail to rm", file=sys.stderr)
-        #     return
+    page = requests.get(str(href), allow_redirects=True, timeout=1)
+    # except:
+    #     return
+    # write_html('../dataset/cache/html/'+str(pk//1000)+'/'+str(pk)+"_"+ str(uid) +".html", page, pk)
+
+    # if not first:
+    #     # try:
+    #     os.system('rm data/*/'+str(pk//1000)+'/'+str(pk)+'_*')
+    #     os.system('rm data/article/'+str(pk//1000)+'/'+str(pk)+'.json')
+    #     print("again")
+    #     # except:
+    #     #     print("fail to rm", file=sys.stderr)
+    #     #     return
 
     count = parse_comment(page, uid, pk, href)
     if count:

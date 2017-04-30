@@ -1,1 +1,0 @@
-{"content": "I think Apex objects require you to add the namespace. That\u2019s shown in the doc example, but not explicitly called out.But if your org doesn\u2019t have a namespace, I\u2019d expect your code to work. Or at least provide a useful error message, not throw an ISE\u2026", "child": "", "name": "987_2", "parent": "987", "title": ""}

@@ -1,1 +1,0 @@
-{"content": "import timegood = \u201cmonolothic\u201d\nbad = \u201cdecentralized\u201dwhile True:\n \\t\\t print(\u201cWe can free ourselves from the failures of \u201c + bad + \u201c architecture by implementing \u201c + good + \u201c architecture!\u201d)\n\\t\\t time.sleep(157788000)\n\\t\\t good, bad = bad, good", "child": "", "name": "839_12", "parent": "839", "title": ""}

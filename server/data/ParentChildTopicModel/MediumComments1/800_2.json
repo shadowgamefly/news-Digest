@@ -1,1 +1,0 @@
-{"content": "If a directory shares more than one .go file, all the methods and variables are shared between the entire package, even the private once. It helps for separating a package into even smaller chunks and avoiding large single files.", "child": "", "name": "800_2", "parent": "800", "title": ""}

@@ -1,1 +1,0 @@
-{"content": "To improve our situation, we decided to give static type checking a shot. A static type checker does not modify how your code behaves at runtime \u2014 instead, it analyzes your code and attempts to infer types wherever possible, warning the developer before code ships.", "child": "", "name": "841_7", "parent": "841", "title": ""}

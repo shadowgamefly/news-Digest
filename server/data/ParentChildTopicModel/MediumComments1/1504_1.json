@@ -1,1 +1,0 @@
-{"content": "This is one of the key ideas of Redux. The state object isn\u2019t manipulated directly. Instead, each slice is copied and then all of the slices are combined into a new state object.", "child": "", "name": "1504_1", "parent": "1504", "title": ""}

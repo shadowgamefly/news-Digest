@@ -1,1 +1,0 @@
-{"content": "The key concept to understand here is that with GraphQL, your API schema and your database schemas are decoupled. In other words, there might not be any author and commentsCount fields in our database, but we can \u201csimulate\u201d them through the power of resolvers.", "child": "", "name": "839_2", "parent": "839", "title": ""}

@@ -1,1 +1,0 @@
-{"content": "Not all UI space and size can be fixed valuee.g. padding-top: 16pxHow about if the unit of margin is % ?e.g. margin-right: 12%We cant ignore the case of % !!!!!!How do u handle this case ???????????", "child": "", "name": "805_15", "parent": "805", "title": ""}

@@ -1,1 +1,0 @@
-{"content": "Is it wrong to admit I completely forgot about for\u2026of in ES6? I always use Object.keys(obj).forEach(...) or just iterable.forEach . I would have to go lookup the spec to understand if there\u2019s a practical reason to use for...of instead!", "child": "", "name": "2122_4", "parent": "2122", "title": ""}

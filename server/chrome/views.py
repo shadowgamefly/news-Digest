@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse, HttpResponse
 from .parser import *
 import subprocess
-import requests, re, json, random, sys, os
+import requests, re, json, random, sys, os, shutil, glob
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -13,19 +13,26 @@ def index(request):
     return HttpResponse("Hello World!")
 
 def medium(request):
-    dic = request.GET
-    url = dict(dic)
-    url = url['url']
-    parse(url, 0)
+    dic = request.POST
+    url = dic['url']
+    output = parse(url, 0)
     rcmd = ["./tmpRun.sh"]
     p = subprocess.call(rcmd, shell = True)
     resp = produce_json()
+    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments/")
+    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles/")
+    shutil.rmtree(PROJECT_ROOT + "/../data/results")
+    os.mkdir(PROJECT_ROOT + "/../data/results")
+    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments/")
+    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles/")
+
     return _success(resp)
+
 
 def produce_json():
     articles={}
     current="start"
-    filename = os.listdir(PROJECT_ROOT + "/../data/results")[1]
+    filename = os.listdir(PROJECT_ROOT + "/../data/results")[0]
     f = open(PROJECT_ROOT + '/../data/results/' + filename + '/topChild4Stn.txt', 'r')
     while(current != ""):
         line = f.readline()

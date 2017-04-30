@@ -1,1 +1,0 @@
-{"content": "This is what I don\u2019t understand about GraphQL well. Can\u2019t we make our REST APIs smart by the means of query parameters in our request? For instance, in your example above, we can add a query parameter ?include_likes=true, instead of having two endpoints.", "child": "", "name": "839_13", "parent": "839", "title": ""}

@@ -1,1 +1,0 @@
-{"content": "It\u2019s sent places only on componentWillUnmount and submit to avoid any of that overhead while typing. Most of the validation and logics for the character counter is done inline via twitter-text.", "child": "", "name": "840_20", "parent": "840", "title": ""}

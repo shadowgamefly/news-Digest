@@ -1,1 +1,0 @@
-{"content": "The solution Facebook came up with is conceptually very simple: instead of having multiple \u201cdumb\u201d endpoints, have a single \u201csmart\u201d endpoint that can take in complex queries, and then massage the data output into whatever shape the client requires.", "child": "", "name": "839_1", "parent": "839", "title": ""}

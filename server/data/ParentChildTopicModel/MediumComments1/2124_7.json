@@ -1,1 +1,0 @@
-{"content": "Cool stuff! I\u2019d just maybe change the api slightly s.t. you pass in an object with a \u201cexcept\u201d or \u201cexclude\u201d property which holds the array. This just to make it more clear. Otherwise one might think you unsubscribe just those you pass in. \ud83d\ude42", "child": "", "name": "2124_7", "parent": "2124", "title": ""}

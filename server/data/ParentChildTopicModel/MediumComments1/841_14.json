@@ -1,1 +1,0 @@
-{"content": "But funny that it doesn\u2019t understand that number is between 0 and 1. So following code compiles but will never be executed:if (Math.random() > 2) {\n    console.log(':)');\n}It\u2019s not an issues with TS, just funny observation :)", "child": "", "name": "841_14", "parent": "841", "title": ""}

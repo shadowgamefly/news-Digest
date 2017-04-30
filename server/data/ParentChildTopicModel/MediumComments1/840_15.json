@@ -1,1 +1,0 @@
-{"content": "Curious to know how this HOC works. Shouldn\u2019t you be setting thethis.state = { shouldRender: true };in the constructor to false and the turn it into true once the two animation frames have passed?", "child": "", "name": "840_15", "parent": "840", "title": ""}

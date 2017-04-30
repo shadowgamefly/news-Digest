@@ -1,1 +1,0 @@
-{"content": "Please make a tutorial on handling clicks on \u2014 class SettingsFragment extends PreferenceFragment implements .,,\u2026\u2026.The one with@Override\npublic void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {\n\n\n}:)", "child": "", "name": "2154_2", "parent": "2154", "title": ""}

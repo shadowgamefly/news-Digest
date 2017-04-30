@@ -1,1 +1,0 @@
-{"content": "3. We renamed the old tweetIsEmpty property to tweetIsOutOfRange and updated the function\u2019s logic accordingly. Note how we are using the computed charactersRemaining property to derive this value. Hooray for code reuse!", "child": "", "name": "818_1", "parent": "818", "title": ""}

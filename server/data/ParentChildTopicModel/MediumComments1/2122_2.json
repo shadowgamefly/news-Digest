@@ -1,1 +1,0 @@
-{"content": "What\u2019s incredible about the TypeScript compiler is that it doesn\u2019t transpile code so much as just strip out type annotations. Debugging is straightforward because each line of TypeScript corresponds to the same line of JavaScript, just without the types.", "child": "", "name": "2122_2", "parent": "2122", "title": ""}

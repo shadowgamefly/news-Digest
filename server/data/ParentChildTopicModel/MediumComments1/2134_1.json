@@ -1,1 +1,0 @@
-{"content": "Tnx for sharing,I was using the same approach, but, this with scan() really adds awesomeness :)If too close update requests, my approach used debounce(), meaning I could skip some updates. For old data I always asked my adapter (adapter.getAllItems), but now I will try to use this scan().", "child": "", "name": "2134_1", "parent": "2134", "title": ""}

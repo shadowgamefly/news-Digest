@@ -1,1 +1,0 @@
-{"content": "what\u2019s interesting is that as a newbie developer I always thought multi-threading is just like the semaphores, I mean they lock. Yet Multi-threading is usually done in the way semaphore-less mutlithreading (lots of crazy fast context switching) which has a higher performance. Right?", "child": "", "name": "865_4", "parent": "865", "title": ""}

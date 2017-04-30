@@ -1,1 +1,0 @@
-{"content": "When using technique #2, you\u2019ll also want to add aria-hidden=\"true\" once the element is hidden, and remove it when it is shown again. This way, screen readers and other assistive technology will skip the hidden element.", "child": "", "name": "663_19", "parent": "663", "title": ""}
