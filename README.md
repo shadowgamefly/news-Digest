@@ -2,6 +2,11 @@
 
 This is the repo for the final project for CS6501 spring 2017 at UVa.
 
+```bash
+git clone https://github.com/shadowgamefly/news-Digest.git
+git submodule update --init --recursive
+```
+
 Collaborators
 -----
 
