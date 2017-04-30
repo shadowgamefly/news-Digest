@@ -1,0 +1,1 @@
+{"content": "I would need to modify the Mastodon code to optionally be able to handle read/write replicas. If I am not mistaken, read/write replicas is the ceiling here, in terms of scaling mechanisms, but should give a lot of extra capacitity when needed since most queries are read-only.", "child": "", "name": "844_2", "parent": "844", "title": ""}

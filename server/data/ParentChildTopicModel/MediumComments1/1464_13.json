@@ -1,0 +1,1 @@
+{"content": "Interested to hear what you did here. Is this simply keeping an instance of RCTBridge and, whenever creating a RCTRootView instance, reusing the bridge instance? Or are you saving the entire RCTRootView instance?", "child": "", "name": "1464_13", "parent": "1464", "title": ""}

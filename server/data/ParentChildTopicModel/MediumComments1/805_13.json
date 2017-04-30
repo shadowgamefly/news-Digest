@@ -1,0 +1,1 @@
+{"content": "So the column grid is different and that still remains. The 8pt grid is an element grid so it defines the sizing and spacing of objects inside of that column. You are correct that in a responsive design your columns will be fluid and you can\u2019t rely on them to be divisible by 8.", "child": "", "name": "805_13", "parent": "805", "title": ""}

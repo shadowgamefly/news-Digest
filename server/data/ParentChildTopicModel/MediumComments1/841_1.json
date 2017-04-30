@@ -1,0 +1,1 @@
+{"content": "A static type checker understands that Math.random() returns a number, which does not contain the string method toLowerCase().", "child": "", "name": "841_1", "parent": "841", "title": ""}

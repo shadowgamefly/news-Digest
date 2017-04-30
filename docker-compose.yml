@@ -1,26 +1,35 @@
-models:
-    container_name: models
-    image: shadowgamefly/news-digest
-    volumes:
-        - ./models:/app
-    command: bash -c "python /app/manage.py makemigrations api; python /app/manage.py migrate; python manage.py flush --no-input; python manage.py loaddata /app/*.json; mod_wsgi-express start-server --working-directory /app --reload-on-change models/wsgi.py"
-    ports:
-        - "8000:8000"
+# models:
+#     container_name: models
+#     image: shadowgamefly/news-digest
+#     volumes:
+#         - ./models:/app
+#     command: bash -c "python /app/manage.py makemigrations api; python /app/manage.py migrate; python manage.py flush --no-input; python manage.py loaddata /app/*.json; mod_wsgi-express start-server --working-directory /app --reload-on-change models/wsgi.py"
+#     ports:
+#         - "8000:8000"
 
-web:
-    container_name: web
+# web:
+#     container_name: web
+#     image: shadowgamefly/news-digest
+#     volumes:
+#         - ./web:/app
+#     command: bash -c "mod_wsgi-express start-server --working-directory /app --reload-on-change web/wsgi.py"
+#     ports:
+#         - "80:8000"
+#     links:
+#         - models:models-api
+#
+# crawler:
+#     container_name: crawler
+#     image: shadowgamefly/news-digest
+#     volumes:
+#         - ./data:/app
+#     command: bash -c "python /app/crawler.py"
+
+server:
+    container_name: server
     image: shadowgamefly/news-digest
     volumes:
-        - ./web:/app
-    command: bash -c "mod_wsgi-express start-server --working-directory /app --reload-on-change web/wsgi.py"
+        - ./server:/app
+    command: bash -c "mod_wsgi-express start-server --working-directory /app --reload-on-change server/wsgi.py"
     ports:
         - "80:8000"
-    links:
-        - models:models-api
-
-crawler:
-    container_name: crawler
-    image: shadowgamefly/news-digest
-    volumes:
-        - ./data:/app
-    command: bash -c "python /app/crawler.py"

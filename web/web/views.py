@@ -10,7 +10,7 @@ def _get_request(url):
 
 
 def _success(stat, data):
-    return JsonResponse({ 'stat': stat, **data })\
+    return JsonResponse({ 'stat': stat, **data })
 
 
 def index(request):

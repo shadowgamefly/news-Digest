@@ -1,0 +1,1 @@
+{"content": "graphql-document-collector '**/*.graphql' > documents.jsonWorks really well for query files. Thank you.What is your recommendation for *.graphqls schema files?\u2026 I mean without using an http endpoint.", "child": "", "name": "2131_3", "parent": "2131", "title": ""}

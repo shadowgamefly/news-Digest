@@ -1,0 +1,1 @@
+{"content": "By removing the draft Tweet state from updating the main Redux state on every keypress and keeping things local in the React component\u2019s state, we were able to reduce the overhead by over 50% (above, right).", "child": "", "name": "840_4", "parent": "840", "title": ""}

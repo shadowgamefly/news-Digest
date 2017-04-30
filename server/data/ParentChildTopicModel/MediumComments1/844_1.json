@@ -1,0 +1,1 @@
+{"content": "Any reason for the choice of a high overhead relational database instead of a lighter and more easily scaled NoSQL approach? PostgreSQL is an excellent choice for relational data, but seems out of place here and could be the cause of the need to scale vertically instead of horizontally.", "child": "", "name": "844_1", "parent": "844", "title": ""}

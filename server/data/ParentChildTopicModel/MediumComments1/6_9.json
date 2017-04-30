@@ -1,0 +1,1 @@
+{"content": "I love the article! The diagrams make this really clear and fun to read.Small note: I know these are fake numbers but 4 bytes per counter * 60 counters * 10,000 users is actually ~2.4mb. Still an order of magnitude better than sliding logs, but not 2 orders.Thanks for writing!", "child": "", "name": "6_9", "parent": "6", "title": ""}

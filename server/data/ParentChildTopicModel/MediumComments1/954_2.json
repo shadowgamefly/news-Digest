@@ -1,0 +1,1 @@
+{"content": "Nice article! To automate regression tests, using snapshots, we may use storybook plus storyshots, that will generate the snapshots automatically, based on our stories. In that way, we write the test just once :)", "child": "", "name": "954_2", "parent": "954", "title": ""}

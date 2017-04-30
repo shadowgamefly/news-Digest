@@ -1,0 +1,1 @@
+{"content": "I doubt that is possible, as it is expected a single app would only be either Rtl or non-Rtl. You might need to manually handle the single library case, which I understand is not fun doing.", "child": "", "name": "2145_1", "parent": "2145", "title": ""}

@@ -1,14 +1,5 @@
-
-# coding: utf-8
-
-# In[145]:
-
 import json, copy
 f = open('topStn4Child.txt', 'r')
-
-
-# In[146]:
-
 articles={}
 current="start"
 while(current != ""):
@@ -32,8 +23,6 @@ for key in articles.keys():
     if int(key) > max:
         max = int(key)
 
-# In[169]:
-
 commentModel = {"model": "api.Comment",
         "fields": {
             "content": "",
@@ -51,14 +40,9 @@ for art in articles.keys():
             comment['fields']["content"] = d['content']
             comment['fields']["sentence"] = art * 100 + int(articles[art][com])
             CommentList.append(comment)
-#         comment["content"] =
 
 with open('comment.json', 'w') as outfile:
     json.dump(CommentList, outfile)
-
-
-
-# In[171]:
 
 sentenceModel = {
         "model": "api.Sentence",

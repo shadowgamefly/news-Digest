@@ -1,0 +1,1 @@
+{"content": "So you migrated your storing of input keypress state via Redux reducers to local component state? Do you not need to manage it outside of draft Tweet state for validation or other purposes? If not, what if you needed parent components to have access? Would you send it to the store after idle or timeout?", "child": "", "name": "840_8", "parent": "840", "title": ""}

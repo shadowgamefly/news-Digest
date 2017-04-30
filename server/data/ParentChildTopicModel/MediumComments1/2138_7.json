@@ -1,0 +1,1 @@
+{"content": "Good post. The only thing that I believe you can improve in your sample Code is avoiding the creation of an interface for presenter because if there is only one class that implement it, it os innecesary. You can find a great post un karumi\u2019s blog about this stuff", "child": "", "name": "2138_7", "parent": "2138", "title": ""}

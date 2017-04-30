@@ -1,0 +1,1 @@
+{"content": "  public int getUserIcon(){ \n    if (gender == true) \n      return R.drawable.user_female; // Ladies first! ^^\n    else\n      return R.drawable.user_male;\n  }\n}", "child": "", "name": "651_1", "parent": "651", "title": ""}

@@ -1,0 +1,1 @@
+{"content": "Looks like it doesn\u2019t work with projects where the key contains a number. It works for 2 of 3 JIRA projects and the one it doesn\u2019t work for contains a number in the issue key for the project.", "child": "", "name": "796_5", "parent": "796", "title": ""}

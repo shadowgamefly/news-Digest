@@ -1,0 +1,1 @@
+{"content": "Say I have 20 threads.What do you mean by semaphore creation?I thought this means if I set value to 1, only 1 of my 20 threads can access the threads scope.So if I set it to 2, then 2 of my 20 threads can mess around?Won\u2019t that break thread-safety.", "child": "", "name": "865_6", "parent": "865", "title": ""}

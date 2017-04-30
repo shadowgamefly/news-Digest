@@ -1,0 +1,1 @@
+{"content": "3. We added the :disabled attribute to our button. The semicolon preceding disabled denotes that we would like to evaluate the content inside the quotes as a JavaScript expression. If we were to omit the semicolon, the content would be treated as a string.", "child": "", "name": "818_2", "parent": "818", "title": ""}

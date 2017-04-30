@@ -1,0 +1,1 @@
+{"content": "It looks elegant for prototyping but for production, it looks dangerous. Which branch/tag is it downloading from github? Will another dev (or CI server) get the same code.", "child": "", "name": "800_6", "parent": "800", "title": ""}
