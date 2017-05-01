@@ -229,6 +229,8 @@ def parse_article(page, url, count, pk):
     # return len(art['sentences'])
 
 def parse_para(art, body):
+
+    keyList = []
     for para in body:
         sentence = para.text_content()
         try:
@@ -241,7 +243,9 @@ def parse_para(art, body):
         if sentence == "" or not key: continue
         art['sentences'].append({"sentence" : sentence})
         art['content'] += sentence + ' '
+        keyList.append(key)
 
+    write_json('../data/ParentChildTopicModel/keys.json', {"keys" : keyList}, 0)
     return art
 
 def parse_uid(href):

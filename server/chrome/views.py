@@ -52,10 +52,10 @@ def produce_json():
     return resp
 
 def get_pair(sentence ,comment):
-    f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumArticles_Online/0.json', 'r')
+    f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/keys.json', 'r')
     f = json.load(f)
     comment = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumComments_Online/' + comment + '.json' , 'r')
     comment = json.load(comment)
-    resp = { f["sentences"][sentence]['sentence'] : comment["content"]}
+    resp = { f["keys"][sentence-1] : comment["content"]}
     print(resp)
     return resp
