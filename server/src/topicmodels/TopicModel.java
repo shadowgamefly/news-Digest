@@ -7,7 +7,6 @@ import java.util.Collection;
 
 import structures._Corpus;
 import structures._Doc;
-import topicmodels.markovmodel.HTSM;
 import topicmodels.multithreads.TopicModelWorker;
 import topicmodels.multithreads.TopicModel_worker.RunType;
 import utils.Utils;
@@ -321,9 +320,6 @@ public abstract class TopicModel {
 		perplexity /= totalWords;
 		perplexity = Math.exp(-perplexity);
 		sumLikelihood /= m_testSet.size();
-		
-		if(this instanceof HTSM)
-			calculatePrecisionRecall();
 
 		System.out.format("Test set perplexity is %.3f and log-likelihood is %.3f\n", perplexity, sumLikelihood);
 		

@@ -104,7 +104,7 @@ def parse_comment(page, uid, pk, url):
                 'parent': str(pk)
             }
             # json_f = 'data/comment/' +str(pk//1000)+'/'+ comm_dict['name'] + '.json'
-            json_f = '../data/ParentChildTopicModel/MediumComments/'+comm_dict['name']+'.json'
+            json_f = '../data/ParentChildTopicModel/MediumComments_Online/'+comm_dict['name']+'.json'
             write_json(json_f, comm_dict, pk)
 
         return count
@@ -223,7 +223,7 @@ def parse_article(page, url, count, pk):
         art['child'] += str(pk) + '_' + str(i)
         if i != count: art['child'] += '\t'
 
-    write_json('../data/ParentChildTopicModel/MediumArticles/'+ str(pk) + '.json', art, pk)
+    write_json('../data/ParentChildTopicModel/MediumArticles_Online/'+ str(pk) + '.json', art, pk)
 
     # write_json('data/article/'+str(pk//1000)+'/'+str(pk) + '.json', art, pk)
     # return len(art['sentences'])

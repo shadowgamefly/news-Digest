@@ -13,6 +13,8 @@ import java.util.*;
  * Created by jetcai1900 on 1/2/17.
  */
 public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
+    public double m_ksi;
+    public double m_tau;
 
     public DCMCorrLDA_Multi_EM_test(int number_of_iteration, double converge, double beta,
                                    _Corpus c, double lambda, int number_of_topics,
@@ -22,6 +24,8 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
                 alpha, alphaC, burnIn, lag, ksi, tau, newtonIter,
                 newtonConverge);
 
+        m_ksi = ksi;
+        m_tau = tau;
     }
 
     public void printTopWords(int k, String betaFile) {
@@ -37,8 +41,12 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
 
         printTopWordsDistribution(k, filePrefix);
 
-        betaFile = betaFile.replace("topWords.txt", "topBetas.txt");
-        printTopBeta(k, betaFile);
+        String alphaFile = betaFile.replace("topWords.txt", "alphas.txt");
+        printTopAlphas(alphaFile);
+
+        betaFile = betaFile.replace("topWords.txt", "fullBetas.txt");
+        printTopBeta(betaFile);
+
     }
 
     protected void debugOutput(int topK, String filePrefix) {
@@ -82,9 +90,6 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
                 printChildTopicAssignment(d, childTopicFolder);
             }
         }
-
-//        String parentParameterFile = filePrefix + "parentParameter.txt";
-//        String childParameterFile = filePrefix + "childParameter.txt";
 
         printTopKChild4Stn(filePrefix, topK);
         printTopKChild4Parent(filePrefix, topK);
@@ -294,41 +299,6 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
         }
     }
 
-//    protected void printParameter(_Doc d, File parentChildTopicDistributionFolder) {
-//        System.out.println("printing parameter");
-//        String topicDistributionFile = d.getName() + ".txt";
-//
-//        try {
-//
-//            PrintWriter pw = new PrintWriter(new File(
-//                    parentChildTopicDistributionFolder, topicDistributionFile));
-//
-//            if (d instanceof _ParentDoc) {
-//                pw.print(d.getName() + "\t");
-//                pw.print("topicProportion\t");
-//                for (int k = 0; k < number_of_topics; k++) {
-//                    pw.print(d.m_topics[k] + "\t");
-//                }
-//
-//                pw.println();
-//
-//                for (_ChildDoc cDoc : ((_ParentDoc) d).m_childDocs) {
-//                    pw.print(cDoc.getName() + "\t");
-//                    pw.print("topicProportion\t");
-//                    for (int k = 0; k < number_of_topics; k++) {
-//                        pw.print(cDoc.m_topics[k] + "\t");
-//                    }
-//                    pw.println();
-//                }
-//            }
-//
-//
-//            pw.flush();
-//            pw.close();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
 
     protected void printParameter(_Doc d, File parentChildTopicDistributionFolder) {
         System.out.println("printing parameter");
@@ -341,42 +311,22 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
 
             if (d instanceof _ParentDoc) {
                 pw.print(d.getName() + "\t");
-//                Date dateFormat = new Date(d.getTimeStamp());
-//                SimpleDateFormat df2 = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
-//                String dateText = df2.format(dateFormat);
                 pw.print("topicProportion\t");
-//                pw.print("time\t"+dateText+"\t topicProportion\t");
                 for (int k = 0; k < number_of_topics; k++) {
                     pw.print(d.m_topics[k] + "\t");
                 }
 
                 pw.println();
 
-                TreeMap<Long, _ChildDoc> timeChildDocMap = new TreeMap<Long, _ChildDoc>();
                 for (_ChildDoc cDoc : ((_ParentDoc) d).m_childDocs){
-                    long cDocDate = cDoc.getTimeStamp();
-                    if(timeChildDocMap.containsKey(cDocDate)){
-                        System.out.print("duplicate time");
-                    }else{
-                        timeChildDocMap.put(cDocDate, cDoc);
-                    }
-
-                }
-
-                for(long cDocDate:timeChildDocMap.keySet()){
-                    _ChildDoc cDoc = timeChildDocMap.get(cDocDate);
                     pw.print(cDoc.getName()+"\t");
-                    Date cdateFormat = new Date(cDocDate);
-                    SimpleDateFormat cdf2 = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
-                    String cdateText = cdf2.format(cdateFormat);
-                    pw.print("time\t"+cdateText+"\t topicProportion\t");
+                    pw.print("topicProportion\t");
                     for (int k = 0; k < number_of_topics; k++) {
                         pw.print(cDoc.m_topics[k] + "\t");
                     }
                     pw.println();
                 }
             }
-
 
             pw.flush();
             pw.close();
@@ -456,40 +406,169 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
     }
 
     protected void printTopKChild4Stn(String filePrefix, int topK) {
-        String topKChild4StnFile = filePrefix + "topChild4Stn.txt";
+        String topKChild4StnByCombinatorialFile = filePrefix + "topChild4Stn_CCTM_LM.txt";
+        String topKChild4StnByLanguageModelFile = filePrefix + "topChild4Stn_LM.txt";
+        String topKChild4StnByCCTMFile = filePrefix + "topChild4Stn_CCTM.txt";
 
         try {
-            PrintWriter pw = new PrintWriter(new File(topKChild4StnFile));
+            PrintWriter CCTMLMPW = new PrintWriter(new File(topKChild4StnByCombinatorialFile));
 
             for (_Doc d : m_trainSet) {
 
                 if (d instanceof _ParentDoc4DCM) {
                     _ParentDoc4DCM pDoc = (_ParentDoc4DCM) d;
 
-                    pw.println(pDoc.getName() + "\t" + pDoc.getSenetenceSize());
+                    CCTMLMPW.println(pDoc.getName() + "\t" + pDoc.getSenetenceSize());
 
                     for (_Stn stnObj : pDoc.getSentences()) {
-                        HashMap<String, Double> likelihoodMap = rankChild4StnByLikelihood(
-                                stnObj, pDoc);
 
-                        pw.print((stnObj.getIndex() + 1) + "\t");
+                        HashMap<String, Double> likelihoodMap = rankChild4StnByCombinatorialLikelihood(stnObj, pDoc);
+
+                        CCTMLMPW.print((stnObj.getIndex() + 1) + "\t");
                         for (String e : likelihoodMap.keySet()) {
-                            pw.print(e);
-                            pw.print(":" + likelihoodMap.get(e));
-                            pw.print("\t");
-
-
+                            CCTMLMPW.print(e);
+                            CCTMLMPW.print(":" + likelihoodMap.get(e));
+                            CCTMLMPW.print("\t");
                         }
-                        pw.println();
+                        CCTMLMPW.println();
                     }
-
                 }
             }
-            pw.flush();
-            pw.close();
+            CCTMLMPW.flush();
+            CCTMLMPW.close();
+
+            PrintWriter LMPW = new PrintWriter(new File(topKChild4StnByLanguageModelFile));
+            for (_Doc d : m_trainSet) {
+
+                if (d instanceof _ParentDoc4DCM) {
+                    _ParentDoc4DCM pDoc = (_ParentDoc4DCM) d;
+
+                    LMPW.println(pDoc.getName() + "\t" + pDoc.getSenetenceSize());
+
+                    for (_Stn stnObj : pDoc.getSentences()) {
+
+                        HashMap<String, Double> likelihoodMap = rankChild4StnByLM(stnObj, pDoc);
+
+                        LMPW.print((stnObj.getIndex() + 1) + "\t");
+                        for (String e : likelihoodMap.keySet()) {
+                            LMPW.print(e);
+                            LMPW.print(":" + likelihoodMap.get(e));
+                            LMPW.print("\t");
+                        }
+                        LMPW.println();
+                    }
+                }
+            }
+            LMPW.flush();
+            LMPW.close();
+
+            PrintWriter CCTMPW = new PrintWriter(new File(topKChild4StnByCCTMFile));
+            for (_Doc d : m_trainSet) {
+
+                if (d instanceof _ParentDoc4DCM) {
+                    _ParentDoc4DCM pDoc = (_ParentDoc4DCM) d;
+
+                    CCTMPW.println(pDoc.getName() + "\t" + pDoc.getSenetenceSize());
+
+                    for (_Stn stnObj : pDoc.getSentences()) {
+                        HashMap<String, Double> likelihoodMap = rankChild4StnByLikelihood(stnObj, pDoc);
+
+                        CCTMPW.print((stnObj.getIndex() + 1) + "\t");
+                        for (String e : likelihoodMap.keySet()) {
+                            CCTMPW.print(e);
+                            CCTMPW.print(":" + likelihoodMap.get(e));
+                            CCTMPW.print("\t");
+                        }
+                        CCTMPW.println();
+                    }
+                }
+            }
+            CCTMPW.flush();
+            CCTMPW.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    protected HashMap<String, Double> rankChild4StnByCombinatorialLikelihood(_Stn stnObj, _ParentDoc4DCM pDoc){
+        HashMap<String, Double> likelihoodMap = new HashMap<String, Double>();
+
+        for(_ChildDoc cDoc: pDoc.m_childDocs){
+            double stnLogLikelihood = 0;
+
+            double part1 = 0;
+            double part2 = 0;
+            double part3 = 0;
+
+            HashMap<Integer, Double> wordNumMap = new HashMap<Integer, Double>();
+            for(_Word w:cDoc.getWords()){
+                int wid = w.getIndex();
+                if(wordNumMap.containsKey(wid))
+                    wordNumMap.put(wid, wordNumMap.get(wid)+1);
+                else
+                    wordNumMap.put(wid, 1.0);
+            }
+
+            for(_Word w:stnObj.getWords()) {
+                int wid = w.getIndex();
+
+                String wFeature = m_corpus.getFeature(wid);
+                double wordNumInCMNT = 0;
+                if(wordNumMap.containsKey(wid))
+                    wordNumInCMNT = wordNumMap.get(wid);
+
+                part1 = wordNumInCMNT / (cDoc.getTotalDocLength() + m_ksi);
+                part2 = (m_ksi * m_corpus.m_featureStat.get(wFeature).getTTF()[0]) / (m_corpus.getTotalWords() * (m_ksi + cDoc.getTotalDocLength()));
+                double wordLikelihood = 0;
+                for (int k = 0; k < number_of_topics; k++) {
+                    wordLikelihood += cDoc.m_topics[k] * pDoc.m_wordTopic_prob[k][wid];
+                }
+
+                part3 = wordLikelihood;
+
+                stnLogLikelihood += Math.log(m_tau * (part1 + part2) + (1 - m_tau) * (part3));
+            }
+
+            likelihoodMap.put(cDoc.getName(), stnLogLikelihood);
+        }
+        return likelihoodMap;
+    }
+
+    protected HashMap<String, Double> rankChild4StnByLM(_Stn stnObj, _ParentDoc4DCM pDoc){
+        HashMap<String, Double> likelihoodMap = new HashMap<String, Double>();
+
+        for(_ChildDoc cDoc: pDoc.m_childDocs){
+            double stnLogLikelihood = 0;
+
+            double part1 = 0;
+            double part2 = 0;
+
+            HashMap<Integer, Double> wordNumMap = new HashMap<Integer, Double>();
+            for(_Word w:cDoc.getWords()){
+                int wid = w.getIndex();
+                if(wordNumMap.containsKey(wid))
+                    wordNumMap.put(wid, wordNumMap.get(wid)+1);
+                else
+                    wordNumMap.put(wid, 1.0);
+            }
+
+            for(_Word w:stnObj.getWords()) {
+                int wid = w.getIndex();
+
+                String wFeature = m_corpus.getFeature(wid);
+                double wordNumInCMNT = 0;
+                if(wordNumMap.containsKey(wid))
+                    wordNumInCMNT = wordNumMap.get(wid);
+
+                part1 = wordNumInCMNT / (cDoc.getTotalDocLength() + m_ksi);
+                part2 = (m_ksi * m_corpus.m_featureStat.get(wFeature).getTTF()[0]) / (m_corpus.getTotalWords() * (m_ksi + cDoc.getTotalDocLength()));
+
+                stnLogLikelihood += Math.log(part1 + part2);
+            }
+
+            likelihoodMap.put(cDoc.getName(), stnLogLikelihood);
+        }
+        return likelihoodMap;
     }
 
     protected HashMap<String, Double> rankChild4StnByLikelihood(_Stn stnObj,
@@ -497,7 +576,6 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
         HashMap<String, Double> likelihoodMap = new HashMap<String, Double>();
 
         for (_ChildDoc cDoc : pDoc.m_childDocs) {
-
             double stnLogLikelihood = 0;
             for (_Word w : stnObj.getWords()) {
                 double wordLikelihood = 0;
@@ -557,24 +635,44 @@ public class DCMCorrLDA_Multi_EM_test extends DCMCorrLDA_Multi_EM {
         }
     }
 
-    protected void printTopBeta(int topK, String betaFile) {
+    protected void printTopBeta(String betaFile) {
         try {
-            PrintWriter topWordWriter = new PrintWriter(new File(betaFile));
+            PrintWriter pw = new PrintWriter(new File(betaFile));
 
-            for (int i = 0; i < m_beta.length; i++) {
-                MyPriorityQueue<_RankItem> fVector = new MyPriorityQueue<_RankItem>(
-                        topK);
-                for (int j = 0; j < vocabulary_size; j++)
-                    fVector.add(new _RankItem(m_corpus.getFeature(j),
-                            m_beta[i][j]));
-
-                topWordWriter.format("Topic %d(%.5f):\t", i, m_sstat[i]);
-                for (_RankItem it : fVector)
-                    topWordWriter.format("%s(%.5f)\t", it.m_name,
-                            m_logSpace ? Math.exp(it.m_value) : it.m_value);
-                topWordWriter.write("\n");
+            for (int k = 0; k < number_of_topics; k++) {
+                pw.print(k + "\t");
+                for (int v = 0; v < vocabulary_size; v++) {
+                    pw.print(m_corpus.getFeature(v) + ":"
+                            + m_beta[k][v] + "\t");
+                }
+                pw.println();
             }
-            topWordWriter.close();
+
+            pw.flush();
+            pw.close();
+        } catch (Exception ex) {
+            System.err.print("File Not Found");
+        }
+    }
+
+    protected void printTopAlphas(String alphaFile) {
+        try {
+            PrintWriter pw = new PrintWriter(new File(alphaFile));
+
+            pw.print("alpha\t");
+            for (int k = 0; k < number_of_topics; k++) {
+                pw.print(m_alpha[k]+"\t");
+            }
+            pw.println();
+
+            pw.print("alpha_c\t");
+            for (int k = 0; k < number_of_topics; k++) {
+                pw.print(m_alpha_c[k]+"\t");
+            }
+            pw.println();
+
+            pw.flush();
+            pw.close();
         } catch (Exception ex) {
             System.err.print("File Not Found");
         }

@@ -19,12 +19,12 @@ def medium(request):
     rcmd = ["./tmpRun.sh"]
     p = subprocess.call(rcmd, shell = True)
     resp = produce_json()
-    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments/")
-    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles/")
+    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments_Online/")
+    shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles_Online/")
     shutil.rmtree(PROJECT_ROOT + "/../data/results")
     os.mkdir(PROJECT_ROOT + "/../data/results")
-    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments/")
-    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles/")
+    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments_Online/")
+    os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles_Online/")
 
     return _success(resp)
 
@@ -52,9 +52,9 @@ def produce_json():
     return resp
 
 def get_pair(sentence ,comment):
-    f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumArticles/0.json', 'r')
+    f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumArticles_Online/0.json', 'r')
     f = json.load(f)
-    comment = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumComments/' + comment + '.json' , 'r')
+    comment = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumComments_Online/' + comment + '.json' , 'r')
     comment = json.load(comment)
     resp = { f["sentences"][sentence]['sentence'] : comment["content"]}
     print(resp)

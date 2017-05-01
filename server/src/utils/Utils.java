@@ -12,8 +12,6 @@ import json.JSONException;
 import json.JSONObject;
 import structures._Doc;
 import structures._SparseFeature;
-import Classifier.supervised.liblinear.Feature;
-import Classifier.supervised.liblinear.FeatureNode;
 
 public class Utils {
 	
@@ -624,33 +622,6 @@ public class Utils {
 		}
 		
 		return vectorList.toArray(new _SparseFeature[vectorList.size()]);
-	}
-	
-	static public Feature[] createLibLinearFV(_SparseFeature[] spVct, int fSize) {
-		Feature[] node;
-		if (fSize>0)//include bias term in the end
-			node = new Feature[1+spVct.length]; 
-		else//ignore bias term
-			node = new Feature[spVct.length];
-		
-		int fid = 0;
-		for(_SparseFeature fv:spVct)
-			node[fid++] = new FeatureNode(1 + fv.getIndex(), fv.getValue());//svm's feature index starts from 1
-		if (fSize>0)
-			node[fid] = new FeatureNode(1+fSize, 1.0);
-		return node;
-	}
-	
-	static public Feature[] createLibLinearFV(_Doc doc, int fSize) {
-		return Utils.createLibLinearFV(doc.getSparse(), fSize);
-	}
-	
-	static public Feature[] createLibLinearFV(HashMap<Integer, Double> spVct) {
-		Feature[] node = new Feature[spVct.size()]; 
-		int fid = 0;
-		for(_SparseFeature fv:createSpVct(spVct))
-			node[fid++] = new FeatureNode(1 + fv.getIndex(), fv.getValue());//svm's feature index starts from 1
-		return node;
 	}
 	
 	//Get projectSpVct by building a map filter, added by Hongning.

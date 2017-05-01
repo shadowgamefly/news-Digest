@@ -407,6 +407,8 @@ public abstract class Analyzer {
 			
 			double maxTTF = Collections.max(TTFList);
 			double avgTTF = totalTTF/m_featureNames.size();
+
+			m_corpus.setTotalWords(totalTTF);
 			System.out.println("maxTTF\t"+maxTTF+"avgTTF\t"+avgTTF+"\t totalTTF \t"+totalTTF);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

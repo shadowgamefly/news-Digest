@@ -8,8 +8,6 @@ import java.util.*;
 import json.JSONArray;
 import json.JSONException;
 import json.JSONObject;
-import net.didion.jwnl.data.Exc;
-import opennlp.tools.util.InvalidFormatException;
 import structures.*;
 import utils.Utils;
 
@@ -21,23 +19,11 @@ import utils.Utils;
 public class ParentChildAnalyzer extends DocAnalyzer {
 	public HashMap<String, _ParentDoc> parentHashMap;
 
-	public HashMap<String, Integer> labelIntMap = new HashMap<String, Integer>();
-	
 	public static int ChildDocFeatureSize = 6;
 	public ParentChildAnalyzer(String tokenModel, int classNo, String providedCV, int Ngram, int threshold) 
-			throws InvalidFormatException, FileNotFoundException, IOException {
+			throws FileNotFoundException, IOException {
 		super(tokenModel, classNo, providedCV, Ngram, threshold);
 		parentHashMap = new HashMap<String, _ParentDoc>();
-		labelIntMap.put("earn", 0);
-		labelIntMap.put("acq", 1);
-		labelIntMap.put("crude", 2);
-		labelIntMap.put("trade", 3);
-		labelIntMap.put("money-fx", 4);
-		labelIntMap.put("interest", 5);
-		labelIntMap.put("ship", 6);
-		labelIntMap.put("sugar", 7);
-		labelIntMap.put("coffee", 8);
-		labelIntMap.put("gold", 9);
 
 	}
 
@@ -108,8 +94,12 @@ public class ParentChildAnalyzer extends DocAnalyzer {
 				
 			sentences = new String[sentenceArray.length()];
 			//shall we add title into this sentence array
-			for (int i = 0; i < sentenceArray.length(); i++)
-				sentences[i] = Utils.getJSONValue(sentenceArray.getJSONObject(i), "sentence");
+			for (int i = 0; i < sentenceArray.length(); i++) {
+				JSONObject jObject = sentenceArray.getJSONObject(i);
+				String sentenceID = (String) jObject.keys().next();
+//				sentences[i] = Utils.getJSONValue(sentenceArray.getJSONObject(i), "sentence");
+				sentences[i] = Utils.getJSONValue(sentenceArray.getJSONObject(i), sentenceID);
+			}
 			
 			if (AnalyzeDocByStn(d, sentences))
 				parentHashMap.put(name, d);
@@ -322,7 +312,13 @@ public class ParentChildAnalyzer extends DocAnalyzer {
 
 		}
 
-		System.out.println("after filtering\t"+m_corpus.getSize());
+		int totalParentNum = 0;
+		for(_Doc d:m_corpus.getCollection()){
+			if (d instanceof _ParentDoc){
+				totalParentNum += 1;
+			}
+		}
+		System.out.println("after filtering\t"+m_corpus.getSize()+"\t article Num:"+totalParentNum+"\t comment num:"+(m_corpus.getSize()-totalParentNum));
 	}
 
 	public void analyzeBurstiness(String filePrefix){
@@ -349,26 +345,17 @@ public class ParentChildAnalyzer extends DocAnalyzer {
 				_SparseFeature[] pDocFS = pDoc.getSparse();
 				for(_SparseFeature sf:pDocFS){
 					int wid = sf.getIndex();
-					double featureTimes = sf.getValue();
 					if(!wordFrequencyMap.containsKey(wid))
 						wordFrequencyMap.put(wid, 0.0);
-//					else{
-//						double oldFeatureTimes = wordFrequencyMap.get(wid);
-//						oldFeatureTimes += featureTimes;
-//						wordFrequencyMap.put(wid, oldFeatureTimes);
-//					}
 
 				}
 
 				for(_ChildDoc cDoc:pDoc.m_childDocs){
-//					System.out.println("cDoc\t"+cDoc.getName());
 					threadLen += cDoc.getTotalDocLength();
 					for(_Word w:cDoc.getWords()){
 						int wid = w.getIndex();
-//						System.out.print("wid\t"+wid+"\t");
 						if(!wordFrequencyMap.containsKey(wid)){
 							continue;
-//							wordFrequencyMap.put(wid, 1.0);
 						}else{
 							double oldFeaturetimes = wordFrequencyMap.get(wid);
 							oldFeaturetimes += 1;
@@ -377,32 +364,9 @@ public class ParentChildAnalyzer extends DocAnalyzer {
 					}
 					System.out.print("\n");
 
-//					_SparseFeature[] sfs = cDoc.getSparse();
-//					for(_SparseFeature sf:sfs){
-//						int wid = sf.getIndex();
-//						double featureTimes = sf.getValue();
-//						if(!wordFrequencyMap.containsKey(wid))
-//							continue;
-////							wordFrequencyMap.put(wid, featureTimes);
-//						else{
-//							double oldFeatureTimes = wordFrequencyMap.get(wid);
-//							oldFeatureTimes += featureTimes;
-//							wordFrequencyMap.put(wid, oldFeatureTimes);
-//						}
-//
-//					}
 				}
 
 				totalFeatureTimes += wordFrequencyMap.size();
-//				double zeroWordNum = 0;
-//				for(int wid: wordFrequencyMap.keySet()){
-//					if(wordFrequencyMap.get(wid)==0.0) {
-////						System.out.println(wordFrequencyMap.get(wid) + "\t" + wid);
-//						zeroWordNum += 1;
-//					}
-//				}
-
-//				System.out.println("wordFrequencyMap.size()\t"+wordFrequencyMap.size()+"zeroWordNum\t"+zeroWordNum);
 
 				for(int wid:wordFrequencyMap.keySet()){
 					double featureTimes = wordFrequencyMap.get(wid);
@@ -412,15 +376,8 @@ public class ParentChildAnalyzer extends DocAnalyzer {
 						double value = burstinessMap.get(featureTimes);
 						burstinessMap.put(featureTimes, value+1);
 					}
-						
+
 				}
-				
-//				if(!burstinessMap.containsKey((double)0)){
-//					burstinessMap.put((double)0, zeroWordNum);
-//				}else{
-//					zeroWordNum += burstinessMap.get((double)0);
-//					burstinessMap.put((double)0, zeroWordNum);
-//				}
 		
 			}
 			

@@ -20,7 +20,9 @@ import utils.Utils;
  */
 public class _Corpus {
 	static final int ReviewSizeCut = 3;
-	
+
+	double m_totalWords;
+
 	ArrayList<_Doc> m_collection; //All the documents in the corpus.
 	ArrayList<String> m_features; //ArrayList for feature names
 	public HashMap<String, _stat> m_featureStat; //statistics about the features
@@ -185,5 +187,13 @@ public class _Corpus {
 		for(String rawFeature: rawFeaturelist){
 			m_rawFeatureList.add(rawFeature);
 		}
+	}
+
+	public double getTotalWords(){
+		return m_totalWords;
+	}
+
+	public void setTotalWords(double totalWords){
+		m_totalWords = totalWords;
 	}
 }
