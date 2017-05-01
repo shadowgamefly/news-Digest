@@ -30,6 +30,6 @@ server:
     image: shadowgamefly/news-digest
     volumes:
         - ./server:/app
-    command: bash -c "chmod 777 *;mkdir /app/data/results;mkdir /app/data/ParentChildTopicModel/MediumComments_Online;mkdir /app/data/ParentChildTopicModel/MediumArticles_Online;mkdir /app/bin;ls;./compile;mod_wsgi-express start-server --working-directory /app --reload-on-change server/wsgi.py"
+    command: bash -c "chmod -R 777 /app;mkdir /app/data/results;mkdir /app/data/ParentChildTopicModel/MediumComments_Online;mkdir /app/data/ParentChildTopicModel/MediumArticles_Online;mkdir /app/bin;ls;./compile;mod_wsgi-express start-server --working-directory /app --reload-on-change server/wsgi.py"
     ports:
         - "80:8000"
