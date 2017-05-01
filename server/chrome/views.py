@@ -25,7 +25,6 @@ def medium(request):
     os.mkdir(PROJECT_ROOT + "/../data/results")
     os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments_Online/")
     os.mkdir(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles_Online/")
-
     return _success(resp)
 
 
