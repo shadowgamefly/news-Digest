@@ -16,9 +16,12 @@ def medium(request):
     dic = request.POST
     url = dic['url']
     output = parse(url, 0)
-    rcmd = ["./tmpRun.sh"]
-    p = subprocess.call(rcmd, shell = True)
-    resp = produce_json()
+    if output != None :
+        rcmd = ["./tmpRun.sh"]
+        p = subprocess.call(rcmd, shell = True)
+        resp = produce_json()
+    else :
+        return HttpResponse("")
     shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumComments_Online/")
     shutil.rmtree(PROJECT_ROOT + "/../data/ParentChildTopicModel/MediumArticles_Online/")
     shutil.rmtree(PROJECT_ROOT + "/../data/results")

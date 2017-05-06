@@ -277,6 +277,7 @@ def parse(href, pk, id=None, first=True):
     count = parse_comment(page, uid, pk, href)
     if count:
         parse_article(page, href, count, pk)
+    return count
     # parse_image(page, href, count, pk)
 
 
@@ -286,4 +287,4 @@ if __name__ == '__main__':
     else:
         # parse("https://medium.com/tag/artificial-intelligence", 0)
         # parse("https://medium.freecodecamp.com/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274", 0)
-        parse("https://medium.com/@kurtgessler/facebooks-algorithm-isn-t-surfacing-one-third-of-our-posts-and-it-s-getting-worse-68e37ee025a3", 0) #815
+        parse("https://google.com", 0) #815
