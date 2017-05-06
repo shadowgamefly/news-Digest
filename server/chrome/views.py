@@ -43,7 +43,7 @@ def produce_json():
     assignment = {}
     for i in range(1, 100):
         key = "0_" + str(i)
-        score[key] = -25
+        score[key] = -100
         assignment[key] = -1
     for i in range(17):
         line = f.readline()
@@ -52,7 +52,7 @@ def produce_json():
         sent = int(line[0])
         for i in range(1,7):
             item = line[i].split(':')
-            score[item[0]] = max(float(item[1]), float(score[item[0]]))
+            score[item[0]] = min(float(item[1]), float(score[item[0]]))
             if score[item[0]] == float(item[1]) :
                 assignment[item[0]] = sent
     keylist = list(assignment.keys())
