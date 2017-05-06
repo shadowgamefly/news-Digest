@@ -7,7 +7,7 @@ import requests, re, json, random, sys, os, shutil, glob
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 def _success(resp):
-    return JsonResponse(resp)
+    return JsonResponse(resp, safe=False)
 
 def index(request):
     return HttpResponse("Hello World!")
@@ -29,26 +29,37 @@ def medium(request):
 
 
 def produce_json():
-    articles={}
-    current="start"
     filename = os.listdir(PROJECT_ROOT + "/../data/results")[0]
     f = open(PROJECT_ROOT + '/../data/results/' + filename + '/topChild4Stn.txt', 'r')
-    while(current != ""):
+    comments = open(PROJECT_ROOT + '/../data/results/' + filename + '/topChild4Parent.txt', 'r')
+    line = comments.readline()
+    num_comments = len(line.split('\t')) - 2
+    line = f.readline()
+    num_sentence = int(line.split('\t')[1])
+    score = {}
+    assignment = {}
+    for i in range(1, num_comments + 2):
+        key = "0_" + str(i)
+        score[key] = -25
+        assignment[key] = -1
+    for i in range(17):
         line = f.readline()
-        if line == "":
-            break
         line = line.split('\t')
-        article = line[0]
-        comments={}
-        for i in range(1, int(line[1]) + 1):
-            current = f.readline()
-            list = current.split('\t')
-            para = list[1].split(':')
-            comments[list[0]] = para[0]
-        articles[int(article)] = comments
-
-    resp = get_pair(3, articles[0]['3'])
-    return resp
+        print(line)
+        sent = int(line[0])
+        for i in range(1,7):
+            item = line[i].split(':')
+            score[item[0]] = max(float(item[1]), float(score[item[0]]))
+            if score[item[0]] == float(item[1]) :
+                assignment[item[0]] = sent
+    keylist = list(assignment.keys())
+    for key in keylist:
+        if assignment[key] == -1:
+            assignment.pop(key, None)
+    retval = []
+    for key in assignment.keys():
+        retval.append(get_pair(assignment[key], key))
+    return retval
 
 def get_pair(sentence ,comment):
     f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/keys.json', 'r')
@@ -56,5 +67,4 @@ def get_pair(sentence ,comment):
     comment = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/MediumComments_Online/' + comment + '.json' , 'r')
     comment = json.load(comment)
     resp = { f["keys"][sentence-1] : comment["content"]}
-    print(resp)
     return resp
