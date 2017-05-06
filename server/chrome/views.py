@@ -38,7 +38,7 @@ def produce_json():
     num_sentence = int(line.split('\t')[1])
     score = {}
     assignment = {}
-    for i in range(1, num_comments + 2):
+    for i in range(1, 100):
         key = "0_" + str(i)
         score[key] = -25
         assignment[key] = -1
@@ -53,13 +53,29 @@ def produce_json():
             if score[item[0]] == float(item[1]) :
                 assignment[item[0]] = sent
     keylist = list(assignment.keys())
+
     for key in keylist:
         if assignment[key] == -1:
             assignment.pop(key, None)
     retval = []
+
     for key in assignment.keys():
         retval.append(get_pair(assignment[key], key))
-    return retval
+
+    newret = []
+
+    exist = False
+    for item in retval:
+        key = list(item.keys())[0]
+        for d in newret:
+            if key in d.keys():
+                d[key].append(item[key])
+                exist = True
+                break
+        if not exist:
+            newret.append({key : [item[key]]})
+        exist = False
+    return newret
 
 def get_pair(sentence ,comment):
     f = open(PROJECT_ROOT + '/../data/ParentChildTopicModel/keys.json', 'r')
